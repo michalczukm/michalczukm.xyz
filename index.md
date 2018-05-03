@@ -1,4 +1,4 @@
-## Who am I?
+## Who I am
 I'm strongly web oriented **full-stack software developer** and **IT trainer**. Both fascinated and terrified by technology advancement.
 
 Sometimes scrum master, architect, team leader, speaker. TypeScript fan and promoter.
@@ -8,20 +8,18 @@ Sometimes scrum master, architect, team leader, speaker. TypeScript fan and prom
 
 I love to talk and share knowledge, also fixing your “unsolvable” git problems :)
 
-## Where you can find me?
-
-* [twitter: @michalczukm](https://twitter.com/michalczukm)
-* [GitHub: @michalczukm](https://github.com/michalczukm)
-* [StackOverflow: @michalczukm](https://stackoverflow.com/users/2029818/michalczukm)
-* [SpeakerDeck: @michalczukm](https://speakerdeck.com/michalczukm)
 
 ## Meet me at my presentations and workshops
 
 ### Upcoming events
-* TypeScript magic types - the advanced type system | Angular3city <br> 09 May 2018 | Gdańsk, PL
-* [Angular workshops](https://infoshareacademy.com/warsztaty_angular_gdansk.html) - open evening classes | infoShare Academy <br> 06.2018 - 07.2018 | Gdańsk, PL
+
+|  |  |  |  |  |
+|-------|--------|---------|---|---|-----|
+| TypeScript magic types - the advanced type system | Angular3city | 09 May 2018 | Gdańsk, PL | Presentation |
+| [Angular workshops](https://infoshareacademy.com/warsztaty_angular_gdansk.html) - open evening classes | infoShare Academy | 06.2018 - 07.2018 | Gdańsk, PL | Classes |
 
 ### Past events
+
 |  |  |  |  |  |
 |-------|--------|---------|---|---|-----|
 | [What mobile browsers can do?](https://4developers.org.pl/lecture.html#id=40682) | 4developers 2018 | 09 Apr 2018| Warsaw, PL | Presentation |
@@ -38,8 +36,3 @@ I love to talk and share knowledge, also fixing your “unsolvable” git proble
 | [Can you convince your client to your way of work?](https://speakerdeck.com/michalczukm/agile3m-can-you-convince-client-to-your-way-of-work) | Agile3m, 3City Agile meetup | 08 Feb 2016| Sopot, PL | Workshops |
 | [Whats new in TypeScript, and why you are not using it?](https://speakerdeck.com/michalczukm/meet-dot-js-typescript-what-is-new-any-why-you-are-not-using-it) | meet.js Gdańsk | 01 Feb 2016| Gdańsk, PL | Presentation|
 
-
----
-
-## Contact
-If you would like to invite me to your conference or meetup, catch me by **michalczukm@gmail.com**
