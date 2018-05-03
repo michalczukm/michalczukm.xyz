@@ -36,3 +36,14 @@ I love to talk and share knowledge, also fixing your “unsolvable” git proble
 | [Can you convince your client to your way of work?](https://speakerdeck.com/michalczukm/agile3m-can-you-convince-client-to-your-way-of-work) | Agile3m, 3City Agile meetup | 08 Feb 2016| Sopot, PL | Workshops |
 | [Whats new in TypeScript, and why you are not using it?](https://speakerdeck.com/michalczukm/meet-dot-js-typescript-what-is-new-any-why-you-are-not-using-it) | meet.js Gdańsk | 01 Feb 2016| Gdańsk, PL | Presentation|
 
+## Public artifacts
+
+|  |  |  |
+|-------|--------|---------|
+| [ngPoland 2017 — Takeaways – codeburst](https://codeburst.io/ngpoland-2017-takeaways-a7d455363106) | Nov 2017 | My takeaways about "ngPoland", Warsaw/Poland based Angular conference |
+| [Video, PL] [just.join.it - co-hosting audition](https://youtu.be/Fz9pXEL0hlw) | Nov 2017 | I was co-hosting, as technical guest, live-stream audition with Piotr Miazga (Wikimedia) |
+| [Video, PL] [just.join.it - guest](https://www.youtube.com/watch?v=sGSou-lXpxM) | May 2017 | Q&A session with us, from infoShare Academy, about training and rising fresh developers |
+| [Video, PL] [just.join.it - co-hosting audition](https://youtu.be/_OcehPVDurE) | May 2017 | I was co-hosting, as technical guest, live-stream audition with Jakub Jurkiewicz from New Zeland |
+| [Video, PL] [3Camp: Front-end tooling - Package managers](https://vimeo.com/192835137) | Nov 2016 | Presentation on 3Camp in Gdańsk, Poland about current state of package managers in JavaScript, how to deal with it and don't get confused |
+
+
