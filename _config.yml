@@ -1,1 +1,5 @@
 theme: jekyll-theme-minimal
+title: [michalczukm]
+description: [meet me - michalczukm, full-stack software developer and IT trainer]
+logo: [./assets/michalczukm.png]
+show_downloads: ["false"]
