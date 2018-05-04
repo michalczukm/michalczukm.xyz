@@ -13,32 +13,37 @@
   </head>
   <body>
     <div class="wrapper">
-      <header>
-        <h1>{{ site.title | default: site.github.repository_name }}</h1>
-        
-        {% if site.logo %}
-          <img src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}
-
-        <p><b>@michalczukm</b> | {{ site.description | default: site.github.project_tagline }}</p>
-        <p>Gdańsk, Poland</p>
-
-        <div class="view">
-            <a href="https://github.com/michalczukm" target="_blank" rel="noreferrer">GitHub</a> | 
-            <a href="https://twitter.com/michalczukm" target="_blank" rel="noreferrer">Twitter</a> | 
-            <a href="https://stackoverflow.com/users/2029818/michalczukm" target="_blank" rel="noreferrer">StackOverflow</a> | 
-            <a href="https://speakerdeck.com/michalczukm" target="_blank" rel="noreferrer">SpeakerDeck</a>
+      <div class="left-panel">
+          <header>
+              <h1>{{ site.title | default: site.github.repository_name }}</h1>
+              
+              {% if site.logo %}
+                <img src="{{site.logo | relative_url}}" alt="Logo" />
+              {% endif %}
+      
+              <p><b>@michalczukm</b> | {{ site.description | default: site.github.project_tagline }}</p>
+              <p>Gdańsk, Poland</p>
+      
+              <div class="view">
+                  <a href="https://github.com/michalczukm" target="_blank" rel="noreferrer">GitHub</a> | 
+                  <a href="https://twitter.com/michalczukm" target="_blank" rel="noreferrer">Twitter</a> | 
+                  <a href="https://stackoverflow.com/users/2029818/michalczukm" target="_blank" rel="noreferrer">StackOverflow</a> | 
+                  <a href="https://speakerdeck.com/michalczukm" target="_blank" rel="noreferrer">SpeakerDeck</a>
+              </div>
+            </header>
+            <footer class="footer-lg">
+              <hr>
+              <p>If you would like to invite me to your conference or meetup, catch me by <a href="mailto:michalczukm@gmail.com">michalczukm@gmail.com</a></p>
+              <p><small>Hosted on GitHub Pages. I'm using "Minimal" Jekyll theme, by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+            </footer>
         </div>
-      </header>
       <section>
-
       {{ content }}
-
       </section>
-      <footer>
-        <p>If you would like to invite me to your conference or meetup, catch me by <a href="mailto:michalczukm@gmail.com">michalczukm@gmail.com</a></p>
-        <p><small>Hosted on GitHub Pages. I'm using "Minimal" Jekyll theme, by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
-      </footer>
+      <footer class="footer-mobile">
+          <p>If you would like to invite me to your conference or meetup, catch me by <a href="mailto:michalczukm@gmail.com">michalczukm@gmail.com</a></p>
+          <p><small>Hosted on GitHub Pages. I'm using "Minimal" Jekyll theme, by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        </footer>
     </div>
     <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
     {% if site.google_analytics %}

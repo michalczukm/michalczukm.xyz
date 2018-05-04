@@ -13,14 +13,14 @@ I love to talk and share knowledge, also fixing your “unsolvable” git proble
 
 ### Upcoming events
 
-|  |  |  |  |  |
+||||||
 |-------|--------|---------|---|---|-----|
 | TypeScript magic types - the advanced type system | Angular3city | 09 May 2018 | Gdańsk, PL | Presentation |
 | [Angular workshops](https://infoshareacademy.com/warsztaty_angular_gdansk.html) - open evening classes | infoShare Academy | 06.2018 - 07.2018 | Gdańsk, PL | Classes |
 
 ### Past events
 
-|  |  |  |  |  |
+||||||
 |-------|--------|---------|---|---|-----|
 | [What mobile browsers can do?](https://4developers.org.pl/lecture.html#id=40682) | 4developers 2018 | 09 Apr 2018| Warsaw, PL | Presentation |
 | What mobile browsers can do? | meet.js Gdańsk | 07 Mar 2018| Gdańsk, PL | Presentation |
@@ -38,7 +38,7 @@ I love to talk and share knowledge, also fixing your “unsolvable” git proble
 
 ## Public artifacts
 
-|  |  |  |
+||||
 |-------|--------|---------|
 | [ngPoland 2017 — Takeaways – codeburst](https://codeburst.io/ngpoland-2017-takeaways-a7d455363106) | Nov 2017 | My takeaways about "ngPoland", Warsaw/Poland based Angular conference |
 | [Video, PL] [just.join.it - co-hosting audition](https://youtu.be/Fz9pXEL0hlw) | Nov 2017 | I was co-hosting, as technical guest, live-stream audition with Piotr Miazga (Wikimedia) |
