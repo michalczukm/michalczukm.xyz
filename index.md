@@ -15,6 +15,7 @@ I love to talk and share knowledge, also fixing your “unsolvable” git proble
 
 ||||||
 |-------|--------|---------|---|---|-----|
+| [(Idea ==> Implementation) in IT](https://www.facebook.com/events/370208810150274/?active_tab=about) | Createvening #7 | 06.06.2018 | Gdańsk, PL | Presentation |
 | [The efficient way to mock an API for front-end devs](https://crossweb.pl/en/events/ux-frontend-meetup-czerwiec-2018/) | Ciklum UX & Frontend Meetup | 27.06.2018 | Gdańsk, PL | Presentation |
 | [Angular workshops](https://infoshareacademy.com/warsztaty_angular_gdansk.html) - open evening classes | infoShare Academy | 06.2018 - 07.2018 | Gdańsk, PL | Classes |
 
