@@ -15,7 +15,6 @@ I love to talk and share knowledge, also fixing your “unsolvable” git proble
 
 ||||||
 |-------|--------|---------|---|---|-----|
-| [(Idea ==> Implementation) in IT](https://www.facebook.com/events/370208810150274/?active_tab=about) | Createvening #7 | 06.06.2018 | Gdańsk, PL | Presentation |
 | [The efficient way to mock an API for front-end devs](https://crossweb.pl/en/events/ux-frontend-meetup-czerwiec-2018/) | Ciklum UX & Frontend Meetup | 27.06.2018 | Gdańsk, PL | Presentation |
 | [Angular workshops](https://infoshareacademy.com/warsztaty_angular_gdansk.html) - open evening classes | infoShare Academy | 06.2018 - 07.2018 | Gdańsk, PL | Classes |
 
@@ -23,6 +22,7 @@ I love to talk and share knowledge, also fixing your “unsolvable” git proble
 
 ||||||
 |-------|--------|---------|---|---|-----|
+| [From idea to implementation in IT](https://www.facebook.com/events/370208810150274/?active_tab=about) | Createvening #7 | 06.06.2018 | Gdańsk, PL | Presentation |
 | [TypeScript magic types - the advanced type system](http://slides.com/michalczukm/typescript-magic-types-angular3city2018) | Angular3city | 09 May 2018 | Gdańsk, PL | Presentation |
 | [What mobile browsers can do?](https://4developers.org.pl/lecture.html#id=40682) | 4developers 2018 | 09 Apr 2018| Warsaw, PL | Presentation |
 | What mobile browsers can do? | meet.js Gdańsk | 07 Mar 2018| Gdańsk, PL | Presentation |
