@@ -15,6 +15,7 @@ I love to talk and share knowledge, also fixing your “unsolvable” git proble
 
 ||||||
 |-------|--------|---------|---|---|-----|
+| [Webinar: How to become a fullstack?](https://www.facebook.com/events/223171684972714/) - guest | infoShare Academy | 25 July 2018 | Online | Webinar |
 | [Angular workshops](https://infoshareacademy.com/warsztaty_angular_gdansk.html) - open evening classes | infoShare Academy | 06.2018 - 07.2018 | Gdańsk, PL | Classes |
 
 ### Past events
