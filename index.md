@@ -15,13 +15,13 @@ I love to talk and share knowledge, also fixing your “unsolvable” git proble
 
 ||||||
 |-------|--------|---------|---|---|-----|
-| [Webinar: How to become a fullstack?](https://www.facebook.com/events/223171684972714/) - guest | infoShare Academy | 25 July 2018 | Online | Webinar |
 | [Angular workshops](https://infoshareacademy.com/warsztaty_angular_gdansk.html) - open evening classes | infoShare Academy | 06.2018 - 07.2018 | Gdańsk, PL | Classes |
 
 ### Past events
 
 ||||||
 |-------|--------|---------|---|---|-----|
+| [Webinar: How to become a fullstack?](https://www.facebook.com/events/223171684972714/) - guest | infoShare Academy | 25 July 2018 | Online | [Webinar](https://www.youtube.com/watch?v=2LiVkyS9Co4&feature=youtu.be&t=602) |
 | [The efficient way to mock an API for front-end devs](https://crossweb.pl/en/events/ux-frontend-meetup-czerwiec-2018/) | Ciklum UX & Frontend Meetup | 27 June 2018 | Gdańsk, PL | [Presentation](https://slides.com/michalczukm/mocking-api-for-front-end-devs) |
 | [From idea to implementation in IT](https://www.facebook.com/events/370208810150274/?active_tab=about) | Createvening #7 | 06 June 2018 | Gdańsk, PL | Presentation |
 | [TypeScript magic types - the advanced type system](http://slides.com/michalczukm/typescript-magic-types-angular3city2018) | Angular3city | 09 May 2018 | Gdańsk, PL | Presentation |
@@ -43,6 +43,7 @@ I love to talk and share knowledge, also fixing your “unsolvable” git proble
 
 ||||
 |-------|--------|---------|
+| [Video, PL] [infoShare Academy webinar: Jak zostać fullstackiem?](https://www.youtube.com/watch?v=2LiVkyS9Co4&feature=youtu.be&t=602) | July 2018 | I was a guest at webinar about working as a fullstack developer. |
 | [ngPoland 2017 — Takeaways – codeburst](https://codeburst.io/ngpoland-2017-takeaways-a7d455363106) | Nov 2017 | My takeaways about "ngPoland", Warsaw/Poland based Angular conference |
 | [Video, PL] [just.join.it - co-hosting audition](https://youtu.be/Fz9pXEL0hlw) | Nov 2017 | I was co-hosting, as technical guest, live-stream audition with Piotr Miazga (Wikimedia) |
 | [Video, PL] [just.join.it - guest](https://www.youtube.com/watch?v=sGSou-lXpxM) | May 2017 | Q&A session with us, from infoShare Academy, about training and rising fresh developers |
