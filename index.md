@@ -1,5 +1,5 @@
 ## Who I am
-I'm strongly web oriented **full-stack software developer** and **IT trainer**. Both fascinated and terrified by technology advancement.
+I'm strongly web oriented **full-stack software developer** and **[IT trainer](https://infoshareacademy.com/)**. Both fascinated and terrified by technology advancement.
 
 Sometimes scrum master, architect, team leader, speaker. TypeScript fan and promoter.
 
@@ -12,15 +12,15 @@ I love to talk and share knowledge, also fixing your “unsolvable” git proble
 ## Meet me at my presentations and workshops
 
 ### Upcoming events
+#### No plans for public speaks nor workshops yet. 
+If you'd like to invite me - reach me via [michalczukm@gmail.com](mailto:michalczukm@gmail.com)
 
-||||||
-|-------|--------|---------|---|---|-----|
-| [Angular workshops](https://infoshareacademy.com/warsztaty_angular_gdansk.html) - open evening classes | infoShare Academy | 06.2018 - 07.2018 | Gdańsk, PL | Classes |
 
 ### Past events
 
 ||||||
 |-------|--------|---------|---|---|-----|
+| [Angular workshops](https://infoshareacademy.com/warsztaty_angular_gdansk.html) - open evening classes | infoShare Academy | 06.2018 - 07.2018 | Gdańsk, PL | Classes |
 | [Webinar: How to become a fullstack?](https://www.facebook.com/events/223171684972714/) - guest | infoShare Academy | 25 July 2018 | Online | [Webinar](https://www.youtube.com/watch?v=2LiVkyS9Co4&feature=youtu.be&t=602) |
 | [The efficient way to mock an API for front-end devs](https://crossweb.pl/en/events/ux-frontend-meetup-czerwiec-2018/) | Ciklum UX & Frontend Meetup | 27 June 2018 | Gdańsk, PL | [Presentation](https://slides.com/michalczukm/mocking-api-for-front-end-devs) |
 | [From idea to implementation in IT](https://www.facebook.com/events/370208810150274/?active_tab=about) | Createvening #7 | 06 June 2018 | Gdańsk, PL | Presentation |
