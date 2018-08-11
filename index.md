@@ -8,6 +8,8 @@ Sometimes scrum master, architect, team leader, speaker. TypeScript fan and prom
 
 I love to talk and share knowledge, also fixing your “unsolvable” git problems :)
 
+[Check my info for CFPs](https://gist.github.com/michalczukm/c018a256837b05e47581e5063f78c8ab)
+
 
 ## Meet me at my presentations and workshops
 
