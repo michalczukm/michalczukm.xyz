@@ -3,8 +3,8 @@ I'm strongly web oriented **full-stack software developer** and **[IT trainer](h
 
 Sometimes scrum master, architect, team leader, speaker. TypeScript fan and promoter.
 
-* As front-end dev I am focused on TypeScript and Angular but I and constantly exploring new frameworks and areas.
-* As back-end dev I prefer Asp.net with C# or Node.js, but vary of technologies and languages went through my fingers. I used to work with WPF, Silverlight, Python and Django, Visual Basic or PHP.
+* As a front-end dev I am focused on TypeScript and Angular but I and constantly exploring new frameworks and areas.
+* As a back-end dev I prefer Asp.net with C# or Node.js, but vary of technologies and languages went through my fingers. I used to work with WPF, Silverlight, Python and Django, Visual Basic or PHP.
 
 I love to talk and share knowledge, also fixing your “unsolvable” git problems :)
 
