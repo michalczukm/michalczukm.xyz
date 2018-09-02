@@ -14,8 +14,10 @@ I love to talk and share knowledge, also fixing your “unsolvable” git proble
 ## Meet me at my presentations and workshops
 
 ### Upcoming events
-#### No plans for public speaks nor workshops yet. 
-If you'd like to invite me - reach me via [michalczukm@gmail.com](mailto:michalczukm@gmail.com)
+
+||||||
+|-------|--------|---------|---|---|-----|
+| [Node.js w .NET Core ecosystem: How to connect them and when it might be useful?](https://crossweb.pl/en/events/ciklum-gdansk-net-meetup-4/) | Ciklum Gdańsk .Net Meetup #4 | 18 Sept 2018 | Gdańsk, PL | Presentation |
 
 
 ### Past events
