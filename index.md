@@ -17,7 +17,10 @@ I love to talk and share knowledge, also fixing your “unsolvable” git proble
 
 ||||||
 |-------|--------|---------|---|---|-----|
+| [TypeScript magic types - let's dive into TS type system](https://careercon.pl/konferencja/kariera-it-gdansk-08-12-2018/) | Kariera IT | 8 Dec 2018 | Gdańsk, PL | Presentation |
+| [TypeScript magic types - go deeper about TS type system](https://krakow.4developers.org.pl/bio.html#id=35107) | 4Developers Kraków 2018 | 15 Oct 2018 | Kraków, PL | Presentation |
 | [Node.js w .NET Core ecosystem: How to connect them and when it might be useful?](https://crossweb.pl/en/events/ciklum-gdansk-net-meetup-4/) | Ciklum Gdańsk .Net Meetup #4 | 18 Sept 2018 | Gdańsk, PL | Presentation |
+| [C#/.Net - Wprowadzenie do technologii](https://www.facebook.com/events/306228466595478/) | infoShare Academy | 13 Sept 2018 | --- | Webinar |
 
 
 ### Past events
