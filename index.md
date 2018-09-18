@@ -25,7 +25,7 @@ I love to talk and share knowledge, also fixing your “unsolvable” git proble
 
 ||||||
 |-------|--------|---------|---|---|-----|
-| [Node.js in .NET Core ecosystem: How to connect them and when it might be useful?](https://crossweb.pl/en/events/ciklum-gdansk-net-meetup-4/) | Ciklum Gdańsk .Net Meetup #4 | 18 Sept 2018 | Gdańsk, PL | Presentation |
+| [Node.js in .NET Core ecosystem: How to connect them and when it might be useful?](https://crossweb.pl/en/events/ciklum-gdansk-net-meetup-4/) | Ciklum Gdańsk .Net Meetup #4 | 18 Sept 2018 | Gdańsk, PL | [Presentation](https://slides.com/michalczukm/nodejs-in-dotnet-core-ecosystem#/) |
 | [C#/.Net - Wprowadzenie do technologii](https://www.facebook.com/events/306228466595478/) | infoShare Academy | 17 Sept 2018 | --- | Webinar |
 | [Angular workshops](https://infoshareacademy.com/warsztaty_angular_gdansk.html) - open evening classes | infoShare Academy | 06.2018 - 07.2018 | Gdańsk, PL | Classes |
 | [Webinar: How to become a fullstack?](https://www.facebook.com/events/223171684972714/) - guest | infoShare Academy | 25 July 2018 | Online | [Webinar](https://www.youtube.com/watch?v=2LiVkyS9Co4&feature=youtu.be&t=602) |
