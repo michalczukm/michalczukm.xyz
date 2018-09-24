@@ -19,7 +19,7 @@ I love to talk and share knowledge, also fixing your “unsolvable” git proble
 |-------|--------|---------|---|---|-----|
 | [TypeScript magic types - go deeper about TS type system](https://careercon.pl/konferencja/kariera-it-gdansk-08-12-2018/) | Kariera IT | 8 Dec 2018 | Gdańsk, PL | Presentation |
 | [TypeScript magic types - go deeper about TS type system](https://krakow.4developers.org.pl/bio.html#id=35107) | 4Developers Kraków 2018 | 15 Oct 2018 | Kraków, PL | Presentation |
-| [Across Stack - Odcinek 1 C# i Asp.net](https://www.facebook.com/events/560977510989033/) | infoShare Academy | 17 Sept 2018 | --- | Webinar |
+| [Across Stack - Odcinek 1 C# i Asp.net](https://www.facebook.com/events/560977510989033/) | infoShare Academy | 26 Sept 2018 | --- | Webinar |
 
 ### Past events
 
