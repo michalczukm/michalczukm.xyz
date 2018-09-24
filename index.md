@@ -17,9 +17,9 @@ I love to talk and share knowledge, also fixing your “unsolvable” git proble
 
 ||||||
 |-------|--------|---------|---|---|-----|
-| [TypeScript magic types - let's dive into TS type system](https://careercon.pl/konferencja/kariera-it-gdansk-08-12-2018/) | Kariera IT | 8 Dec 2018 | Gdańsk, PL | Presentation |
+| [TypeScript magic types - go deeper about TS type system](https://careercon.pl/konferencja/kariera-it-gdansk-08-12-2018/) | Kariera IT | 8 Dec 2018 | Gdańsk, PL | Presentation |
 | [TypeScript magic types - go deeper about TS type system](https://krakow.4developers.org.pl/bio.html#id=35107) | 4Developers Kraków 2018 | 15 Oct 2018 | Kraków, PL | Presentation |
-
+| [Across Stack - Odcinek 1 C# i Asp.net](https://www.facebook.com/events/560977510989033/) | infoShare Academy | 17 Sept 2018 | --- | Webinar |
 
 ### Past events
 
@@ -31,7 +31,7 @@ I love to talk and share knowledge, also fixing your “unsolvable” git proble
 | [Webinar: How to become a fullstack?](https://www.facebook.com/events/223171684972714/) - guest | infoShare Academy | 25 July 2018 | Online | [Webinar](https://www.youtube.com/watch?v=2LiVkyS9Co4&feature=youtu.be&t=602) |
 | [The efficient way to mock an API for front-end devs](https://crossweb.pl/en/events/ux-frontend-meetup-czerwiec-2018/) | Ciklum UX & Frontend Meetup | 27 June 2018 | Gdańsk, PL | [Presentation](https://slides.com/michalczukm/mocking-api-for-front-end-devs) |
 | [From idea to implementation in IT](https://www.facebook.com/events/370208810150274/?active_tab=about) | Createvening #7 | 06 June 2018 | Gdańsk, PL | Presentation |
-| [TypeScript magic types - the advanced type system](http://slides.com/michalczukm/typescript-magic-types-angular3city2018) | Angular3city | 09 May 2018 | Gdańsk, PL | Presentation |
+| [TypeScript magic types - the advanced type system](https://slides.com/michalczukm/typescript-magic-types-angular3city2018) | Angular3city | 09 May 2018 | Gdańsk, PL | Presentation |
 | [What mobile browsers can do?](https://4developers.org.pl/lecture.html#id=40682) | 4developers 2018 | 09 Apr 2018| Warsaw, PL | Presentation |
 | What mobile browsers can do? | meet.js Gdańsk | 07 Mar 2018| Gdańsk, PL | Presentation |
 | ["React vs Angular discussion"](https://www.trojmiasto.pl/React-vs-Angular-infoShare-Academy-x-AiOLI-imp454236.html) panel moderator | infoShare Academy | 28 Feb 2018| Gdańsk, PL | Discussion Panel |
