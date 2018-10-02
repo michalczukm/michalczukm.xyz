@@ -3,6 +3,11 @@
 
 @import "{{ site.theme }}";
 
+a:hover {
+    color: #003399;
+    font-weight: inherit;
+}
+
 @media (min-width:961px) {
     .left-panel {
         float: left;
