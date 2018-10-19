@@ -18,12 +18,12 @@ I love to talk and share knowledge, also fixing your “unsolvable” git proble
 ||||||
 |-------|--------|---------|---|---|-----|
 | [TypeScript magic types - go deeper about TS type system](https://careercon.pl/konferencja/kariera-it-gdansk-08-12-2018/) | Kariera IT | 8 Dec 2018 | Gdańsk, PL | Presentation |
-| [TypeScript magic types - go deeper about TS type system](https://krakow.4developers.org.pl/bio.html#id=35107) | 4Developers Kraków 2018 | 15 Oct 2018 | Kraków, PL | Presentation |
 
 ### Past events
 
 ||||||
 |-------|--------|---------|---|---|-----|
+| [TypeScript magic types - go deeper about TS type system](https://krakow.4developers.org.pl/bio.html#id=35107) | 4Developers Kraków 2018 | 15 Oct 2018 | Kraków, PL | [Presentation](https://slides.com/michalczukm/typescript-magic-types-4developers) |
 | [Across Stack - Odcinek 1 C# i Asp.net](https://www.facebook.com/events/560977510989033/) | infoShare Academy | 26 Sept 2018 | --- | [Webinar](https://www.facebook.com/infoshareacademy/videos/294755691359453/UzpfSTQzMjI1MjcwMzYwNjEyODo1NjQwMTk5NzczNTE0NTM/?action_history=null&__xts__[0]=68.ARCnkCkg9qrbYAYkAo87MMRtBJsXnYL-K0uhMm49tQ5S6NVtta6mEt_cP2gJ5mlX9FOsSTbLwkqxkpjjhNECoH_IyGiyR7oqrVZP1DpQP-SzRnP59fRH5R6IAAhopcOI7zh1CrvQznqgRPXgyQY0G10Y06SidYK7vBY51Z8u_Pe21HnZC3p0&__tn__=-R) |
 | [Node.js in .NET Core ecosystem: How to connect them and when it might be useful?](https://crossweb.pl/en/events/ciklum-gdansk-net-meetup-4/) | Ciklum Gdańsk .Net Meetup #4 | 18 Sept 2018 | Gdańsk, PL | [Presentation](https://slides.com/michalczukm/nodejs-in-dotnet-core-ecosystem#/) |
 | [C#/.Net - Wprowadzenie do technologii](https://www.facebook.com/events/306228466595478/) | infoShare Academy | 17 Sept 2018 | --- | Webinar |
