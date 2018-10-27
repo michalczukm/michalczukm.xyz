@@ -18,6 +18,7 @@ I love to talk and share knowledge, also fixing your “unsolvable” git proble
 ||||||
 |-------|--------|---------|---|---|-----|
 | [TypeScript magic types - go deeper about TS type system](https://careercon.pl/konferencja/kariera-it-gdansk-08-12-2018/) | Kariera IT | 8 Dec 2018 | Gdańsk, PL | Presentation |
+| [NGXS - yet another Angular state management library](https://www.facebook.com/events/2184181045190150/) | Angular3city | 6 Nov 2018 | Gdańsk, PL | Presentation |
 | [Across Stack - Odcinek 2 Python i Flask](https://web.facebook.com/events/1944578742303204/) | infoShare Academy | 6 Nov 2018 | --- | Webinar |
 
 ### Past events
