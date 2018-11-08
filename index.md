@@ -18,13 +18,14 @@ I love to talk and share knowledge, also fixing your “unsolvable” git proble
 ||||||
 |-------|--------|---------|---|---|-----|
 | [TypeScript magic types - go deeper about TS type system](https://careercon.pl/konferencja/kariera-it-gdansk-08-12-2018/) | Kariera IT | 8 Dec 2018 | Gdańsk, PL | Presentation |
-| [NGXS - yet another Angular state management library](https://www.facebook.com/events/2184181045190150/) | Angular3city | 6 Nov 2018 | Gdańsk, PL | Presentation |
-| [Across Stack - Odcinek 2 Python i Flask](https://web.facebook.com/events/1944578742303204/) | infoShare Academy | 6 Nov 2018 | --- | Webinar |
+
 
 ### Past events
 
 ||||||
 |-------|--------|---------|---|---|-----|
+| [NGXS - yet another Angular state management library](https://www.facebook.com/events/2184181045190150/) | Angular3city | 6 Nov 2018 | Gdańsk, PL | [Presentation](https://slides.com/michalczukm/ngxs-yet-another-state-management) |
+| [Across Stack - Odcinek 2 Python i Flask](https://web.facebook.com/events/1944578742303204/) | infoShare Academy | 6 Nov 2018 | --- | [Webinar](https://www.facebook.com/infoshareacademy/videos/254645481890710/UzpfSTQzMjI1MjcwMzYwNjEyODpWSzoxOTY4NDIzODA5OTE4Njk3/?acontext=%7B%22ref%22%3A70%2C%22source%22%3A1%2C%22action_history%22%3A%22[%7B%5C%22surface%5C%22%3A%5C%22permalink%5C%22%2C%5C%22mechanism%5C%22%3A%5C%22surface%5C%22%2C%5C%22extra_data%5C%22%3A[]%7D]%22%7D&active_tab=discussion) |
 | [TypeScript magic types - go deeper about TS type system](https://krakow.4developers.org.pl/bio.html#id=35107) | 4Developers Kraków 2018 | 15 Oct 2018 | Kraków, PL | [Presentation](https://slides.com/michalczukm/typescript-magic-types-4developers) |
 | [Across Stack - Odcinek 1 C# i Asp.net](https://www.facebook.com/events/560977510989033/) | infoShare Academy | 26 Sept 2018 | --- | [Webinar](https://www.facebook.com/infoshareacademy/videos/294755691359453/UzpfSTQzMjI1MjcwMzYwNjEyODo1NjQwMTk5NzczNTE0NTM/?action_history=null&__xts__[0]=68.ARCnkCkg9qrbYAYkAo87MMRtBJsXnYL-K0uhMm49tQ5S6NVtta6mEt_cP2gJ5mlX9FOsSTbLwkqxkpjjhNECoH_IyGiyR7oqrVZP1DpQP-SzRnP59fRH5R6IAAhopcOI7zh1CrvQznqgRPXgyQY0G10Y06SidYK7vBY51Z8u_Pe21HnZC3p0&__tn__=-R) |
 | [Node.js in .NET Core ecosystem: How to connect them and when it might be useful?](https://crossweb.pl/en/events/ciklum-gdansk-net-meetup-4/) | Ciklum Gdańsk .Net Meetup #4 | 18 Sept 2018 | Gdańsk, PL | [Presentation](https://slides.com/michalczukm/nodejs-in-dotnet-core-ecosystem#/) |
@@ -52,7 +53,8 @@ I love to talk and share knowledge, also fixing your “unsolvable” git proble
 
 ||||
 |-------|--------|---------|
-| [Video, PL] [Across Stack - Odcinek 1 C# i Asp.net](https://www.facebook.com/infoshareacademy/videos/294755691359453/UzpfSTQzMjI1MjcwMzYwNjEyODo1NjQwMTk5NzczNTE0NTM/?action_history=null&__xts__[0]=68.ARCnkCkg9qrbYAYkAo87MMRtBJsXnYL-K0uhMm49tQ5S6NVtta6mEt_cP2gJ5mlX9FOsSTbLwkqxkpjjhNECoH_IyGiyR7oqrVZP1DpQP-SzRnP59fRH5R6IAAhopcOI7zh1CrvQznqgRPXgyQY0G10Y06SidYK7vBY51Z8u_Pe21HnZC3p0&__tn__=-R) | Sept 2018 | I was host in webinar by mine idea - Across Stack. |
+| [Video, PL] [Across Stack - Odcinek 2 Python i Flask](https://www.facebook.com/infoshareacademy/videos/254645481890710/UzpfSTQzMjI1MjcwMzYwNjEyODpWSzoxOTY4NDIzODA5OTE4Njk3/?acontext=%7B%22ref%22%3A70%2C%22source%22%3A1%2C%22action_history%22%3A%22[%7B%5C%22surface%5C%22%3A%5C%22permalink%5C%22%2C%5C%22mechanism%5C%22%3A%5C%22surface%5C%22%2C%5C%22extra_data%5C%22%3A[]%7D]%22%7D&active_tab=discussion) | Nov 2018 | I was host in webinar series by my idea - Across Stack. |
+| [Video, PL] [Across Stack - Odcinek 1 C# i Asp.net](https://www.facebook.com/infoshareacademy/videos/294755691359453/UzpfSTQzMjI1MjcwMzYwNjEyODo1NjQwMTk5NzczNTE0NTM/?action_history=null&__xts__[0]=68.ARCnkCkg9qrbYAYkAo87MMRtBJsXnYL-K0uhMm49tQ5S6NVtta6mEt_cP2gJ5mlX9FOsSTbLwkqxkpjjhNECoH_IyGiyR7oqrVZP1DpQP-SzRnP59fRH5R6IAAhopcOI7zh1CrvQznqgRPXgyQY0G10Y06SidYK7vBY51Z8u_Pe21HnZC3p0&__tn__=-R) | Sept 2018 | I was host in webinar series by my idea - Across Stack. |
 | [Video, PL] [infoShare Academy webinar: Jak zostać fullstackiem?](https://www.youtube.com/watch?v=2LiVkyS9Co4&feature=youtu.be&t=602) | July 2018 | I was a guest at webinar about working as a fullstack developer. |
 | [ngPoland 2017 — Takeaways – codeburst](https://codeburst.io/ngpoland-2017-takeaways-a7d455363106) | Nov 2017 | My takeaways about "ngPoland", Warsaw/Poland based Angular conference |
 | [Video, PL] [just.join.it - co-hosting audition](https://youtu.be/Fz9pXEL0hlw) | Nov 2017 | I was co-hosting, as technical guest, live-stream audition with Piotr Miazga (Wikimedia) |
