@@ -17,13 +17,14 @@ I love to talk and share knowledge, also fixing your “unsolvable” git proble
 
 ||||||
 |-------|--------|---------|---|---|-----|
-| [Node.js in .NET Core ecosystem: How to connect them and when it might be useful?](https://www.meetup.com/TG-NET/events/256711276/) | TG.NET | 13 Dec 2018 | Gdańsk, PL | Presentation |
+| [Angular workshops](https://infoshareacademy.com/kursy/kurs-wieczorowy_gdansk_angular-6/) - open evening classes | infoShare Academy | 01.2019 - 03.2019 | Gdańsk, PL | Classes |
 
 
 ### Past events
 
 ||||||
 |-------|--------|---------|---|---|-----|
+| [Node.js in .NET Core ecosystem: How to connect them and when it might be useful?](https://www.meetup.com/TG-NET/events/256711276/) | TG.NET | 13 Dec 2018 | Gdańsk, PL | [Presentation]
 | [TypeScript magic types - go deeper about TS type system](https://careercon.pl/konferencja/kariera-it-gdansk-08-12-2018/) | Kariera IT | 8 Dec 2018 | Gdańsk, PL | [Presentation](https://slides.com/michalczukm/typescript-magic-types) |
 | [NGXS - yet another Angular state management library](https://www.facebook.com/events/2184181045190150/) | Angular3city | 6 Nov 2018 | Gdańsk, PL | [Presentation](https://slides.com/michalczukm/ngxs-yet-another-state-management) |
 | [Across Stack - Odcinek 2 Python i Flask](https://web.facebook.com/events/1944578742303204/) | infoShare Academy | 6 Nov 2018 | --- | [Webinar](https://www.facebook.com/infoshareacademy/videos/254645481890710/UzpfSTQzMjI1MjcwMzYwNjEyODpWSzoxOTY4NDIzODA5OTE4Njk3/?acontext=%7B%22ref%22%3A70%2C%22source%22%3A1%2C%22action_history%22%3A%22[%7B%5C%22surface%5C%22%3A%5C%22permalink%5C%22%2C%5C%22mechanism%5C%22%3A%5C%22surface%5C%22%2C%5C%22extra_data%5C%22%3A[]%7D]%22%7D&active_tab=discussion) |
