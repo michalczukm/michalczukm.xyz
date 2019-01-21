@@ -17,6 +17,7 @@ I love to talk and share knowledge, also fixing your “unsolvable” git proble
 
 ||||||
 |-------|--------|---------|---|---|-----|
+| [Node.js Streams 101: What you should know even if you don't use Node.js daily](https://www.facebook.com/events/1929835677131194/) | Ciklum JS Meetup | 29.01.2019 | Gdańsk, PL | Presentation |
 | [Angular workshops](https://infoshareacademy.com/kursy/kurs-wieczorowy_gdansk_angular-6/) - open evening classes | infoShare Academy | 01.2019 - 03.2019 | Gdańsk, PL | Classes |
 
 
