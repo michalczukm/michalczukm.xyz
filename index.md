@@ -18,7 +18,6 @@ I love to talk and share knowledge, also fixing your “unsolvable” git proble
 ||||||
 |-------|--------|---------|---|---|-----|
 | [Ngrx or Ngxs, state management in Angular is a thing!](https://careercon.pl/konferencja/kariera-it-gdansk-02-03-2019/) | Kariera IT | 02.03.2019 | Gdańsk, PL | Presentation |
-| [Node.js Streams 101: What you should know even if you don't use Node.js daily](https://www.facebook.com/events/1929835677131194/) | Ciklum JS Meetup | 29.01.2019 | Gdańsk, PL | Presentation |
 | [Angular workshops](https://infoshareacademy.com/kursy/kurs-wieczorowy_gdansk_angular-6/) - open evening classes | infoShare Academy | 01.2019 - 03.2019 | Gdańsk, PL | Classes |
 
 
@@ -26,6 +25,7 @@ I love to talk and share knowledge, also fixing your “unsolvable” git proble
 
 ||||||
 |-------|--------|---------|---|---|-----|
+| [Node.js Streams 101: What you should know even if you don't use Node.js daily](https://www.facebook.com/events/1929835677131194/) | Ciklum JS Meetup | 29.01.2019 | Gdańsk, PL | [Presentation](https://slides.com/michalczukm/nodejs-streams-101) |
 | [Node.js in .NET Core ecosystem: How to connect them and when it might be useful?](https://www.meetup.com/TG-NET/events/256711276/) | TG-NET | 13 Dec 2018 | Gdańsk, PL | [Presentation](https://slides.com/michalczukm/nodejs-in-dotnet-core-ecosystem) |
 | [TypeScript magic types - go deeper about TS type system](https://careercon.pl/konferencja/kariera-it-gdansk-08-12-2018/) | Kariera IT | 8 Dec 2018 | Gdańsk, PL | [Presentation](https://slides.com/michalczukm/typescript-magic-types) |
 | [NGXS - yet another Angular state management library](https://www.facebook.com/events/2184181045190150/) | Angular3city | 6 Nov 2018 | Gdańsk, PL | [Presentation](https://slides.com/michalczukm/ngxs-yet-another-state-management) |
