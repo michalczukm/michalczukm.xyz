@@ -17,7 +17,7 @@ I love to talk and share knowledge, also fixing your “unsolvable” git proble
 
 ||||||
 |-------|--------|---------|---|---|-----|
-| [Ngrx or Ngxs, state management in Angular is a thing!](https://careercon.pl/konferencja/kariera-it-gdansk-02-03-2019/) | Kariera IT | 02.03.2019 | Gdańsk, PL | Presentation |
+| [Bootcamp'y okiem trenera i developera](https://2019.boilingfrogs.pl/schedule/bootcampy-okiem-trenera-i-developera/) | Boiling Frogs | 30.03.2019 | Wrocław, PL | Presentation |
 | [Angular workshops](https://infoshareacademy.com/kursy/kurs-wieczorowy_gdansk_angular-6/) - open evening classes | infoShare Academy | 01.2019 - 03.2019 | Gdańsk, PL | Classes |
 
 
