@@ -17,7 +17,8 @@ I love to talk and share knowledge, also fixing your “unsolvable” git proble
 
 ||||||
 |-------|--------|---------|---|---|-----|
-| [Bootcamp'y okiem trenera i developera](https://2019.boilingfrogs.pl/schedule/bootcampy-okiem-trenera-i-developera/) | Boiling Frogs | 30.03.2019 | Wrocław, PL | Presentation |
+| [TBD](https://romania.voxxeddays.com/frontend/) | [Voxxed Days Frontend, Bucharest](https://romania.voxxeddays.com/frontend/) | 21-22.05.2019 | Bucharest, RO | Presentation |
+| [Bootcamp'y okiem trenera i developera](https://2019.boilingfrogs.pl/schedule/bootcampy-okiem-trenera-i-developera/) | [Boiling Frogs](https://2019.boilingfrogs.pl) | 30.03.2019 | Wrocław, PL | Presentation |
 | [Angular workshops](https://infoshareacademy.com/kursy/kurs-wieczorowy_gdansk_angular-6/) - open evening classes | infoShare Academy | 01.2019 - 03.2019 | Gdańsk, PL | Classes |
 
 
