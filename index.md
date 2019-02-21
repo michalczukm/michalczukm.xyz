@@ -18,6 +18,7 @@ I love to talk and share knowledge, also fixing your “unsolvable” git proble
 ||||||
 |-------|--------|---------|---|---|-----|
 | [TBD](https://romania.voxxeddays.com/frontend/) | [Voxxed Days Frontend, Bucharest](https://romania.voxxeddays.com/frontend/) | 21-22.05.2019 | Bucharest, RO | Presentation |
+| [Node.js in .NET Core ecosystem: How to connect them and when it might be useful?](https://www.meetup.com/%C5%9Al%C4%85ska-Grupa-Microsoft-Meetup/events/258969479/) | [Śląska Grupa Microsoft](https://www.meetup.com/%C5%9Al%C4%85ska-Grupa-Microsoft-Meetup/) | 16.04.2019 | Katowice, PL | Presentation |
 | [Bootcamp'y okiem trenera i developera](https://2019.boilingfrogs.pl/schedule/bootcampy-okiem-trenera-i-developera/) | [Boiling Frogs](https://2019.boilingfrogs.pl) | 30.03.2019 | Wrocław, PL | Presentation |
 | [Angular workshops](https://infoshareacademy.com/kursy/kurs-wieczorowy_gdansk_angular-6/) - open evening classes | infoShare Academy | 01.2019 - 03.2019 | Gdańsk, PL | Classes |
 
