@@ -22,12 +22,12 @@ I love to talk and share knowledge, also fixing your “unsolvable” git proble
 | [TypeScript na styku warstw aplikacji](https://infoshare.pl/speakers-list/2019/#speaker1160) | [infoShare](https://infoshare.pl) | 08-09 May 2019 | Gdańsk, PL | Presentation |
 | [Node.js in .NET Core ecosystem: How to connect them and when it might be useful?](https://www.meetup.com/%C5%9Al%C4%85ska-Grupa-Microsoft-Meetup/events/258969479/) | [Śląska Grupa Microsoft](https://www.meetup.com/%C5%9Al%C4%85ska-Grupa-Microsoft-Meetup/) | 16 Apr 2019 | Katowice, PL | Presentation |
 | [Node.js in .NET Core ecosystem: How to connect them and when it might be useful?](https://konferencjabeit.pl/Home/Details/100) | [Konferencja beIT](https://konferencjabeit.pl/) | 12-14 Apr 2019 | Gdańsk, PL | Presentation |
-| [Początki programowania we Front-endzie](https://www.facebook.com/events/2269287769955929/2272247492993290/?notif_t=admin_plan_mall_activity&notif_id=1554903828899749) | infoShare Academy | 11 Apr 2018 | --- | Webinar |
 
 ### Past events
 
 ||||||
 |-------|--------|---------|---|---|-----|
+| [Początki programowania we Front-endzie](https://www.facebook.com/events/2269287769955929/2272247492993290/?notif_t=admin_plan_mall_activity&notif_id=1554903828899749) | infoShare Academy | 11 Apr 2018 | --- | [Webinar](https://www.facebook.com/infoshareacademy/videos/2323734644619086) |
 | [Node.js Streams 101: What you should know even if you don't use Node.js daily](https://4developers.org.pl/o_prelegencie/#id=37710) | [4Developers 2019](https://4developers.org.pl) | 08 Apr 2019 | Warsaw, PL | [Presentation](https://slides.com/michalczukm/nodejs-streams-101) |
 | [Bootcamp'y okiem trenera i developera](https://2019.boilingfrogs.pl/schedule/bootcampy-okiem-trenera-i-developera/) | [Boiling Frogs](https://2019.boilingfrogs.pl) | 30 Mar 2019 | Wrocław, PL | [Presentation](https://slides.com/michalczukm/bootcamps-dev-trainer) |
 | [Angular workshops](https://infoshareacademy.com/kursy/kurs-wieczorowy_gdansk_angular-6/) - open evening classes | infoShare Academy | 01.2019 - 03.2019 | Gdańsk, PL | Classes |
@@ -63,6 +63,7 @@ I love to talk and share knowledge, also fixing your “unsolvable” git proble
 
 ||||
 |-------|--------|---------|
+| [Video, PL] [infoShare Academy webinar: Początki programowania we Front-endzie](https://www.facebook.com/infoshareacademy/videos/2323734644619086) | Apr 2019 | I was hosting webinar about generally front-end development |
 | [Video, PL] [Across Stack - #3 Node.js & Nest.js](https://www.facebook.com/infoshareacademy/videos/2252814324993663/) | Dec 2018 | I was host in webinar series by my idea - Across Stack. |
 | [Video, PL] [Across Stack - #2 Python & Flask](https://www.facebook.com/infoshareacademy/videos/254645481890710/UzpfSTQzMjI1MjcwMzYwNjEyODpWSzoxOTY4NDIzODA5OTE4Njk3/?acontext=%7B%22ref%22%3A70%2C%22source%22%3A1%2C%22action_history%22%3A%22[%7B%5C%22surface%5C%22%3A%5C%22permalink%5C%22%2C%5C%22mechanism%5C%22%3A%5C%22surface%5C%22%2C%5C%22extra_data%5C%22%3A[]%7D]%22%7D&active_tab=discussion) | Nov 2018 | I was host in webinar series by my idea - Across Stack. |
 | [Video, PL] [4Developers Kraków 2018: TypeScript magic types](https://youtu.be/2Fciqei6gcI) | Oct 2018 | Presentation on 4Developers local edition in Krakow, Poland about TypeScript type system and how to unleash its power |
