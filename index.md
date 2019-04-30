@@ -17,7 +17,8 @@ I love to talk and share knowledge, also fixing your “unsolvable” git proble
 
 ||||||
 |-------|--------|---------|---|---|-----|
-| [TBD](https://www.meetup.com/WarsawJS/events/259419569/) | [WarsawJS](https://warsawjs.com/) | 12 June 2019 | Warsaw, PL | Presentation |
+| [Bootcamp'y okiem trenera i developera](https://www.meetup.com/WarsawJS/events/259419569/) | [WarsawJS](https://warsawjs.com/) | 12 June 2019 | Warsaw, PL | Presentation |
+| [NGXS - yet another Angular state management library](https://www.meetup.com/AngularJS-Wrocław/events/258942476) | [Angular Wrocław](https://www.meetup.com/AngularJS-Wrocław/) | 30 may 2019 | Wrocław, PL | Presentation |
 | [The power of mobile web browsers](https://romania.voxxeddays.com/2019/03/31/the-power-of-mobile-web-browsers/) | [Voxxed Days Frontend, Bucharest](https://romania.voxxeddays.com/frontend/) | 21-22 May 2019 | Bucharest, RO | Presentation |
 | [TypeScript na styku warstw aplikacji](https://infoshare.pl/speakers-list/2019/#speaker1160) | [infoShare](https://infoshare.pl) | 08-09 May 2019 | Gdańsk, PL | Presentation |
 
