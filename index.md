@@ -14,7 +14,8 @@ I love to talk and share knowledge, also fixing your “unsolvable” git proble
 ## Meet me at my presentations and workshops
 
 ### Upcoming workshops
-||||
+
+|||||
 |----------|----------------------|------|
 | 10-11.06.2019, Gdańsk, PL | [TypeScript: Front-end oraz aplikacje Node.js z statycznym typowaniem](https://infoshareacademy.com/kursy/szkolenie-otwarte_gdansk_typescript/) | [Registration OPENED](https://infoshareacademy.com/kursy/szkolenie-otwarte_gdansk_typescript/) |
 
