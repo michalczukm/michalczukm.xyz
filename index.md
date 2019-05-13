@@ -26,12 +26,12 @@ I love to talk and share knowledge, also fixing your “unsolvable” git proble
 | [Bootcamp'y okiem trenera i developera](https://www.meetup.com/WarsawJS/events/259419569/) | [WarsawJS](https://warsawjs.com/) | 12 June 2019 | Warsaw, PL | Presentation |
 | [NGXS - yet another Angular state management library](https://www.meetup.com/AngularJS-Wrocław/events/258942476) | [Angular Wrocław](https://www.meetup.com/AngularJS-Wrocław/) | 30 may 2019 | Wrocław, PL | Presentation |
 | [The power of mobile web browsers](https://romania.voxxeddays.com/2019/03/31/the-power-of-mobile-web-browsers/) | [Voxxed Days Frontend, Bucharest](https://romania.voxxeddays.com/frontend/) | 21-22 May 2019 | Bucharest, RO | Presentation |
-| [TypeScript na styku warstw aplikacji](https://infoshare.pl/speakers-list/2019/#speaker1160) | [infoShare](https://infoshare.pl) | 08-09 May 2019 | Gdańsk, PL | Presentation |
 
 ### Past events
 
 ||||||
 |-------|--------|---------|---|---|-----|
+| [TypeScript na styku warstw aplikacji](https://infoshare.pl/speakers-list/2019/#speaker1160) | [InfoShare 2019](https://infoshare.pl) | 08-09 May 2019 | Gdańsk, PL | [Presentation](https://slides.com/michalczukm/typescript-between-layers) |
 | [Node.js in .NET Core ecosystem: How to connect them and when it might be useful?](https://www.meetup.com/%C5%9Al%C4%85ska-Grupa-Microsoft-Meetup/events/258969479/) | [Śląska Grupa Microsoft](https://www.meetup.com/%C5%9Al%C4%85ska-Grupa-Microsoft-Meetup/) | 16 Apr 2019 | Katowice, PL | [Presentation](https://slides.com/michalczukm/nodejs-in-dotnet-core-ecosystem) |
 | [Node.js in .NET Core ecosystem: How to connect them and when it might be useful?](https://konferencjabeit.pl/Home/Details/100) | [Konferencja beIT](https://konferencjabeit.pl/) | 12-14 Apr 2019 | Gdańsk, PL | [Presentation](https://slides.com/michalczukm/nodejs-in-dotnet-core-ecosystem) |
 | [Początki programowania we Front-endzie](https://www.facebook.com/events/2269287769955929/2272247492993290/?notif_t=admin_plan_mall_activity&notif_id=1554903828899749) | infoShare Academy | 11 Apr 2018 | --- | [Webinar](https://www.facebook.com/infoshareacademy/videos/2323734644619086) |
