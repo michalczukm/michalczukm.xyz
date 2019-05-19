@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: "Gatsby Starter - Strata by HTML5 UP",
-    author: "Hunter Chang",
-    description: "A Gatsby.js Starter based on Strata by HTML5 UP"
+    title: "michalczukm | Michał Michalczuk",
+    author: "michalczukm@gmail.com",
+    description: "Michał Michalczuk personal website: Full-Stack software developer and IT trainer"
   },
   plugins: [
     'gatsby-plugin-react-helmet',
