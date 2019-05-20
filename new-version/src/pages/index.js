@@ -2,139 +2,86 @@ import React from 'react'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
-// import Lightbox from 'react-images'
-import Gallery from '../components/Gallery'
+import SafeLink from '../components/SafeLink'
+import Event from '../components/Event'
 
-const DEFAULT_IMAGES = [
-];
+import events from '../data/events'
 
 class HomeIndex extends React.Component {
+  upcomingEvents() {
+    return events.map(({ title, url, event, place, type }, index) => (
+      <Event key={index} title={title} url={url} event={event} place={place} type={type} />
+    ))
+  }
 
-    constructor() {
-        super();
+  render() {
+    const siteTitle = 'michalczukm | Michał Michalczuk'
+    const siteDescription =
+      'Michał Michalczuk personal website: Full-Stack software developer and IT trainer'
 
-        this.state = {
-            lightboxIsOpen: false,
-            currentImage: 0,
-        };
+    return (
+      <Layout>
+        <Helmet>
+          <title>{siteTitle}</title>
+          <meta name="description" content={siteDescription} />
+        </Helmet>
 
-        this.closeLightbox = this.closeLightbox.bind(this);
-        this.gotoNext = this.gotoNext.bind(this);
-        this.gotoPrevious = this.gotoPrevious.bind(this);
-        this.openLightbox = this.openLightbox.bind(this);
-        this.handleClickImage = this.handleClickImage.bind(this);
-    }
+        <div id="main">
+          <section id="about-me">
+            <header className="major">
+              <h2>Who I am</h2>
+            </header>
+            <p>
+              I am strongly web oriented{' '}
+              <strong>Full-Stack software developer</strong> and{' '}
+              <SafeLink href="https://infoshareacademy.com/">
+                IT trainer
+              </SafeLink>
+              . Both fascinated and terrified by technology advancement.
+            </p>
+            <p>
+              TypeScript fan and promoter. Sometimes scrum master, architect,
+              team leader, speaker.
+            </p>
 
-    openLightbox (index, event) {
-        event.preventDefault();
-        this.setState({
-            currentImage: index,
-            lightboxIsOpen: true,
-        });
-    }
-    closeLightbox () {
-        this.setState({
-            currentImage: 0,
-            lightboxIsOpen: false,
-        });
-    }
-    gotoPrevious () {
-        this.setState({
-            currentImage: this.state.currentImage - 1,
-        });
-    }
-    gotoNext () {
-        this.setState({
-            currentImage: this.state.currentImage + 1,
-        });
-    }
-    handleClickImage () {
-        if (this.state.currentImage === this.props.images.length - 1) return;
+            <ul>
+              <li>
+                As a front-end dev I am focused on TypeScript and Angular but I
+                and constantly exploring new frameworks and areas,
+              </li>
+              <li>
+                As a back-end dev I prefer Asp.net with C# or Node.js, but vary
+                of technologies and languages went through my fingers. I used to
+                work with WPF, Silverlight, Python and Django, Visual Basic and
+                PHP.
+              </li>
+            </ul>
 
-        this.gotoNext();
-    }
+            <p>
+              I love to talk and share knowledge, also fixing <i>unsolvable</i>{' '}
+              git problems.
+            </p>
 
-    render() {
-        const siteTitle = "michalczukm | Michał Michalczuk"
-        const siteDescription = "Michał Michalczuk personal website: Full-Stack software developer and IT trainer"
+            <ul className="actions">
+              <li>
+                <SafeLink
+                  href="https://gist.github.com/michalczukm/c018a256837b05e47581e5063f78c8ab"
+                  className="button"
+                >
+                  Call For Papers info
+                </SafeLink>
+              </li>
+            </ul>
+          </section>
 
-        return (
-            <Layout>
-                <Helmet>
-                        <title>{siteTitle}</title>
-                        <meta name="description" content={siteDescription} />
-                </Helmet>
-
-                <div id="main">
-
-                    <section id="one">
-                        <header className="major">
-                            <h2>Ipsum lorem dolor aliquam ante commodo<br />
-                            magna sed accumsan arcu neque.</h2>
-                        </header>
-                        <p>Accumsan orci faucibus id eu lorem semper. Eu ac iaculis ac nunc nisi lorem vulputate lorem neque cubilia ac in adipiscing in curae lobortis tortor primis integer massa adipiscing id nisi accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque cubilia.</p>
-                        <ul className="actions">
-                            <li><a href="#" className="button">Learn More</a></li>
-                        </ul>
-                    </section>
-
-                    <section id="two">
-                        <h2>Recent Work</h2>
-
-                        <Gallery images={DEFAULT_IMAGES.map(({ id, src, thumbnail, caption, description }) => ({
-                            src,
-                            thumbnail,
-                            caption,
-                            description
-                        }))} />
-
-                        <ul className="actions">
-                            <li><a href="#" className="button">Full Portfolio</a></li>
-                        </ul>
-                    </section>
-
-                    <section id="three">
-                        <h2>Get In Touch</h2>
-                        <p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
-                        <div className="row">
-                            <div className="8u 12u$(small)">
-                                <form method="post" action="#">
-                                    <div className="row uniform 50%">
-                                        <div className="6u 12u$(xsmall)"><input type="text" name="name" id="name" placeholder="Name" /></div>
-                                        <div className="6u 12u$(xsmall)"><input type="email" name="email" id="email" placeholder="Email" /></div>
-                                        <div className="12u"><textarea name="message" id="message" placeholder="Message" rows="4"></textarea></div>
-                                    </div>
-                                </form>
-                                <ul className="actions">
-                                    <li><input type="submit" value="Send Message" /></li>
-                                </ul>
-                            </div>
-                            <div className="4u 12u$(small)">
-                                <ul className="labeled-icons">
-                                    <li>
-                                        <h3 className="icon fa-home"><span className="label">Address</span></h3>
-                                        1234 Somewhere Rd.<br />
-                                        Nashville, TN 00000<br />
-                                        United States
-                                    </li>
-                                    <li>
-                                        <h3 className="icon fa-mobile"><span className="label">Phone</span></h3>
-                                        000-000-0000
-                                    </li>
-                                    <li>
-                                        <h3 className="icon fa-envelope-o"><span className="label">Email</span></h3>
-                                        <a href="#">hello@untitled.tld</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
-                    </section>
-
-                </div>
-
-            </Layout>
-        )
-    }
+          <section id="upcoming-events">
+            <h2>Upcoming events</h2>
+            {this.upcomingEvents()}
+          </section>
+        </div>
+      </Layout>
+    )
+  }
 }
 
 export default HomeIndex

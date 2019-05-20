@@ -4,6 +4,7 @@
   "version": "1.0.0",
   "author": "Hunter Chang",
   "dependencies": {
+    "dayjs": "^1.8.14",
     "gatsby": "^2.2.9",
     "gatsby-plugin-manifest": "^2.0.24",
     "gatsby-plugin-offline": "^2.0.25",
@@ -12,8 +13,7 @@
     "node-sass": "^4.11.0",
     "react": "^16.8.5",
     "react-dom": "^16.8.5",
-    "react-helmet": "^5.2.0",
-    "react-images": "^0.5.19"
+    "react-helmet": "^5.2.0"
   },
   "keywords": [
     "gatsby"
