@@ -5,12 +5,20 @@ import Layout from '../components/layout'
 import SafeLink from '../components/SafeLink'
 import Event from '../components/Event'
 
-import events from '../data/events'
+import * as events from '../data/events'
 
 class HomeIndex extends React.Component {
-  upcomingEvents() {
-    return events.map(({ title, url, event, place, type }, index) => (
-      <Event key={index} title={title} url={url} event={event} place={place} type={type} />
+  getEvents(events) {
+    return events.map((event, index) => (
+      <Event
+        key={index}
+        title={event.title}
+        url={event.url}
+        event={event.event}
+        place={event.place}
+        type={event.type}
+        resources={event.resources}
+      />
     ))
   }
 
@@ -76,7 +84,12 @@ class HomeIndex extends React.Component {
 
           <section id="upcoming-events">
             <h2>Upcoming events</h2>
-            {this.upcomingEvents()}
+            {this.getEvents(events.upcoming)}
+          </section>
+
+          <section id="upcoming-events">
+            <h2>Past events</h2>
+            {this.getEvents(events.past)}
           </section>
         </div>
       </Layout>
