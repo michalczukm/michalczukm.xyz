@@ -361,6 +361,174 @@ export const past = [
       country: 'PL',
     },
   },
+  {
+    type: 'workshops',
+    title: 'TDD in C#',
+    url: 'https://evenea.pl/imprezy/konferencje/sopot/lider-workshops-days-2017-173646/',
+    event: {
+      name: 'L!der Workshop Days',
+      url: 'https://evenea.pl/imprezy/konferencje/sopot/lider-workshops-days-2017-173646/',
+      startDate:  new Date('2017-11-08'),
+    },
+    place: {
+      city: 'Sopot',
+      country: 'PL',
+    },
+    resources: {
+      presentation: 'https://speakerdeck.com/michalczukm/l-der-test-driven-development-in-c-number-workshop'
+    }
+  },
+  {
+    type: 'presentation',
+    title: 'Progressive Web Apps. What are they, where to use them?',
+    url: 'https://www.slush.org/news/community/launching-first-europe-hack-tour/',
+    event: {
+      name: 'Hack Tour 2017',
+      url: 'https://www.slush.org/news/community/launching-first-europe-hack-tour/',
+      startDate:  new Date('2017-09-13'),
+    },
+    place: {
+      city: 'Gdańsk',
+      country: 'PL',
+    },
+    resources: {
+      presentation: 'https://speakerdeck.com/michalczukm/hack-tour-progressive-web-apps-what-are-they-when-to-use-them'
+    }
+  },
+  {
+    type: 'workshops',
+    title: 'Angular 4. My very first application',
+    url: 'https://www.slush.org/news/community/launching-first-europe-hack-tour/',
+    event: {
+      name: 'Hack Tour 2017',
+      url: 'https://www.slush.org/news/community/launching-first-europe-hack-tour/',
+      startDate:  new Date('2017-09-13'),
+    },
+    place: {
+      city: 'Gdańsk',
+      country: 'PL',
+    },
+    resources: {
+      presentation: 'https://speakerdeck.com/michalczukm/hack-tour-my-very-first-angular-4-application-workshops'
+    }
+  },
+  {
+    type: 'presentation',
+    title: 'Angular meets Redux',
+    url: 'https://www.facebook.com/events/237900943347992/',
+    event: {
+      name: 'ngSummit 2017',
+      url: 'https://www.facebook.com/events/237900943347992/',
+      startDate:  new Date('2017-05-27'),
+    },
+    place: {
+      city: 'Wrocław',
+      country: 'PL',
+    },
+    resources: {
+      presentation: 'https://speakerdeck.com/michalczukm/ngsummit-angular-meets-redux'
+    }
+  },
+  {
+    type: 'workshops',
+    title: 'Angular 2. My very first application',
+    url: 'http://www.liderferencja.pl/',
+    event: {
+      name: 'L!deroferencja 2017',
+      url: 'http://www.liderferencja.pl/',
+      startDate:  new Date('2017-04-04'),
+    },
+    place: {
+      city: 'Sopot',
+      country: 'PL',
+    },
+    resources: {
+      presentation: 'https://speakerdeck.com/michalczukm/l-deroferencja-my-very-first-angular-2-application-workshops'
+    }
+  },
+  {
+    type: 'presentation',
+    title: 'Asp.net Core, is it worth it?',
+    url: 'http://www.itadpg.pl/',
+    event: {
+      name: 'IT Academic Day 2016',
+      url: 'http://www.itadpg.pl/',
+      startDate:  new Date('2016-12-10'),
+    },
+    place: {
+      city: 'Gdańsk',
+      country: 'PL',
+    },
+    resources: {
+      presentation: 'https://speakerdeck.com/michalczukm/itad-asp-dot-net-core'
+    }
+  },
+  {
+    type: 'presentation',
+    title: 'Front-end tooling: Package Managers',
+    url: 'http://tech.3camp.pl/tech-3camp-36-15-listopada-w-gpn-t/',
+    event: {
+      name: '3Camp.tech',
+      url: 'http://tech.3camp.pl/',
+      startDate:  new Date('2016-11-15'),
+    },
+    place: {
+      city: 'Gdańsk',
+      country: 'PL',
+    },
+    resources: {
+      presentation: 'https://speakerdeck.com/michalczukm/3camp-front-end-tooling-package-managers',
+      video: 'https://vimeo.com/192835137'
+    }
+  },
+  {
+    type: 'workshops',
+    title: 'Open TypeScript workshops',
+    url: 'https://github.com/michalczukm/typescript-workshops',
+    event: {
+      name: '3Camp.tech',
+      url: 'https://github.com/michalczukm/typescript-workshops',
+      startDate:  new Date('2016-04-06'),
+    },
+    place: {
+      city: 'Gdańsk',
+      country: 'PL',
+    }
+  },
+  {
+    type: 'workshops',
+    title: 'Can you convince your client to your way of work?',
+    url: 'https://agile3m.pl/marcin-zochowski-michal-michalczuk-czy-mozna-przekonac-klienta-do-swojego-sposobu-pracy-2016-02-08/',
+    event: {
+      name: '3Camp.tech',
+      url: 'https://agile3m.pl',
+      startDate:  new Date('2016-02-08'),
+    },
+    place: {
+      city: 'Sopot',
+      country: 'PL',
+    },
+    resources: {
+      presentation: 'https://speakerdeck.com/michalczukm/agile3m-can-you-convince-client-to-your-way-of-work'
+    }
+  },
+  {
+    type: 'presentation',
+    title: 'Whats new in TypeScript, and why you are not using it?',
+    url: 'https://www.facebook.com/events/1687272218184126',
+    event: {
+      name: 'meet.js Gdańsk',
+      url: 'https://www.facebook.com/events/1687272218184126',
+      startDate:  new Date('2016-02-01'),
+    },
+    place: {
+      city: 'Gdańsk',
+      country: 'PL',
+    },
+    resources: {
+      presentation: 'https://speakerdeck.com/michalczukm/meet-dot-js-typescript-what-is-new-any-why-you-are-not-using-it'
+    }
+  },
 ]
 
 export const upcoming = [
