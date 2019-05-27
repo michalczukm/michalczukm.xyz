@@ -32,6 +32,11 @@ class HomeIndex extends React.Component {
         <Helmet>
           <title>{siteTitle}</title>
           <meta name="description" content={siteDescription} />
+          <meta
+            name="keywords"
+            content="TypeScript,JavaScript,Full-Stack,Speaker,Software developer"
+          />
+          <meta name="author" content="Michał Michalczuk, michalczukm" />
         </Helmet>
 
         <div id="main">
@@ -39,14 +44,20 @@ class HomeIndex extends React.Component {
             <header className="major">
               <h2>Who I am</h2>
             </header>
-            <p>
+
+            <span>
               I am strongly web oriented{' '}
               <strong>Full-Stack software developer</strong> and{' '}
               <SafeLink href="https://infoshareacademy.com/">
                 IT trainer
               </SafeLink>
-              . Both fascinated and terrified by technology advancement.
+              .
+            </span>
+            <p>
+              I believe that teaching others and sharing knowledge make us
+              better developers.
             </p>
+
             <p>
               TypeScript fan and promoter. Sometimes scrum master, architect,
               team leader, speaker.
@@ -55,20 +66,15 @@ class HomeIndex extends React.Component {
             <ul>
               <li>
                 As a front-end dev I am focused on TypeScript and Angular but I
-                and constantly exploring new frameworks and areas,
+                am constantly exploring new areas,
               </li>
               <li>
                 As a back-end dev I prefer Asp.net with C# or Node.js, but vary
                 of technologies and languages went through my fingers. I used to
-                work with WPF, Silverlight, Python and Django, Visual Basic and
-                PHP.
+                work with WPF, Silverlight, Python and Django, Visual Basic, PHP
+                etc.
               </li>
             </ul>
-
-            <p>
-              I love to talk and share knowledge, also fixing <i>unsolvable</i>{' '}
-              git problems.
-            </p>
 
             <ul className="actions">
               <li>

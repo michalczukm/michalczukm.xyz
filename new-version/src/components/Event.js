@@ -47,7 +47,7 @@ export default ({ title, url, event, place, type, resources }) => (
         <li>
           <SafeLink href={url}>{title}</SafeLink>
         </li>
-        <li>
+        <li className={styles.eventName}>
           <SafeLink href={event.url}>{event.name}</SafeLink>
         </li>
         <li>{getEventMeta(event, place)}</li>
