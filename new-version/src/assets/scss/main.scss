@@ -201,6 +201,15 @@
 
 /* Section/Article */
 
+	.two-column {
+		display: flex;
+
+		section {
+			flex-grow: 1;
+    		flex-basis: 0;
+		}
+	}
+
 	section, article {
 		&.special {
 			text-align: center;

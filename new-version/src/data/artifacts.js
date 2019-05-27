@@ -6,16 +6,16 @@ export const presentationsRecordings = [
     type: 'presentation',
     url: 'https://youtu.be/OAWvgeo5MTE',
     thumbnailUrl: '',
-    description: 'My presentation from Boiling Frogs 2019 in Wrocław, Poland',
+    description: 'My presentation from Boiling Frogs 2019 in Wrocław, Poland.',
     date: new Date('2019-03'),
   },
   {
     language: 'PL',
     title: '4Developers Kraków 2018: TypeScript magic types',
     type: 'presentation',
-    url: 'https://youtu.be/OAWvgeo5MTE',
+    url: 'https://youtu.be/2Fciqei6gcI',
     thumbnailUrl: '',
-    description: 'My presentation from Boiling Frogs 2019 in Wrocław, Poland',
+    description: 'Exploring TypeScript type system on 4Developers Kraków.',
     date: new Date('2018-11'),
   },
   {
@@ -24,7 +24,7 @@ export const presentationsRecordings = [
     type: 'presentation',
     url: 'https://vimeo.com/192835137',
     thumbnailUrl: '',
-    description: `Presentation on 3Camp in Gdańsk, Poland about current state of package managers in JavaScript, how to deal with it and don't get confused`,
+    description: `Presentation on 3Camp in Gdańsk, Poland about current state of package managers in JavaScript, how to deal with it and don't get confused.`,
     date: new Date('2016-11'),
   },
 ]

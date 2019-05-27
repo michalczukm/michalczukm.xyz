@@ -1,11 +1,13 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
 import SafeLink from '../components/SafeLink'
 import Event from '../components/Event'
+import Video from '../components/video'
 
 import * as events from '../data/events'
+import { presentationsRecordings, webinars, series } from '../data/artifacts'
 
 class HomeIndex extends React.Component {
   getEvents(events) {
@@ -20,6 +22,33 @@ class HomeIndex extends React.Component {
         resources={event.resources}
       />
     ))
+  }
+
+  getPublicArtifacts() {
+    return (
+      <Fragment>
+        <h3>Recorded presentations</h3>
+        {presentationsRecordings.map((item, index) => (
+          <Video key={index} artifact={item} />
+        ))}
+        <hr/>
+
+        <h3>Webinars</h3>
+        {webinars.map((item, index) => (
+          <Video key={index} artifact={item} />
+        ))}
+        <hr/>
+
+        {series.map((seriesItem, index) => (
+          <Fragment key={index}>
+            <h3>Series: {seriesItem.name}</h3>
+            {seriesItem.episodes.map((item, index) => (
+              <Video key={index} artifact={item} />
+            ))}
+          </Fragment>
+        ))}
+      </Fragment>
+    )
   }
 
   render() {
@@ -93,10 +122,16 @@ class HomeIndex extends React.Component {
             {this.getEvents(events.upcoming)}
           </section>
 
-          <section id="upcoming-events">
-            <h2>Past events</h2>
-            {this.getEvents(events.past)}
-          </section>
+          <div className="two-column">
+            <section id="past-events">
+              <h2>Past events</h2>
+              {this.getEvents(events.past)}
+            </section>
+            <section id="public-artifacts">
+              <h2>Public artifacts</h2>
+              {this.getPublicArtifacts(events.past)}
+            </section>
+          </div>
         </div>
       </Layout>
     )
