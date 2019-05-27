@@ -1,6 +1,24 @@
 export const past = [
   {
     type: 'presentation',
+    title: 'The power of mobile web browsers',
+    url:
+      'https://romania.voxxeddays.com/2019/03/31/the-power-of-mobile-web-browsers/',
+    event: {
+      name: 'Voxxed Days Frontend, Bucharest',
+      url: 'https://romania.voxxeddays.com/frontend/',
+      startDate:  new Date('2019-05-22'),
+    },
+    place: {
+      city: 'Bucharest',
+      country: 'RO',
+    },
+    resources: {
+      presentation: 'https://slides.com/michalczukm/mobile-web_voxxed-front#/'
+    }
+  },
+  {
+    type: 'presentation',
     title: 'TypeScript na styku warstw aplikacji',
     url: 'https://infoshare.pl/speakers-list/2019/#speaker1160',
     event: {
@@ -53,23 +71,6 @@ export const past = [
     }
   },
   {
-    type: 'video',
-    title: 'Początki programowania we Front-endzie',
-    url: 'https://www.facebook.com/events/2269287769955929/2272247492993290/?notif_t=admin_plan_mall_activity&notif_id=1554903828899749',
-    event: {
-      name: 'infoShare Academy: webinar',
-      url: 'https://www.facebook.com/infoshareacademy/videos/2323734644619086',
-      startDate:  new Date('2019-04-11'),
-    },
-    place: {
-      city: '---',
-      country: 'PL',
-    },
-    resources: {
-        video: 'https://www.facebook.com/infoshareacademy/videos/2323734644619086'
-    }
-  },
-  {
     type: 'presentation',
     title: `Node.js Streams 101: What you should know even if you don't use Node.js daily`,
     url: 'https://4developers.org.pl/o_prelegencie/#id=37710',
@@ -100,7 +101,8 @@ export const past = [
       country: 'PL',
     },
     resources: {
-        presentation: 'https://slides.com/michalczukm/bootcamps-dev-trainer'
+        presentation: 'https://slides.com/michalczukm/bootcamps-dev-trainer',
+        video: 'https://youtu.be/OAWvgeo5MTE'
     }
   },
   {
@@ -172,23 +174,6 @@ export const past = [
     }
   },
   {
-    type: 'video',
-    title: 'Across Stack #2, Python i Flask',
-    url: 'https://web.facebook.com/events/1944578742303204/',
-    event: {
-      name: 'Across Stack',
-      url: 'https://www.facebook.com/infoshareacademy/videos/254645481890710/UzpfSTQzMjI1MjcwMzYwNjEyODpWSzoxOTY4NDIzODA5OTE4Njk3/?acontext=%7B%22ref%22%3A70%2C%22source%22%3A1%2C%22action_history%22%3A%22[%7B%5C%22surface%5C%22%3A%5C%22permalink%5C%22%2C%5C%22mechanism%5C%22%3A%5C%22surface%5C%22%2C%5C%22extra_data%5C%22%3A[]%7D]%22%7D&active_tab=discussion',
-      startDate:  new Date('2018-11-06'),
-    },
-    place: {
-      city: '---',
-      country: 'PL',
-    },
-    resources: {
-        video: 'https://www.facebook.com/infoshareacademy/videos/254645481890710/UzpfSTQzMjI1MjcwMzYwNjEyODpWSzoxOTY4NDIzODA5OTE4Njk3/?acontext=%7B%22ref%22%3A70%2C%22source%22%3A1%2C%22action_history%22%3A%22[%7B%5C%22surface%5C%22%3A%5C%22permalink%5C%22%2C%5C%22mechanism%5C%22%3A%5C%22surface%5C%22%2C%5C%22extra_data%5C%22%3A[]%7D]%22%7D&active_tab=discussion'
-    }
-  },
-  {
     type: 'presentation',
     title: 'TypeScript magic types - go deeper about TS type system',
     url: 'https://krakow.4developers.org.pl/bio.html#id=35107',
@@ -207,23 +192,6 @@ export const past = [
     }
   },
   {
-    type: 'video',
-    title: 'Across Stack #1, C# i ASP.NET',
-    url: 'https://www.facebook.com/events/560977510989033/',
-    event: {
-      name: 'Across Stack',
-      url: 'https://www.facebook.com/infoshareacademy/videos/294755691359453/UzpfSTQzMjI1MjcwMzYwNjEyODo1NjQwMTk5NzczNTE0NTM/?action_history=null&__xts__[0]=68.ARCnkCkg9qrbYAYkAo87MMRtBJsXnYL-K0uhMm49tQ5S6NVtta6mEt_cP2gJ5mlX9FOsSTbLwkqxkpjjhNECoH_IyGiyR7oqrVZP1DpQP-SzRnP59fRH5R6IAAhopcOI7zh1CrvQznqgRPXgyQY0G10Y06SidYK7vBY51Z8u_Pe21HnZC3p0&__tn__=-R',
-      startDate:  new Date('2018-09-26'),
-    },
-    place: {
-      city: '---',
-      country: 'PL',
-    },
-    resources: {
-        video: 'https://www.facebook.com/infoshareacademy/videos/294755691359453/UzpfSTQzMjI1MjcwMzYwNjEyODo1NjQwMTk5NzczNTE0NTM/?action_history=null&__xts__[0]=68.ARCnkCkg9qrbYAYkAo87MMRtBJsXnYL-K0uhMm49tQ5S6NVtta6mEt_cP2gJ5mlX9FOsSTbLwkqxkpjjhNECoH_IyGiyR7oqrVZP1DpQP-SzRnP59fRH5R6IAAhopcOI7zh1CrvQznqgRPXgyQY0G10Y06SidYK7vBY51Z8u_Pe21HnZC3p0&__tn__=-R'
-    }
-  },
-  {
     type: 'presentation',
     title: 'Node.js in .NET Core ecosystem: How to connect them and when it might be useful?',
     url: 'https://crossweb.pl/en/events/ciklum-gdansk-net-meetup-4/',
@@ -238,37 +206,6 @@ export const past = [
     },
     resources: {
         presentation: 'https://slides.com/michalczukm/nodejs-in-dotnet-core-ecosystem'
-    }
-  },
-  {
-    type: 'video',
-    title: 'C#/.Net - Wprowadzenie do technologii',
-    url: 'https://www.facebook.com/events/306228466595478/',
-    event: {
-      name: 'Across Stack',
-      url: 'https://www.facebook.com/events/306228466595478/',
-      startDate:  new Date('2018-09-17'),
-    },
-    place: {
-      city: '---',
-      country: 'PL',
-    }
-  },
-  {
-    type: 'video',
-    title: `[Guest in webinar]Jak zostać Full-Stack'iem?`,
-    url: 'https://www.facebook.com/events/223171684972714/',
-    event: {
-      name: 'infoShare Academy: webinar',
-      url: 'https://www.youtube.com/watch?v=2LiVkyS9Co4&feature=youtu.be&t=602',
-      startDate:  new Date('2018-07-25'),
-    },
-    place: {
-      city: '---',
-      country: 'PL',
-    },
-    resources: {
-        video: 'https://www.youtube.com/watch?v=2LiVkyS9Co4&feature=youtu.be&t=602'
     }
   },
   {
@@ -535,6 +472,20 @@ export const upcoming = [
   {
     type: 'presentation',
     title: `Bootcampy okiem trenera i developera`,
+    url: 'https://dynamit.pro/',
+    event: {
+      name: 'dynamIT',
+      url: 'https://dynamit.pro/',
+      startDate:  new Date('2019-08-17'),
+    },
+    place: {
+      city: 'Kraków',
+      country: 'PL',
+    },
+  },
+  {
+    type: 'presentation',
+    title: `Bootcampy okiem trenera i developera`,
     url: 'https://www.meetup.com/WarsawJS/events/259419569/',
     event: {
       name: 'WarsawJS',
@@ -558,21 +509,6 @@ export const upcoming = [
     place: {
       city: 'Wrocław',
       country: 'PL',
-    },
-  },
-  {
-    type: 'presentation',
-    title: 'The power of mobile web browsers',
-    url:
-      'https://romania.voxxeddays.com/2019/03/31/the-power-of-mobile-web-browsers/',
-    event: {
-      name: 'Voxxed Days Frontend, Bucharest',
-      url: 'https://romania.voxxeddays.com/frontend/',
-      startDate:  new Date('2019-05-22'),
-    },
-    place: {
-      city: 'Bucharest',
-      country: 'RO',
     },
   },
 ]
