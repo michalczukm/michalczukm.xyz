@@ -13,30 +13,25 @@ I love to talk and share knowledge, also fixing your “unsolvable” git proble
 
 ## Meet me at my presentations and workshops
 
-### Upcoming workshops
-
-|||||
-|----------|----------------------|------|
-| 10-11.06.2019, Gdańsk, PL | [TypeScript: Front-end oraz aplikacje Node.js z statycznym typowaniem](https://infoshareacademy.com/kursy/szkolenie-otwarte_gdansk_typescript/) | [Registration OPENED](https://infoshareacademy.com/kursy/szkolenie-otwarte_gdansk_typescript/) |
-
 ### Upcoming events
 
 ||||||
 |-------|--------|---------|---|---|-----|
-| [Bootcamp'y okiem trenera i developera](https://www.meetup.com/WarsawJS/events/259419569/) | [WarsawJS](https://warsawjs.com/) | 12 June 2019 | Warsaw, PL | Presentation |
-| [NGXS - yet another Angular state management library](https://www.meetup.com/AngularJS-Wrocław/events/258942476) | [Angular Wrocław](https://www.meetup.com/AngularJS-Wrocław/) | 30 may 2019 | Wrocław, PL | Presentation |
-| [The power of mobile web browsers](https://romania.voxxeddays.com/2019/03/31/the-power-of-mobile-web-browsers/) | [Voxxed Days Frontend, Bucharest](https://romania.voxxeddays.com/frontend/) | 21-22 May 2019 | Bucharest, RO | Presentation |
+| [Bootcampy okiem trenera i developera](https://dynamit.pro/) | [DynamIT](https://dynamit.pro/) | 17 Aug 2019 | Kraków, PL | Presentation |
+| [Bootcampy okiem trenera i developera](https://www.meetup.com/WarsawJS/events/259419569/) | [WarsawJS](https://warsawjs.com/) | 12 June 2019 | Warsaw, PL | Presentation |
+| [NGXS - yet another Angular state management library](https://www.meetup.com/AngularJS-Wrocław/events/258942476) | [Angular Wrocław](https://www.meetup.com/AngularJS-Wrocław/) | 30 May 2019 | Wrocław, PL | Presentation |
 
 ### Past events
 
 ||||||
 |-------|--------|---------|---|---|-----|
+| [The power of mobile web browsers](https://romania.voxxeddays.com/2019/03/31/the-power-of-mobile-web-browsers/) | [Voxxed Days Frontend, Bucharest](https://romania.voxxeddays.com/frontend/) | 21-22 May 2019 | Bucharest, RO | [Presentation](https://slides.com/michalczukm/mobile-web_voxxed-front) |
 | [TypeScript na styku warstw aplikacji](https://infoshare.pl/speakers-list/2019/#speaker1160) | [InfoShare 2019](https://infoshare.pl) | 08-09 May 2019 | Gdańsk, PL | [Presentation](https://slides.com/michalczukm/typescript-between-layers) |
 | [Node.js in .NET Core ecosystem: How to connect them and when it might be useful?](https://www.meetup.com/%C5%9Al%C4%85ska-Grupa-Microsoft-Meetup/events/258969479/) | [Śląska Grupa Microsoft](https://www.meetup.com/%C5%9Al%C4%85ska-Grupa-Microsoft-Meetup/) | 16 Apr 2019 | Katowice, PL | [Presentation](https://slides.com/michalczukm/nodejs-in-dotnet-core-ecosystem) |
 | [Node.js in .NET Core ecosystem: How to connect them and when it might be useful?](https://konferencjabeit.pl/Home/Details/100) | [Konferencja beIT](https://konferencjabeit.pl/) | 12-14 Apr 2019 | Gdańsk, PL | [Presentation](https://slides.com/michalczukm/nodejs-in-dotnet-core-ecosystem) |
 | [Początki programowania we Front-endzie](https://www.facebook.com/events/2269287769955929/2272247492993290/?notif_t=admin_plan_mall_activity&notif_id=1554903828899749) | infoShare Academy | 11 Apr 2018 | --- | [Webinar](https://www.facebook.com/infoshareacademy/videos/2323734644619086) |
 | [Node.js Streams 101: What you should know even if you don't use Node.js daily](https://4developers.org.pl/o_prelegencie/#id=37710) | [4Developers 2019](https://4developers.org.pl) | 08 Apr 2019 | Warsaw, PL | [Presentation](https://slides.com/michalczukm/nodejs-streams-101) |
-| [Bootcamp'y okiem trenera i developera](https://2019.boilingfrogs.pl/schedule/bootcampy-okiem-trenera-i-developera/) | [Boiling Frogs](https://2019.boilingfrogs.pl) | 30 Mar 2019 | Wrocław, PL | [Presentation](https://slides.com/michalczukm/bootcamps-dev-trainer) |
+| [Bootcampy okiem trenera i developera](https://2019.boilingfrogs.pl/schedule/bootcampy-okiem-trenera-i-developera/) | [Boiling Frogs](https://2019.boilingfrogs.pl) | 30 Mar 2019 | Wrocław, PL | [Presentation](https://slides.com/michalczukm/bootcamps-dev-trainer) |
 | [Angular workshops](https://infoshareacademy.com/kursy/kurs-wieczorowy_gdansk_angular-6/) - open evening classes | infoShare Academy | 01.2019 - 03.2019 | Gdańsk, PL | Classes |
 | [Node.js Streams 101: What you should know even if you don't use Node.js daily](https://www.facebook.com/events/1929835677131194/) | Ciklum JS Meetup | 29 Jan 2019 | Gdańsk, PL | [Presentation](https://slides.com/michalczukm/nodejs-streams-101) |
 | [Node.js in .NET Core ecosystem: How to connect them and when it might be useful?](https://www.meetup.com/TG-NET/events/256711276/) | TG-NET | 13 Dec 2018 | Gdańsk, PL | [Presentation](https://slides.com/michalczukm/nodejs-in-dotnet-core-ecosystem) |
