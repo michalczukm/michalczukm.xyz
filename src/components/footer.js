@@ -9,7 +9,7 @@ class Footer extends React.Component {
         <div className="inner">
           <ul className="icons">
             <li>
-              <SafeLink href="" className="icon fa-twitter">
+              <SafeLink href="https://twitter.com/michalczukm" className="icon fa-twitter">
                 <span className="label">Twitter</span>
               </SafeLink>
             </li>
