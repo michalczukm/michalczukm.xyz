@@ -3,7 +3,7 @@ import dayjs from 'dayjs'
 
 import styles from './video.module.css'
 
-import SafeLink from './SafeLink'
+import SafeLink from './safeLink'
 import Thumbnail from './thumbnail'
 
 const formatDate = date => dayjs(date).format('YYYY-MM')

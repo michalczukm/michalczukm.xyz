@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Footer from './Footer'
-import SafeLink from './SafeLink';
+import Footer from './footer'
+import SafeLink from './safeLink';
 import avatar from '../assets/images/michalczukm.png'
 
 class Header extends React.Component {

@@ -1,6 +1,6 @@
 import React from 'react'
 
-import SafeLink from './SafeLink'
+import SafeLink from './safeLink'
 
 class Footer extends React.Component {
   render() {

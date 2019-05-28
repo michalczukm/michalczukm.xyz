@@ -3,7 +3,7 @@ import dayjs from 'dayjs'
 
 import styles from './event.module.css'
 
-import SafeLink from './SafeLink'
+import SafeLink from './safeLink'
 
 const getTypeIcon = type => {
   switch (type) {

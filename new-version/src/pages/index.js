@@ -2,12 +2,17 @@ import React, { Fragment } from 'react'
 import Helmet from 'react-helmet'
 
 import Layout from '../components/layout'
-import SafeLink from '../components/SafeLink'
-import Event from '../components/Event'
+import SafeLink from '../components/safeLink'
+import Event from '../components/event'
 import Video from '../components/video'
 
 import * as events from '../data/events'
-import { presentationsRecordings, webinars, series, podcasts } from '../data/artifacts'
+import {
+  presentationsRecordings,
+  webinars,
+  series,
+  podcasts,
+} from '../data/artifacts'
 
 class HomeIndex extends React.Component {
   getEvents(events) {
@@ -31,19 +36,13 @@ class HomeIndex extends React.Component {
         {presentationsRecordings.map((item, index) => (
           <Video key={index} artifact={item} />
         ))}
-        <hr/>
+        <hr />
 
         <h3>Podcasts</h3>
         {podcasts.map((item, index) => (
           <Video key={index} artifact={item} />
         ))}
-        <hr/>
-
-        <h3>Webinars</h3>
-        {webinars.map((item, index) => (
-          <Video key={index} artifact={item} />
-        ))}
-        <hr/>
+        <hr />
 
         {series.map((seriesItem, index) => (
           <Fragment key={index}>
@@ -51,7 +50,13 @@ class HomeIndex extends React.Component {
             {seriesItem.episodes.map((item, seriesIndex) => (
               <Video key={`${index}-${seriesIndex}`} artifact={item} />
             ))}
+            <hr />
           </Fragment>
+        ))}
+
+        <h3>Webinars</h3>
+        {webinars.map((item, index) => (
+          <Video key={index} artifact={item} />
         ))}
       </Fragment>
     )
@@ -138,7 +143,12 @@ class HomeIndex extends React.Component {
               {this.getPublicArtifacts(events.past)}
             </section>
           </div>
-        <a href="#header" className="back-to-top button center icon fa-arrow-up">top</a>
+          <a
+            href="#header"
+            className="back-to-top button center icon fa-arrow-up"
+          >
+            top
+          </a>
         </div>
       </Layout>
     )

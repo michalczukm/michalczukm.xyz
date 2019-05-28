@@ -423,7 +423,7 @@ export const past = [
     title: 'Open TypeScript workshops',
     url: 'https://github.com/michalczukm/typescript-workshops',
     event: {
-      name: '3Camp.tech',
+      name: 'Goyello',
       url: 'https://github.com/michalczukm/typescript-workshops',
       startDate:  new Date('2016-04-06'),
     },
@@ -437,7 +437,7 @@ export const past = [
     title: 'Can you convince your client to your way of work?',
     url: 'https://agile3m.pl/marcin-zochowski-michal-michalczuk-czy-mozna-przekonac-klienta-do-swojego-sposobu-pracy-2016-02-08/',
     event: {
-      name: '3Camp.tech',
+      name: 'Agile3m',
       url: 'https://agile3m.pl',
       startDate:  new Date('2016-02-08'),
     },
