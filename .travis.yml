@@ -18,7 +18,6 @@ deploy:
   on:
     branch: master
 before_script:
-  - "npm i -g gatsby"
   - "npm ci"
 script:
   - "npm run deploy"
