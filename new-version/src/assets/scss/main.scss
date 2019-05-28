@@ -41,7 +41,7 @@
 	));
 
 	$size-header-width: 35%;
-	$size-header-pad: 4em;
+	$size-header-pad: 3em;
 
 /* Basic */
 
@@ -203,6 +203,16 @@
 
 	.two-column {
 		display: flex;
+
+		& > :first-child {
+			padding-right: 1em;
+			border-right: 1px solid _palette(border);
+		}
+		
+		& > :last-child {
+			padding-left: 1em;
+			border-left: 1px solid _palette(border);
+		}
 
 		section {
 			flex-grow: 1;
