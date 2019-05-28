@@ -9,8 +9,6 @@ import Video from '../components/video'
 import * as events from '../data/events'
 import { presentationsRecordings, webinars, series, podcasts } from '../data/artifacts'
 
-const MAX_EVENTS_BEFORE_COLLAPSE = 12;
-
 class HomeIndex extends React.Component {
   getEvents(events) {
     return events.map((event, index) => (
@@ -50,8 +48,8 @@ class HomeIndex extends React.Component {
         {series.map((seriesItem, index) => (
           <Fragment key={index}>
             <h3>Series: {seriesItem.name}</h3>
-            {seriesItem.episodes.map((item, index) => (
-              <Video key={index} artifact={item} />
+            {seriesItem.episodes.map((item, seriesIndex) => (
+              <Video key={`${index}-${seriesIndex}`} artifact={item} />
             ))}
           </Fragment>
         ))}
@@ -140,6 +138,7 @@ class HomeIndex extends React.Component {
               {this.getPublicArtifacts(events.past)}
             </section>
           </div>
+        <a href="#header" className="back-to-top button center icon fa-arrow-up">top</a>
         </div>
       </Layout>
     )

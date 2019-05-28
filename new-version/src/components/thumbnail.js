@@ -10,9 +10,14 @@ export default props => (
     width={'52px'}
     height={'52px'}
   >
-    <img loading="lazy" style={{
+    <img
+      alt="thumbnail"
+      loading="lazy"
+      style={{
         maxWidth: '52px',
-        height: 'auto'
-    }} {...props} role="img" />
+        height: 'auto',
+      }}
+      {...props}
+    />
   </div>
 )

@@ -34,7 +34,7 @@ const getEventMeta = (event, place) =>
 
 const getResources = resources =>
   Object.keys(resources)
-    .map(key => <SafeLink href={resources[key]}>{key}</SafeLink>)
+    .map(key => <SafeLink key={key} href={resources[key]}>{key}</SafeLink>)
     .reduce((prev, curr) => [prev, prev ? ' | ' : '', curr], null)
 
 export default ({ title, url, event, place, type, resources }) => (

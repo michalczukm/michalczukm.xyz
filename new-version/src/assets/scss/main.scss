@@ -216,9 +216,10 @@
 
 		section {
 			flex-grow: 1;
-    		flex-basis: 0;
+			flex-basis: 0;
 		}
 	}
+
 
 	section, article {
 		&.special {
@@ -1025,6 +1026,10 @@
 		}
 	}
 
+	.back-to-top {
+		display: none;
+	}
+
 /* Poptrox */
 
 	@include keyframes('spin') {
@@ -1208,7 +1213,6 @@
 			body, input, select, textarea {
 				font-size: 12pt;
 			}
-
 	}
 
 /* Large */
@@ -1342,6 +1346,13 @@
 				width: 100%;
 			}
 
+		/* Section/Article */
+			.two-column {
+				display: block;
+				& > :first-child, :last-child {
+					border: 0;
+				}
+			}
 	}
 
 /* Small */
@@ -1434,6 +1445,10 @@
 				}
 			}
 
+		/* Back to top button */
+		.back-to-top {
+			display: block;
+		}
 	}
 
 /* XSmall */
