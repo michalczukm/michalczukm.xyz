@@ -7,7 +7,9 @@ import Event from '../components/Event'
 import Video from '../components/video'
 
 import * as events from '../data/events'
-import { presentationsRecordings, webinars, series } from '../data/artifacts'
+import { presentationsRecordings, webinars, series, podcasts } from '../data/artifacts'
+
+const MAX_EVENTS_BEFORE_COLLAPSE = 12;
 
 class HomeIndex extends React.Component {
   getEvents(events) {
@@ -29,6 +31,12 @@ class HomeIndex extends React.Component {
       <Fragment>
         <h3>Recorded presentations</h3>
         {presentationsRecordings.map((item, index) => (
+          <Video key={index} artifact={item} />
+        ))}
+        <hr/>
+
+        <h3>Podcasts</h3>
+        {podcasts.map((item, index) => (
           <Video key={index} artifact={item} />
         ))}
         <hr/>

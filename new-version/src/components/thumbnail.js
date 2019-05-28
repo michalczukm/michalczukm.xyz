@@ -7,12 +7,12 @@ export default props => (
       justifyContent: 'center',
       alignItems: 'center',
     }}
-    width={'48px'}
-    height={'48px'}
+    width={'52px'}
+    height={'52px'}
   >
-    <img style={{
-        maxWidth: '48px',
+    <img loading="lazy" style={{
+        maxWidth: '52px',
         height: 'auto'
-    }} {...props} src="https://i.stack.imgur.com/W9C4b.jpg" role="img" />
+    }} {...props} role="img" />
   </div>
 )
