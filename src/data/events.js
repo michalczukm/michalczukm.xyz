@@ -1,6 +1,42 @@
 export const past = [
   {
     type: 'presentation',
+    title: 'NGXS - yet another Angular state management library',
+    url: 'https://www.meetup.com/AngularJS-Wrocław/events/258942476',
+    event: {
+      name: 'Angular Wrocław',
+      url: 'https://www.meetup.com/AngularJS-Wrocław/',
+      startDate:  new Date('2019-05-30'),
+    },
+    place: {
+      city: 'Wrocław',
+      country: 'PL',
+    },
+    resources: {
+      presentation: 'https://slides.com/michalczukm/ngxs-yet-another-state-management',
+      repository: 'https://github.com/michalczukm/ngxs-yet-another-state-management-presentation'
+    }
+  },
+  {
+    type: 'presentation',
+    title: 'The power of mobile web browsers',
+    url: 'https://www.meetup.com/AngularJS-Wrocław/events/258942476',
+    event: {
+      name: 'Angular Wrocław',
+      url: 'https://www.meetup.com/AngularJS-Wrocław/',
+      startDate:  new Date('2019-05-30'),
+    },
+    place: {
+      city: 'Wrocław',
+      country: 'PL',
+    },
+    resources: {
+      presentation: 'https://slides.com/michalczukm/mobile-web-browsers-ng-wroclaw#/',
+      repository: 'https://github.com/michalczukm/mobile-web-do'
+    }
+  },
+  {
+    type: 'presentation',
     title: 'The power of mobile web browsers',
     url:
       'https://romania.voxxeddays.com/2019/03/31/the-power-of-mobile-web-browsers/',
@@ -14,7 +50,8 @@ export const past = [
       country: 'RO',
     },
     resources: {
-      presentation: 'https://slides.com/michalczukm/mobile-web_voxxed-front#/'
+      presentation: 'https://slides.com/michalczukm/mobile-web_voxxed-front#/',
+      repository: 'https://github.com/michalczukm/mobile-web-do'
     }
   },
   {
@@ -32,7 +69,8 @@ export const past = [
       country: 'PL',
     },
     resources: {
-        presentation: 'https://slides.com/michalczukm/typescript-between-layers'
+        presentation: 'https://slides.com/michalczukm/typescript-between-layers',
+        repository: 'https://github.com/infoshareacademy/infoshare-2019-typescript-between-layers'
     }
   },
   {
@@ -49,7 +87,8 @@ export const past = [
       country: 'PL',
     },
     resources: {
-        presentation: 'https://slides.com/michalczukm/nodejs-in-dotnet-core-ecosystem'
+        presentation: 'https://slides.com/michalczukm/nodejs-in-dotnet-core-ecosystem',
+        repository: 'https://github.com/michalczukm/nodejs-in-dotnet-presentation'
     }
   },
   {
@@ -67,7 +106,8 @@ export const past = [
       country: 'PL',
     },
     resources: {
-        presentation: 'https://slides.com/michalczukm/nodejs-in-dotnet-core-ecosystem'
+        presentation: 'https://slides.com/michalczukm/nodejs-in-dotnet-core-ecosystem',
+        repository: 'https://github.com/michalczukm/nodejs-in-dotnet-presentation'
     }
   },
   {
@@ -84,7 +124,8 @@ export const past = [
       country: 'PL',
     },
     resources: {
-        presentation: 'https://slides.com/michalczukm/nodejs-streams-101'
+        presentation: 'https://slides.com/michalczukm/nodejs-streams-101',
+        repository: 'https://github.com/michalczukm/nodejs-streams-101'
     }
   },
   {
@@ -119,7 +160,8 @@ export const past = [
       country: 'PL',
     },
     resources: {
-        presentation: 'https://slides.com/michalczukm/nodejs-streams-101'
+        presentation: 'https://slides.com/michalczukm/nodejs-streams-101',
+        repository: 'https://github.com/michalczukm/nodejs-streams-101'
     }
   },
   {
@@ -136,7 +178,8 @@ export const past = [
       country: 'PL',
     },
     resources: {
-        presentation: 'https://slides.com/michalczukm/nodejs-in-dotnet-core-ecosystem'
+        presentation: 'https://slides.com/michalczukm/nodejs-in-dotnet-core-ecosystem',
+        repository: 'https://github.com/michalczukm/nodejs-in-dotnet-presentation'
     }
   },
   {
@@ -153,7 +196,8 @@ export const past = [
       country: 'PL',
     },
     resources: {
-        presentation: 'https://slides.com/michalczukm/typescript-magic-types'
+        presentation: 'https://slides.com/michalczukm/typescript-magic-types',
+        repository: 'https://github.com/michalczukm/typescript-magic-types-presentation'
     }
   },
   {
@@ -170,7 +214,8 @@ export const past = [
       country: 'PL',
     },
     resources: {
-        presentation: 'https://slides.com/michalczukm/ngxs-yet-another-state-management'
+        presentation: 'https://slides.com/michalczukm/ngxs-yet-another-state-management',
+        repository: 'https://github.com/michalczukm/ngxs-yet-another-state-management-presentation'
     }
   },
   {
@@ -188,7 +233,8 @@ export const past = [
     },
     resources: {
         presentation: 'https://slides.com/michalczukm/typescript-magic-types',
-        video: 'https://youtu.be/2Fciqei6gcI'
+        video: 'https://youtu.be/2Fciqei6gcI',
+        repository: 'https://github.com/michalczukm/typescript-magic-types-presentation'
     }
   },
   {
@@ -205,7 +251,8 @@ export const past = [
       country: 'PL',
     },
     resources: {
-        presentation: 'https://slides.com/michalczukm/nodejs-in-dotnet-core-ecosystem'
+        presentation: 'https://slides.com/michalczukm/nodejs-in-dotnet-core-ecosystem',
+        repository: 'https://github.com/michalczukm/nodejs-in-dotnet-presentation'
     }
   },
   {
@@ -253,7 +300,8 @@ export const past = [
       country: 'PL',
     },
     resources: {
-        presentation: 'https://slides.com/michalczukm/typescript-magic-types-angular3city2018'
+        presentation: 'https://slides.com/michalczukm/typescript-magic-types-angular3city2018',
+        repository: 'https://github.com/michalczukm/typescript-magic-types-presentation'
     }
   },
   {
@@ -269,6 +317,9 @@ export const past = [
       city: 'Warsaw',
       country: 'PL',
     },
+    resources: {
+      repository: 'https://github.com/michalczukm/mobile-web-do'
+    }
   },
   {
     type: 'presentation',
@@ -283,6 +334,9 @@ export const past = [
       city: 'Gdańsk',
       country: 'PL',
     },
+    resources: {
+      repository: 'https://github.com/michalczukm/mobile-web-do'
+    }
   },
   {
     type: 'discussion',
@@ -312,7 +366,8 @@ export const past = [
       country: 'PL',
     },
     resources: {
-      presentation: 'https://speakerdeck.com/michalczukm/l-der-test-driven-development-in-c-number-workshop'
+      presentation: 'https://speakerdeck.com/michalczukm/l-der-test-driven-development-in-c-number-workshop',
+      repository: 'https://github.com/mturzynskigoyello/tdd'
     }
   },
   {
@@ -346,7 +401,8 @@ export const past = [
       country: 'PL',
     },
     resources: {
-      presentation: 'https://speakerdeck.com/michalczukm/hack-tour-my-very-first-angular-4-application-workshops'
+      presentation: 'https://speakerdeck.com/michalczukm/hack-tour-my-very-first-angular-4-application-workshops',
+      repository: 'https://github.com/michalczukm/gy-angular-workshops'
     }
   },
   {
@@ -363,7 +419,8 @@ export const past = [
       country: 'PL',
     },
     resources: {
-      presentation: 'https://speakerdeck.com/michalczukm/ngsummit-angular-meets-redux'
+      presentation: 'https://speakerdeck.com/michalczukm/ngsummit-angular-meets-redux',
+      repository: 'https://github.com/michalczukm/ngsummit_angular-meets-redux'
     }
   },
   {
@@ -380,7 +437,8 @@ export const past = [
       country: 'PL',
     },
     resources: {
-      presentation: 'https://speakerdeck.com/michalczukm/l-deroferencja-my-very-first-angular-2-application-workshops'
+      presentation: 'https://speakerdeck.com/michalczukm/l-deroferencja-my-very-first-angular-2-application-workshops',
+      repository: 'https://github.com/michalczukm/gy-angular-workshops'
     }
   },
   {
@@ -397,7 +455,8 @@ export const past = [
       country: 'PL',
     },
     resources: {
-      presentation: 'https://speakerdeck.com/michalczukm/itad-asp-dot-net-core'
+      presentation: 'https://speakerdeck.com/michalczukm/itad-asp-dot-net-core',
+      resources: 'https://github.com/michalczukm/itad-aspnet_core'
     }
   },
   {
@@ -430,6 +489,9 @@ export const past = [
     place: {
       city: 'Gdańsk',
       country: 'PL',
+    },
+    resources: {
+      repository: 'https://github.com/michalczukm/typescript-workshops'
     }
   },
   {
@@ -494,20 +556,6 @@ export const upcoming = [
     },
     place: {
       city: 'Warsaw',
-      country: 'PL',
-    },
-  },
-  {
-    type: 'presentation',
-    title: 'NGXS - yet another Angular state management library',
-    url: 'https://www.meetup.com/AngularJS-Wrocław/events/258942476',
-    event: {
-      name: 'Angular Wrocław',
-      url: 'https://www.meetup.com/AngularJS-Wrocław/',
-      startDate:  new Date('2019-05-30'),
-    },
-    place: {
-      city: 'Wrocław',
       country: 'PL',
     },
   },
