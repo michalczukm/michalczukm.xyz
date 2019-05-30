@@ -547,6 +547,20 @@ export const upcoming = [
   },
   {
     type: 'presentation',
+    title: `--- TBD ---`,
+    url: 'https://www.facebook.com/AngularTricity/',
+    event: {
+      name: 'Angular Tricity',
+      url: 'https://www.facebook.com/AngularTricity/',
+      startDate:  new Date('2019-06-25'),
+    },
+    place: {
+      city: 'Gdańsk',
+      country: 'PL',
+    },
+  },
+  {
+    type: 'presentation',
     title: `Bootcampy okiem trenera i developera`,
     url: 'https://www.meetup.com/WarsawJS/events/259419569/',
     event: {
