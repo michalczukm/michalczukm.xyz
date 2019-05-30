@@ -13,7 +13,7 @@ export const past = [
       country: 'PL',
     },
     resources: {
-      presentation: 'https://slides.com/michalczukm/ngxs-yet-another-state-management',
+      slides: 'https://slides.com/michalczukm/ngxs-yet-another-state-management',
       repository: 'https://github.com/michalczukm/ngxs-yet-another-state-management-presentation'
     }
   },
@@ -31,7 +31,7 @@ export const past = [
       country: 'PL',
     },
     resources: {
-      presentation: 'https://slides.com/michalczukm/mobile-web-browsers-ng-wroclaw#/',
+      slides: 'https://slides.com/michalczukm/mobile-web-browsers-ng-wroclaw#/',
       repository: 'https://github.com/michalczukm/mobile-web-do'
     }
   },
@@ -50,7 +50,7 @@ export const past = [
       country: 'RO',
     },
     resources: {
-      presentation: 'https://slides.com/michalczukm/mobile-web_voxxed-front#/',
+      slides: 'https://slides.com/michalczukm/mobile-web_voxxed-front#/',
       repository: 'https://github.com/michalczukm/mobile-web-do'
     }
   },
@@ -69,7 +69,7 @@ export const past = [
       country: 'PL',
     },
     resources: {
-        presentation: 'https://slides.com/michalczukm/typescript-between-layers',
+        slides: 'https://slides.com/michalczukm/typescript-between-layers',
         repository: 'https://github.com/infoshareacademy/infoshare-2019-typescript-between-layers'
     }
   },
@@ -87,7 +87,7 @@ export const past = [
       country: 'PL',
     },
     resources: {
-        presentation: 'https://slides.com/michalczukm/nodejs-in-dotnet-core-ecosystem',
+        slides: 'https://slides.com/michalczukm/nodejs-in-dotnet-core-ecosystem',
         repository: 'https://github.com/michalczukm/nodejs-in-dotnet-presentation'
     }
   },
@@ -106,7 +106,7 @@ export const past = [
       country: 'PL',
     },
     resources: {
-        presentation: 'https://slides.com/michalczukm/nodejs-in-dotnet-core-ecosystem',
+        slides: 'https://slides.com/michalczukm/nodejs-in-dotnet-core-ecosystem',
         repository: 'https://github.com/michalczukm/nodejs-in-dotnet-presentation'
     }
   },
@@ -124,7 +124,7 @@ export const past = [
       country: 'PL',
     },
     resources: {
-        presentation: 'https://slides.com/michalczukm/nodejs-streams-101',
+        slides: 'https://slides.com/michalczukm/nodejs-streams-101',
         repository: 'https://github.com/michalczukm/nodejs-streams-101'
     }
   },
@@ -142,7 +142,7 @@ export const past = [
       country: 'PL',
     },
     resources: {
-        presentation: 'https://slides.com/michalczukm/bootcamps-dev-trainer',
+        slides: 'https://slides.com/michalczukm/bootcamps-dev-trainer',
         video: 'https://youtu.be/OAWvgeo5MTE'
     }
   },
@@ -160,7 +160,7 @@ export const past = [
       country: 'PL',
     },
     resources: {
-        presentation: 'https://slides.com/michalczukm/nodejs-streams-101',
+        slides: 'https://slides.com/michalczukm/nodejs-streams-101',
         repository: 'https://github.com/michalczukm/nodejs-streams-101'
     }
   },
@@ -178,7 +178,7 @@ export const past = [
       country: 'PL',
     },
     resources: {
-        presentation: 'https://slides.com/michalczukm/nodejs-in-dotnet-core-ecosystem',
+        slides: 'https://slides.com/michalczukm/nodejs-in-dotnet-core-ecosystem',
         repository: 'https://github.com/michalczukm/nodejs-in-dotnet-presentation'
     }
   },
@@ -196,7 +196,7 @@ export const past = [
       country: 'PL',
     },
     resources: {
-        presentation: 'https://slides.com/michalczukm/typescript-magic-types',
+        slides: 'https://slides.com/michalczukm/typescript-magic-types',
         repository: 'https://github.com/michalczukm/typescript-magic-types-presentation'
     }
   },
@@ -214,7 +214,7 @@ export const past = [
       country: 'PL',
     },
     resources: {
-        presentation: 'https://slides.com/michalczukm/ngxs-yet-another-state-management',
+        slides: 'https://slides.com/michalczukm/ngxs-yet-another-state-management',
         repository: 'https://github.com/michalczukm/ngxs-yet-another-state-management-presentation'
     }
   },
@@ -232,7 +232,7 @@ export const past = [
       country: 'PL',
     },
     resources: {
-        presentation: 'https://slides.com/michalczukm/typescript-magic-types',
+        slides: 'https://slides.com/michalczukm/typescript-magic-types',
         video: 'https://youtu.be/2Fciqei6gcI',
         repository: 'https://github.com/michalczukm/typescript-magic-types-presentation'
     }
@@ -251,7 +251,7 @@ export const past = [
       country: 'PL',
     },
     resources: {
-        presentation: 'https://slides.com/michalczukm/nodejs-in-dotnet-core-ecosystem',
+        slides: 'https://slides.com/michalczukm/nodejs-in-dotnet-core-ecosystem',
         repository: 'https://github.com/michalczukm/nodejs-in-dotnet-presentation'
     }
   },
@@ -269,7 +269,7 @@ export const past = [
       country: 'PL',
     },
     resources: {
-        presentation: 'https://slides.com/michalczukm/mocking-api-for-front-end-devs'
+        slides: 'https://slides.com/michalczukm/mocking-api-for-front-end-devs'
     }
   },
   {
@@ -300,7 +300,7 @@ export const past = [
       country: 'PL',
     },
     resources: {
-        presentation: 'https://slides.com/michalczukm/typescript-magic-types-angular3city2018',
+        slides: 'https://slides.com/michalczukm/typescript-magic-types-angular3city2018',
         repository: 'https://github.com/michalczukm/typescript-magic-types-presentation'
     }
   },
@@ -366,7 +366,7 @@ export const past = [
       country: 'PL',
     },
     resources: {
-      presentation: 'https://speakerdeck.com/michalczukm/l-der-test-driven-development-in-c-number-workshop',
+      slides: 'https://speakerdeck.com/michalczukm/l-der-test-driven-development-in-c-number-workshop',
       repository: 'https://github.com/mturzynskigoyello/tdd'
     }
   },
@@ -384,7 +384,7 @@ export const past = [
       country: 'PL',
     },
     resources: {
-      presentation: 'https://speakerdeck.com/michalczukm/hack-tour-progressive-web-apps-what-are-they-when-to-use-them'
+      slides: 'https://speakerdeck.com/michalczukm/hack-tour-progressive-web-apps-what-are-they-when-to-use-them'
     }
   },
   {
@@ -401,7 +401,7 @@ export const past = [
       country: 'PL',
     },
     resources: {
-      presentation: 'https://speakerdeck.com/michalczukm/hack-tour-my-very-first-angular-4-application-workshops',
+      slides: 'https://speakerdeck.com/michalczukm/hack-tour-my-very-first-angular-4-application-workshops',
       repository: 'https://github.com/michalczukm/gy-angular-workshops'
     }
   },
@@ -419,7 +419,7 @@ export const past = [
       country: 'PL',
     },
     resources: {
-      presentation: 'https://speakerdeck.com/michalczukm/ngsummit-angular-meets-redux',
+      slides: 'https://speakerdeck.com/michalczukm/ngsummit-angular-meets-redux',
       repository: 'https://github.com/michalczukm/ngsummit_angular-meets-redux'
     }
   },
@@ -437,7 +437,7 @@ export const past = [
       country: 'PL',
     },
     resources: {
-      presentation: 'https://speakerdeck.com/michalczukm/l-deroferencja-my-very-first-angular-2-application-workshops',
+      slides: 'https://speakerdeck.com/michalczukm/l-deroferencja-my-very-first-angular-2-application-workshops',
       repository: 'https://github.com/michalczukm/gy-angular-workshops'
     }
   },
@@ -455,7 +455,7 @@ export const past = [
       country: 'PL',
     },
     resources: {
-      presentation: 'https://speakerdeck.com/michalczukm/itad-asp-dot-net-core',
+      slides: 'https://speakerdeck.com/michalczukm/itad-asp-dot-net-core',
       resources: 'https://github.com/michalczukm/itad-aspnet_core'
     }
   },
@@ -473,7 +473,7 @@ export const past = [
       country: 'PL',
     },
     resources: {
-      presentation: 'https://speakerdeck.com/michalczukm/3camp-front-end-tooling-package-managers',
+      slides: 'https://speakerdeck.com/michalczukm/3camp-front-end-tooling-package-managers',
       video: 'https://vimeo.com/192835137'
     }
   },
@@ -508,7 +508,7 @@ export const past = [
       country: 'PL',
     },
     resources: {
-      presentation: 'https://speakerdeck.com/michalczukm/agile3m-can-you-convince-client-to-your-way-of-work'
+      slides: 'https://speakerdeck.com/michalczukm/agile3m-can-you-convince-client-to-your-way-of-work'
     }
   },
   {
@@ -525,7 +525,7 @@ export const past = [
       country: 'PL',
     },
     resources: {
-      presentation: 'https://speakerdeck.com/michalczukm/meet-dot-js-typescript-what-is-new-any-why-you-are-not-using-it'
+      slides: 'https://speakerdeck.com/michalczukm/meet-dot-js-typescript-what-is-new-any-why-you-are-not-using-it'
     }
   },
 ]
