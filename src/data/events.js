@@ -533,6 +533,21 @@ export const past = [
 export const upcoming = [
   {
     type: 'presentation',
+    title: `--- TBD ---`,
+    url: 'https://sphere.it',
+    event: {
+      name: 'Sphere.it',
+      url: 'https://sphere.it',
+      startDate:  new Date('2019-10-07'),
+      endDate:  new Date('2019-10-09'),
+    },
+    place: {
+      city: 'Kraków',
+      country: 'PL',
+    },
+  },
+  {
+    type: 'presentation',
     title: `Bootcampy okiem trenera i developera`,
     url: 'https://dynamit.pro/',
     event: {
