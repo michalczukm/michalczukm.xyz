@@ -547,6 +547,20 @@ export const upcoming = [
   },
   {
     type: 'presentation',
+    title: `TypeScript across application layers`,
+    url: 'https://conf.airhelp.com/speaker/michal-michalczuk/',
+    event: {
+      name: 'AirConf S19',
+      url: 'https://conf.airhelp.com',
+      startDate:  new Date('2019-06-26'),
+    },
+    place: {
+      city: 'Gdańsk',
+      country: 'PL',
+    },
+  },
+  {
+    type: 'presentation',
     title: `--- TBD ---`,
     url: 'https://www.facebook.com/AngularTricity/',
     event: {
