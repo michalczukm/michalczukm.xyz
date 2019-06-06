@@ -51,7 +51,8 @@ export const past = [
     },
     resources: {
       slides: 'https://slides.com/michalczukm/mobile-web_voxxed-front#/',
-      repository: 'https://github.com/michalczukm/mobile-web-do'
+      repository: 'https://github.com/michalczukm/mobile-web-do',
+      video: 'https://youtu.be/iVg0B_vmb_Q'
     }
   },
   {
@@ -576,7 +577,7 @@ export const upcoming = [
   },
   {
     type: 'presentation',
-    title: `--- TBD ---`,
+    title: `Spectator: Make Angular tests great again/finally`,
     url: 'https://www.facebook.com/AngularTricity/',
     event: {
       name: 'Angular Tricity',

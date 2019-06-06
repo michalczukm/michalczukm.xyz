@@ -13,6 +13,16 @@ export const podcasts = [
 
 export const presentationsRecordings = [
   {
+    language: 'EN',
+    title:
+      'Voxxed Days Frontend 2019, - Michał Michalczuk - The power of mobile web browsers',
+    type: 'presentation',
+    url: 'https://youtu.be/iVg0B_vmb_Q',
+    thumbnailUrl: require('../assets/images/thumbnails/voxxeddays-frontend_2019.png'),
+    description: 'Interactive presentation about web browsers new APIs in context of PWA and devices sensors I gave at Voxxed Days Frontend in Bucharest, Romania.',
+    date: new Date('2019-05'),
+  },
+  {
     language: 'PL',
     title:
       'Boiling Frogs 2019 - Michał Michalczuk - Bootcampy okiem trenera i developera',
