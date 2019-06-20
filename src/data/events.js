@@ -1,6 +1,24 @@
 export const past = [
   {
     type: 'presentation',
+    title: `Bootcampy okiem trenera i developera`,
+    url: 'https://www.meetup.com/WarsawJS/events/259419569/',
+    event: {
+      name: 'WarsawJS',
+      url: 'https://warsawjs.com/',
+      startDate:  new Date('2019-06-12'),
+    },
+    place: {
+      city: 'Warsaw',
+      country: 'PL',
+    },
+    resources: {
+      slides: 'https://slides.com/michalczukm/bootcamps-warsawjs',
+      video: 'https://youtu.be/xE_0qfKolXk'
+    }
+  },
+  {
+    type: 'presentation',
     title: 'NGXS - yet another Angular state management library',
     url: 'https://www.meetup.com/AngularJS-Wrocław/events/258942476',
     event: {
@@ -586,20 +604,6 @@ export const upcoming = [
     },
     place: {
       city: 'Gdańsk',
-      country: 'PL',
-    },
-  },
-  {
-    type: 'presentation',
-    title: `Bootcampy okiem trenera i developera`,
-    url: 'https://www.meetup.com/WarsawJS/events/259419569/',
-    event: {
-      name: 'WarsawJS',
-      url: 'https://warsawjs.com/',
-      startDate:  new Date('2019-06-12'),
-    },
-    place: {
-      city: 'Warsaw',
       country: 'PL',
     },
   },

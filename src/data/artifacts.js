@@ -13,6 +13,16 @@ export const podcasts = [
 
 export const presentationsRecordings = [
   {
+    language: 'PL',
+    title:
+      'Michał Michalczuk — Bootcampy okiem trenera i developera [PL] — WarsawJS Meetup #58',
+    type: 'presentation',
+    url: 'https://youtu.be/xE_0qfKolXk',
+    thumbnailUrl: require('../assets/images/thumbnails/warsawjs-_06-2019.png'),
+    description: 'Prawie 3 lata pracuję jako trener na bootcamp’ach w Gdańsku, miałem okazję rektutować ludzi po bootcamp’ach i z nimi pracować. Chciałbym podzielić się z wami przemyśleniami oraz pewnymi statystykami o tej formie szkoleń, ich celu, absolwentach – pokazać gdzie ten system się sprawdza a gdzie nie.',
+    date: new Date('2019-06'),
+  },
+  {
     language: 'EN',
     title:
       'Voxxed Days Frontend 2019, - Michał Michalczuk - The power of mobile web browsers',
