@@ -552,7 +552,7 @@ export const past = [
 export const upcoming = [
   {
     type: 'presentation',
-    title: `--- TBD ---`,
+    title: `How to model your crazy data in TypeScript`,
     url: 'https://sphere.it',
     event: {
       name: 'Sphere.it',
