@@ -1,6 +1,24 @@
 export const past = [
   {
     type: 'presentation',
+    title: `Spectator: Make Angular tests great again`,
+    url: 'https://www.facebook.com/events/440146716816649/',
+    event: {
+      name: 'Angular Tricity',
+      url: 'https://www.facebook.com/AngularTricity/',
+      startDate:  new Date('2019-06-25'),
+    },
+    place: {
+      city: 'Gdańsk',
+      country: 'PL',
+    },
+    resources: {
+      slides: 'https://slides.com/michalczukm/spectator-angular-tests/',
+      repository: 'https://github.com/michalczukm/spectator-make-angular-tests-great-again-presentation'
+    }
+  },
+  {
+    type: 'presentation',
     title: `Bootcampy okiem trenera i developera`,
     url: 'https://www.meetup.com/WarsawJS/events/259419569/',
     event: {
@@ -587,20 +605,6 @@ export const upcoming = [
       name: 'AirConf S19',
       url: 'https://conf.airhelp.com',
       startDate:  new Date('2019-06-26'),
-    },
-    place: {
-      city: 'Gdańsk',
-      country: 'PL',
-    },
-  },
-  {
-    type: 'presentation',
-    title: `Spectator: Make Angular tests great again/finally`,
-    url: 'https://www.facebook.com/AngularTricity/',
-    event: {
-      name: 'Angular Tricity',
-      url: 'https://www.facebook.com/AngularTricity/',
-      startDate:  new Date('2019-06-25'),
     },
     place: {
       city: 'Gdańsk',
