@@ -86,8 +86,8 @@ class HomeIndex extends React.Component {
             </header>
 
             <span>
-              I am strongly web oriented{' '}
-              <strong>Full-Stack software developer</strong> and{' '}
+              I am a strongly web-oriented{' '}
+              <strong>sull-stack software developer</strong> and{' '}
               <SafeLink href="https://infoshareacademy.com/">
                 IT trainer
               </SafeLink>
@@ -105,14 +105,13 @@ class HomeIndex extends React.Component {
 
             <ul>
               <li>
-                As a front-end dev I am focused on TypeScript and Angular but I
-                am constantly exploring new areas,
+                As a front-end developer, I am focused on TypeScript and Angular, 
+                but I am constantly exploring new areas,
               </li>
               <li>
-                As a back-end dev I prefer Asp.net with C# or Node.js, but vary
-                of technologies and languages went through my fingers. I used to
-                work with WPF, Silverlight, Python and Django, Visual Basic, PHP
-                etc.
+                As a back-end developer, I prefer Asp.net with C# or Node.js, 
+                but I have experience with a variety of technologies and languages. 
+                I used to work with WPF, Silverlight, Python and Django, Visual Basic, PHP etc.
               </li>
             </ul>
 
