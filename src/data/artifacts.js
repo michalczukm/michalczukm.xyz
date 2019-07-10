@@ -19,7 +19,7 @@ export const presentationsRecordings = [
     type: 'presentation',
     url: 'https://youtu.be/xE_0qfKolXk',
     thumbnailUrl: require('../assets/images/thumbnails/warsawjs-_06-2019.png'),
-    description: 'Prawie 3 lata pracuję jako trener na bootcamp’ach w Gdańsku, miałem okazję rektutować ludzi po bootcamp’ach i z nimi pracować. Chciałbym podzielić się z wami przemyśleniami oraz pewnymi statystykami o tej formie szkoleń, ich celu, absolwentach – pokazać gdzie ten system się sprawdza a gdzie nie.',
+    description: 'My point of view about bootcamps - from my perspective as trainer who teach on bootcamps and developer who hire and work with bootcamps graduates',
     date: new Date('2019-06'),
   },
   {
