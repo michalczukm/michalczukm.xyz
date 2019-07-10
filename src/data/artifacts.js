@@ -68,6 +68,16 @@ export const series = [
     episodes: [
       {
         language: 'PL',
+        title: 'Across Stack - #4 API w Hapi i TypeScript',
+        type: 'video',
+        url:
+          'https://www.youtube.com/watch?v=k1-CIR-NJeE',
+        thumbnailUrl: require('../assets/images/thumbnails/across-stack-4_2019.png'),
+        description: 'I was host in webinar series by my idea - Across Stack.',
+        date: new Date('2019-06'),
+      },
+      {
+        language: 'PL',
         title: 'Across Stack - #3 Node.js & Nest.js',
         type: 'video',
         url:
