@@ -602,6 +602,36 @@ export const upcoming = [
     },
   },
   {
+    type: 'workshops',
+    title: '[Open Workshops] TypeScript: Front-end oraz aplikacje Node.js ze statycznym typowaniem',
+    url: 'https://infoshareacademy.com/kursy/szkolenie-otwarte_gdansk_typescript/',
+    event: {
+      name: 'infoShare Academy',
+      url: 'https://infoshareacademy.com/kursy/szkolenie-otwarte_gdansk_typescript/',
+      startDate: new Date('2019-09-19'),
+      endDate: new Date('2019-09-20'),
+    },
+    place: {
+      city: 'Gdańsk',
+      country: 'PL',
+    }
+  },
+  {
+    type: 'presentation',
+    title: `How to model your crazy data in TypeScript`,
+    url: 'https://grilljs.com/',
+    event: {
+      name: 'Grill.js',
+      url: 'https://grilljs.com/',
+      startDate:  new Date('2019-09-07'),
+      endDate:  new Date('2019-09-08'),
+    },
+    place: {
+      city: 'Wrocław',
+      country: 'PL',
+    },
+  },
+  {
     type: 'presentation',
     title: `Bootcampy okiem trenera i developera`,
     url: 'https://dynamit.pro/',
