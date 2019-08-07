@@ -207,7 +207,7 @@ export const past = [
     url: 'https://www.facebook.com/events/1929835677131194/',
     event: {
       name: 'Ciklum JS Meetup',
-      url: 'https://4developers.org.pl/',
+      url: 'https://www.facebook.com/events/1929835677131194/',
       startDate:  new Date('2019-01-29'),
     },
     place: {
@@ -588,6 +588,21 @@ export const past = [
 export const upcoming = [
   {
     type: 'presentation',
+    title: `Jak zamodelować twoje pokręcone dane w TypeScript`,
+    url: 'https://4developers.org.pl/lecture_wroclaw_2019/#id=56157',
+    event: {
+      name: '4developers Wrocław',
+      url: 'https://4developers.org.pl/wroclaw',
+      startDate:  new Date('2019-11-05'),
+      endDate:  new Date('2019-11-05'),
+    },
+    place: {
+      city: 'Wrocław',
+      country: 'PL',
+    },
+  },
+  {
+    type: 'presentation',
     title: `How to model your crazy data in TypeScript`,
     url: 'https://sphere.it',
     event: {
@@ -600,21 +615,6 @@ export const upcoming = [
       city: 'Kraków',
       country: 'PL',
     },
-  },
-  {
-    type: 'workshops',
-    title: '[Open Workshops] TypeScript: Front-end oraz aplikacje Node.js ze statycznym typowaniem',
-    url: 'https://infoshareacademy.com/kursy/szkolenie-otwarte_gdansk_typescript/',
-    event: {
-      name: 'infoShare Academy',
-      url: 'https://infoshareacademy.com/kursy/szkolenie-otwarte_gdansk_typescript/',
-      startDate: new Date('2019-09-19'),
-      endDate: new Date('2019-09-20'),
-    },
-    place: {
-      city: 'Gdańsk',
-      country: 'PL',
-    }
   },
   {
     type: 'presentation',
