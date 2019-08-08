@@ -593,8 +593,7 @@ export const upcoming = [
     event: {
       name: '4developers Wrocław',
       url: 'https://4developers.org.pl/wroclaw',
-      startDate:  new Date('2019-11-05'),
-      endDate:  new Date('2019-11-05'),
+      startDate:  new Date('2019-11-05')
     },
     place: {
       city: 'Wrocław',
@@ -613,6 +612,21 @@ export const upcoming = [
     },
     place: {
       city: 'Kraków',
+      country: 'PL',
+    },
+  },
+  {
+    type: 'presentation',
+    title: `Node.js streams 101 - czyli co warto wiedzieć o streamach nawet jeśli nie piszesz na co dzień w Node.js`,
+    url: 'https://hackyeah.pl/about-the-conference/',
+    event: {
+      name: 'HackYeah 2019',
+      url: 'https://hackyeah.pl/',
+      startDate:  new Date('2019-09-14'),
+      endDate:  new Date('2019-09-15'),
+    },
+    place: {
+      city: 'Warszawa',
       country: 'PL',
     },
   },
