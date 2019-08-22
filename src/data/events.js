@@ -1,6 +1,20 @@
 export const past = [
   {
     type: 'presentation',
+    title: `Bootcampy okiem trenera i developera`,
+    url: 'https://dynamit.pro/',
+    event: {
+      name: 'dynamIT',
+      url: 'https://dynamit.pro/',
+      startDate:  new Date('2019-08-17'),
+    },
+    place: {
+      city: 'Kraków',
+      country: 'PL',
+    },
+  },
+  {
+    type: 'presentation',
     title: `TypeScript across application layers`,
     url: 'https://conf.airhelp.com/speaker/michal-michalczuk/',
     event: {
@@ -642,20 +656,6 @@ export const upcoming = [
     },
     place: {
       city: 'Wrocław',
-      country: 'PL',
-    },
-  },
-  {
-    type: 'presentation',
-    title: `Bootcampy okiem trenera i developera`,
-    url: 'https://dynamit.pro/',
-    event: {
-      name: 'dynamIT',
-      url: 'https://dynamit.pro/',
-      startDate:  new Date('2019-08-17'),
-    },
-    place: {
-      city: 'Kraków',
       country: 'PL',
     },
   },
