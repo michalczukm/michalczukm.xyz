@@ -87,7 +87,7 @@ class HomeIndex extends React.Component {
 
             <span>
               I am a strongly web-oriented{' '}
-              <strong>sull-stack software developer</strong> and{' '}
+              <strong>full-stack software developer</strong> and{' '}
               <SafeLink href="https://infoshareacademy.com/">
                 IT trainer
               </SafeLink>

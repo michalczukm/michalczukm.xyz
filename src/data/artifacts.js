@@ -64,6 +64,41 @@ export const presentationsRecordings = [
 
 export const series = [
   {
+    name: 'Śniadanie z programowaniem@Just Join IT',
+    episodes: [
+      {
+        language: 'PL',
+        title: 'Śniadanie z programowaniem #3, 31.08.2019',
+        type: 'video',
+        url:
+          'https://www.facebook.com/JustJoinIT/videos/401231300579302/',
+        thumbnailUrl: require('../assets/images/thumbnails/sniadanie-3_2019.png'),
+        description: 'We drank some coffee with Bartosz and Piotr. Also - we checked hot and trending topics in IT :)',
+        date: new Date('2019-08'),
+      },
+      {
+        language: 'PL',
+        title: 'Śniadanie z programowaniem #2, 24.08.2019',
+        type: 'video',
+        url:
+          'https://www.facebook.com/JustJoinIT/videos/917794605237828/',
+        thumbnailUrl: require('../assets/images/thumbnails/sniadanie-2_2019.png'),
+        description: 'We drank some coffee with Bartosz and Piotr. Also - we checked hot and trending topics in IT :)',
+        date: new Date('2019-08'),
+      },
+      {
+        language: 'PL',
+        title: 'Śniadanie z programowaniem #1, 14.08.2019',
+        type: 'video',
+        url:
+          'https://www.facebook.com/JustJoinIT/videos/728129414260638/',
+        thumbnailUrl: require('../assets/images/thumbnails/sniadanie-1_2019.png'),
+        description: 'We drank some coffee with Bartosz and Piotr. Also - we checked hot and trending topics in IT :)',
+        date: new Date('2019-08'),
+      },
+    ],
+  },
+  {
     name: 'Across Stack',
     episodes: [
       {
