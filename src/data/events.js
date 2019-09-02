@@ -533,7 +533,7 @@ export const past = [
     title: 'Front-end tooling: Package Managers',
     url: 'http://tech.3camp.pl/tech-3camp-36-15-listopada-w-gpn-t/',
     event: {
-      name: '3Camp.tech',
+      name: 'Tech.3Camp',
       url: 'http://tech.3camp.pl/',
       startDate:  new Date('2016-11-15'),
     },
@@ -646,7 +646,21 @@ export const upcoming = [
   },
   {
     type: 'presentation',
-    title: `How to model your crazy data in TypeScript`,
+    title: 'Bootcampy okiem trenera i developera',
+    url: 'http://tech.3camp.pl/tech-3camp-58-backend/',
+    event: {
+      name: 'Tech.3Camp',
+      url: 'http://tech.3camp.pl/',
+      startDate:  new Date('2019-09-10'),
+    },
+    place: {
+      city: 'Gdańsk',
+      country: 'PL',
+    },
+  },
+  {
+    type: 'presentation',
+    title: 'How to model your crazy data in TypeScript',
     url: 'https://grilljs.com/',
     event: {
       name: 'Grill.js',
