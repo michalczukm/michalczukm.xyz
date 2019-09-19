@@ -24,13 +24,16 @@ class Footer extends React.Component {
               </SafeLink>
             </li>
             <li>
-              <SafeLink href="mailto:michalczukm@gmail.com" className="icon fa-envelope-o">
+              <a href="mailto:michalczukm@gmail.com?subject=Hey Michał!" className="icon fa-envelope-o">
                 <span className="label">Email</span>
-              </SafeLink>
+              </a>
             </li>
           </ul>
           <ul className="copyright">
             <li>&copy; Michał Michalczuk</li>
+            <li>
+              <a href="mailto:michalczukm@gmail.com?subject=Hey Michał!">michalczukm@gmail.com</a>
+            </li>
             <li>
               Powered by: <SafeLink href="https://www.gatsbyjs.org/">Gatsby.js</SafeLink> and <SafeLink href="https://www.gatsbyjs.org/starters/codebushi/gatsby-starter-strata/">gatsby-strata</SafeLink>
             </li>
