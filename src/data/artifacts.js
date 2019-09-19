@@ -15,6 +15,16 @@ export const presentationsRecordings = [
   {
     language: 'PL',
     title:
+      'InfoShare 2019: Michał Michalczuk, Bartosz Cytrowski - TypeScript na styku warstw aplikacji',
+    type: 'presentation',
+    url: 'https://youtu.be/99ZtVKG5PzI',
+    thumbnailUrl: require('../assets/images/thumbnails/infoshare_2019.png'),
+    description: 'We were talking about extending TypeScript usage for all layers in web apps. Talk in Polish',
+    date: new Date('2019-05'),
+  },
+  {
+    language: 'PL',
+    title:
       'Michał Michalczuk — Bootcampy okiem trenera i developera [PL] — WarsawJS Meetup #58',
     type: 'presentation',
     url: 'https://youtu.be/xE_0qfKolXk',
