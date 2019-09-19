@@ -1,6 +1,42 @@
 export const past = [
   {
     type: 'presentation',
+    title: `Node.js streams 101 - czyli co warto wiedzieć o streamach nawet jeśli nie piszesz na co dzień w Node.js`,
+    url: 'https://hackyeah.pl/about-the-conference/',
+    event: {
+      name: 'HackYeah 2019',
+      url: 'https://hackyeah.pl/',
+      startDate:  new Date('2019-09-14'),
+      endDate:  new Date('2019-09-15'),
+    },
+    place: {
+      city: 'Warszawa',
+      country: 'PL',
+    },
+    resources: {
+      presentation: 'https://slides.com/michalczukm/nodejs-streams-101',
+      repository: 'https://github.com/michalczukm/nodejs-streams-101'
+    }
+  },
+  {
+    type: 'presentation',
+    title: 'Bootcampy okiem trenera i developera',
+    url: 'http://tech.3camp.pl/tech-3camp-58-backend/',
+    event: {
+      name: 'Tech.3Camp',
+      url: 'http://tech.3camp.pl/',
+      startDate:  new Date('2019-09-10'),
+    },
+    place: {
+      city: 'Gdańsk',
+      country: 'PL',
+    },
+    resources: {
+      slides: 'https://slides.com/michalczukm/bootcamps-warsawjs'
+    }
+  },
+  {
+    type: 'presentation',
     title: 'How to model your crazy data in TypeScript',
     url: 'https://grilljs.com/',
     event: {
@@ -13,6 +49,10 @@ export const past = [
       city: 'Wrocław',
       country: 'PL',
     },
+    resources: {
+      slides: 'https://slides.com/michalczukm/how-to-model-your-crazy-data-with-typescript',
+      repository: 'https://stackblitz.com/edit/typescript-model-crazy-types'
+    }
   },
   {
     type: 'presentation',
@@ -641,35 +681,6 @@ export const upcoming = [
     },
     place: {
       city: 'Kraków',
-      country: 'PL',
-    },
-  },
-  {
-    type: 'presentation',
-    title: `Node.js streams 101 - czyli co warto wiedzieć o streamach nawet jeśli nie piszesz na co dzień w Node.js`,
-    url: 'https://hackyeah.pl/about-the-conference/',
-    event: {
-      name: 'HackYeah 2019',
-      url: 'https://hackyeah.pl/',
-      startDate:  new Date('2019-09-14'),
-      endDate:  new Date('2019-09-15'),
-    },
-    place: {
-      city: 'Warszawa',
-      country: 'PL',
-    },
-  },
-  {
-    type: 'presentation',
-    title: 'Bootcampy okiem trenera i developera',
-    url: 'http://tech.3camp.pl/tech-3camp-58-backend/',
-    event: {
-      name: 'Tech.3Camp',
-      url: 'http://tech.3camp.pl/',
-      startDate:  new Date('2019-09-10'),
-    },
-    place: {
-      city: 'Gdańsk',
       country: 'PL',
     },
   },
