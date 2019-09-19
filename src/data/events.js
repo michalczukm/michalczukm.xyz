@@ -671,6 +671,20 @@ export const upcoming = [
   },
   {
     type: 'presentation',
+    title: `Bootcampy okiem trenera i developera`,
+    url: 'https://4developers.org.pl/lecture_wroclaw_2019/#id=56845',
+    event: {
+      name: '4developers Wrocław',
+      url: 'https://4developers.org.pl/wroclaw',
+      startDate:  new Date('2019-11-05')
+    },
+    place: {
+      city: 'Wrocław',
+      country: 'PL',
+    },
+  },
+  {
+    type: 'presentation',
     title: `How to model your crazy data in TypeScript`,
     url: 'https://sphere.it',
     event: {
