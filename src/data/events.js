@@ -1,6 +1,21 @@
 export const past = [
   {
     type: 'presentation',
+    title: 'How to model your crazy data in TypeScript',
+    url: 'https://grilljs.com/',
+    event: {
+      name: 'Grill.js',
+      url: 'https://grilljs.com/',
+      startDate:  new Date('2019-09-07'),
+      endDate:  new Date('2019-09-08'),
+    },
+    place: {
+      city: 'Wrocław',
+      country: 'PL',
+    },
+  },
+  {
+    type: 'presentation',
     title: `Bootcampy okiem trenera i developera`,
     url: 'https://dynamit.pro/',
     event: {
@@ -655,21 +670,6 @@ export const upcoming = [
     },
     place: {
       city: 'Gdańsk',
-      country: 'PL',
-    },
-  },
-  {
-    type: 'presentation',
-    title: 'How to model your crazy data in TypeScript',
-    url: 'https://grilljs.com/',
-    event: {
-      name: 'Grill.js',
-      url: 'https://grilljs.com/',
-      startDate:  new Date('2019-09-07'),
-      endDate:  new Date('2019-09-08'),
-    },
-    place: {
-      city: 'Wrocław',
       country: 'PL',
     },
   },
