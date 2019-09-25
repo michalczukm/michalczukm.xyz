@@ -78,11 +78,21 @@ export const series = [
     episodes: [
       {
         language: 'PL',
+        title: 'Śniadanie z programowaniem #6, 25.09.2019',
+        type: 'video',
+        url:
+          'https://www.facebook.com/JustJoinIT/videos/502242623667809/UzpfSTExNDE2MTY4MjU6MTAyMTQ1MzM1NjExODk3MjY',
+        thumbnailUrl: require('../assets/images/thumbnails/sniadanie-6_2019.png'),
+        description: 'We drank some coffee with Piotr (Bartosz got flue). Also - we checked hot and trending topics in IT :)',
+        date: new Date('2019-09'),
+      },
+      {
+        language: 'PL',
         title: 'Śniadanie z programowaniem #4, 10.09.2019',
         type: 'video',
         url:
           'https://www.facebook.com/JustJoinIT/videos/533774114035995',
-        thumbnailUrl: require('../assets/images/thumbnails/sniadanie-3_2019.png'),
+        thumbnailUrl: require('../assets/images/thumbnails/sniadanie-4_2019.png'),
         description: 'We drank some coffee with Bartosz and Piotr. Also - we checked hot and trending topics in IT :)',
         date: new Date('2019-09'),
       },
