@@ -45,6 +45,16 @@ export const presentationsRecordings = [
   {
     language: 'PL',
     title:
+      'Michał Michalczuk — Bootcampy okiem trenera i developera [PL] — 3Camp.pl',
+    type: 'presentation',
+    url: 'https://vimeo.com/362339836',
+    thumbnailUrl: require('../assets/images/thumbnails/3camp_09-2019.png'),
+    description: 'My point of view about bootcamps - from my perspective as trainer who teach on bootcamps and developer who hire and work with bootcamps graduates',
+    date: new Date('2019-09'),
+  },
+  {
+    language: 'PL',
+    title:
       'Boiling Frogs 2019 - Michał Michalczuk - Bootcampy okiem trenera i developera',
     type: 'presentation',
     url: 'https://youtu.be/OAWvgeo5MTE',

@@ -685,6 +685,20 @@ export const upcoming = [
   },
   {
     type: 'presentation',
+    title: `Bootcampy okiem trenera i developera`,
+    url: 'https://future3.pl/#prelegenci',
+    event: {
+      name: 'Future3',
+      url: 'https://future3.pl/',
+      startDate:  new Date('2019-10-17')
+    },
+    place: {
+      city: 'Gdańsk',
+      country: 'PL',
+    },
+  },
+  {
+    type: 'presentation',
     title: `How to model your crazy data in TypeScript`,
     url: 'https://sphere.it',
     event: {
