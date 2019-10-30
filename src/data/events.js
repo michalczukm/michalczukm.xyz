@@ -1,6 +1,35 @@
 export const past = [
   {
     type: 'presentation',
+    title: `Bootcampy okiem trenera i developera`,
+    url: 'https://future3.pl/#prelegenci',
+    event: {
+      name: 'Future3',
+      url: 'https://future3.pl/',
+      startDate:  new Date('2019-10-17')
+    },
+    place: {
+      city: 'Gdańsk',
+      country: 'PL',
+    },
+  },
+  {
+    type: 'presentation',
+    title: `How to model your crazy data in TypeScript`,
+    url: 'https://sphere.it',
+    event: {
+      name: 'Sphere.it',
+      url: 'https://sphere.it',
+      startDate:  new Date('2019-10-07'),
+      endDate:  new Date('2019-10-09'),
+    },
+    place: {
+      city: 'Kraków',
+      country: 'PL',
+    },
+  },
+  {
+    type: 'presentation',
     title: `Node.js streams 101 - czyli co warto wiedzieć o streamach nawet jeśli nie piszesz na co dzień w Node.js`,
     url: 'https://hackyeah.pl/about-the-conference/',
     event: {
@@ -680,35 +709,6 @@ export const upcoming = [
     },
     place: {
       city: 'Wrocław',
-      country: 'PL',
-    },
-  },
-  {
-    type: 'presentation',
-    title: `Bootcampy okiem trenera i developera`,
-    url: 'https://future3.pl/#prelegenci',
-    event: {
-      name: 'Future3',
-      url: 'https://future3.pl/',
-      startDate:  new Date('2019-10-17')
-    },
-    place: {
-      city: 'Gdańsk',
-      country: 'PL',
-    },
-  },
-  {
-    type: 'presentation',
-    title: `How to model your crazy data in TypeScript`,
-    url: 'https://sphere.it',
-    event: {
-      name: 'Sphere.it',
-      url: 'https://sphere.it',
-      startDate:  new Date('2019-10-07'),
-      endDate:  new Date('2019-10-09'),
-    },
-    place: {
-      city: 'Kraków',
       country: 'PL',
     },
   },

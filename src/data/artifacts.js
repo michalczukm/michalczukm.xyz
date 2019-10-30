@@ -2,6 +2,16 @@ export const podcasts = [
   {
     language: 'PL',
     title:
+      'Teams, Products, Culture. #0',
+    type: 'podcast',
+    url: 'http://teams.products.culture.buzzsprout.com/606583/1886259-let-s-talk-about-learning-it-s-hard',
+    thumbnailUrl: require('../assets/images/thumbnails/spartez-podcast-0.png'),
+    description: 'Episode #0 of our own Spartez podcast. We discussed with Bartosz about learning process.',
+    date: new Date('2019-05'),
+  },
+  {
+    language: 'PL',
+    title:
       'Front-end 2019',
     type: 'podcast',
     url: 'https://devsession.pl/frontend-2019-michal-michalczuk/',
@@ -20,6 +30,16 @@ export const presentationsRecordings = [
     url: 'https://youtu.be/99ZtVKG5PzI',
     thumbnailUrl: require('../assets/images/thumbnails/infoshare_2019.png'),
     description: 'We were talking about extending TypeScript usage for all layers in web apps. Talk in Polish',
+    date: new Date('2019-05'),
+  },
+  {
+    language: 'EN',
+    title:
+      'JavaScriptSphere: How to model your crazy data in TypeScript by Michał Michalczuk',
+    type: 'presentation',
+    url: 'https://youtu.be/HQ-7ldlWXmY',
+    thumbnailUrl: require('../assets/images/thumbnails/sphere-it_2019.png'),
+    description: "Our data can be crazy, our data models can be crazy. I'm talking about proper data modeling in TypeScript",
     date: new Date('2019-05'),
   },
   {
@@ -86,6 +106,26 @@ export const series = [
   {
     name: 'Śniadanie z programowaniem@Just Join IT',
     episodes: [
+      {
+        language: 'PL',
+        title: 'Śniadanie z programowaniem #10, 24.10.2019',
+        type: 'video',
+        url:
+          'https://www.facebook.com/JustJoinIT/videos/532375157596408/UzpfSTExNDE2MTY4MjU6MTAyMTQ3NDk4MjYyMzYyMTc/',
+        thumbnailUrl: require('../assets/images/thumbnails/sniadanie-10_2019.png'),
+        description: 'We drank some coffee with Bartosz and Tomek. Also - we checked hot and trending topics in IT :)',
+        date: new Date('2019-10'),
+      },
+      {
+        language: 'PL',
+        title: 'Śniadanie z programowaniem #8, 10.10.2019',
+        type: 'video',
+        url:
+          'https://www.facebook.com/JustJoinIT/videos/768043120332553/',
+        thumbnailUrl: require('../assets/images/thumbnails/sniadanie-8_2019.png'),
+        description: 'We drank some coffee with Piotr and Bartosz. Also - we checked hot and trending topics in IT :)',
+        date: new Date('2019-10'),
+      },
       {
         language: 'PL',
         title: 'Śniadanie z programowaniem #6, 25.09.2019',
