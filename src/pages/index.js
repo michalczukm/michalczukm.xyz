@@ -14,21 +14,22 @@ import {
   podcasts,
 } from '../data/artifacts'
 
-class HomeIndex extends React.Component {
-  getEvents(events) {
-    return events.map((event, index) => (
-      <Event
-        key={index}
-        title={event.title}
-        url={event.url}
-        event={event.event}
-        place={event.place}
-        type={event.type}
-        resources={event.resources}
-      />
-    ))
-  }
+const withDefaultEmpty = (items, emptyMessage) => items && items.length ? items : <p>{emptyMessage}</p>
 
+const getEvents = events =>
+  events.map((event, index) => (
+    <Event
+      key={index}
+      title={event.title}
+      url={event.url}
+      event={event.event}
+      place={event.place}
+      type={event.type}
+      resources={event.resources}
+    />
+  ))
+
+class HomeIndex extends React.Component {
   getPublicArtifacts() {
     return (
       <Fragment>
@@ -93,9 +94,9 @@ class HomeIndex extends React.Component {
               </SafeLink>
               .
             </span>
-            
+
             <p>
-            One of hosts of{' '}
+              One of hosts of{' '}
               <SafeLink href="https://sniadaniezprogramowaniem.pl/">
                 Śniadanie z Programowaniem by JustJoin It
               </SafeLink>{' '}
@@ -111,7 +112,7 @@ class HomeIndex extends React.Component {
               TypeScript fan and promoter. Sometimes scrum master, architect,
               team leader, speaker.
             </p>
-            
+
             <ul className="actions">
               <li>
                 <SafeLink
@@ -126,13 +127,13 @@ class HomeIndex extends React.Component {
 
           <section id="upcoming-events">
             <h2>Upcoming events</h2>
-            {this.getEvents(events.upcoming)}
+            {withDefaultEmpty(getEvents(events.upcoming), 'No plans for now. You want to invite me? Please write an email!')}
           </section>
 
           <div className="two-column">
             <section id="past-events">
               <h2>Past events</h2>
-              {this.getEvents(events.past)}
+              {getEvents(events.past)}
             </section>
             <section id="public-artifacts">
               <h2>Public artifacts</h2>
