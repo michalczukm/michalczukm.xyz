@@ -45,6 +45,16 @@ export const presentationsRecordings = [
   {
     language: 'PL',
     title:
+      'Czym jest Blazor - Front.NET. Michał Michalczuk & Mateusz Turzyński',
+    type: 'presentation',
+    url: 'https://www.facebook.com/AspireSystemsPL/videos/2491760444412634/UzpfSTEwODkwMDQ5MTQ6Vks6NTQ2NTM2NDQyNzk0NjU0/',
+    thumbnailUrl: require('../assets/images/thumbnails/aspire-universe-1-_11-2019.png'),
+    description: 'With Mateusz we did an introduction talk about Blazor - how we see it from .NET developer and front-end developer perspective',
+    date: new Date('2019-11'),
+  },
+  {
+    language: 'PL',
+    title:
       'Michał Michalczuk — Bootcampy okiem trenera i developera [PL] — WarsawJS Meetup #58',
     type: 'presentation',
     url: 'https://youtu.be/xE_0qfKolXk',
@@ -104,8 +114,28 @@ export const presentationsRecordings = [
 
 export const series = [
   {
-    name: 'Śniadanie z programowaniem@Just Join IT',
+    name: 'Śniadanie z Programowaniem @ Just Join IT',
     episodes: [
+      {
+        language: 'PL',
+        title: 'Śniadanie z programowaniem #14, 14.11.2019',
+        type: 'video',
+        url:
+          'https://www.facebook.com/JustJoinIT/videos/3038417473050223/',
+        thumbnailUrl: require('../assets/images/thumbnails/sniadanie-14_2019.png'),
+        description: 'We drank some coffee with Bartosz and Tomek. Also - we checked hot and trending topics in IT :)',
+        date: new Date('2019-11'),
+      },
+      {
+        language: 'PL',
+        title: 'Śniadanie z programowaniem #12, 07.11.2019',
+        type: 'video',
+        url:
+          'https://www.facebook.com/JustJoinIT/videos/2373559082958998/',
+        thumbnailUrl: require('../assets/images/thumbnails/sniadanie-12_2019.png'),
+        description: 'We drank some coffee with Bartosz and Tomek. Also - we checked hot and trending topics in IT :)',
+        date: new Date('2019-11'),
+      },
       {
         language: 'PL',
         title: 'Śniadanie z programowaniem #10, 24.10.2019',
