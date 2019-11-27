@@ -118,7 +118,7 @@ export const series = [
     episodes: [
       {
         language: 'PL',
-        title: 'Śniadanie z programowaniem #14, 14.11.2019',
+        title: 'Śniadanie z programowaniem #14, 21.11.2019',
         type: 'video',
         url:
           'https://www.facebook.com/JustJoinIT/videos/3038417473050223/',
