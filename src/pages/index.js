@@ -93,6 +93,15 @@ class HomeIndex extends React.Component {
               </SafeLink>
               .
             </span>
+            
+            <p>
+            One of hosts of{' '}
+              <SafeLink href="https://sniadaniezprogramowaniem.pl/">
+                Śniadanie z Programowaniem by JustJoin It
+              </SafeLink>{' '}
+              breakfast show.
+            </p>
+
             <p>
               I believe that teaching others and sharing knowledge make us
               better developers.
@@ -102,19 +111,7 @@ class HomeIndex extends React.Component {
               TypeScript fan and promoter. Sometimes scrum master, architect,
               team leader, speaker.
             </p>
-
-            <ul>
-              <li>
-                As a front-end developer, I am focused on TypeScript and Angular, 
-                but I am constantly exploring new areas,
-              </li>
-              <li>
-                As a back-end developer, I prefer Asp.net with C# or Node.js, 
-                but I have experience with a variety of technologies and languages. 
-                I used to work with WPF, Silverlight, Python and Django, Visual Basic, PHP etc.
-              </li>
-            </ul>
-
+            
             <ul className="actions">
               <li>
                 <SafeLink
