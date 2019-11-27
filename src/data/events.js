@@ -788,4 +788,19 @@ export const past = [
   },
 ]
 
-export const upcoming = []
+export const upcoming = [
+  {
+    type: 'presentation',
+    title: 'TBD',
+    url: 'https://www.meetup.com/pl-PL/typescript-krakow/?_locale=pl-PL',
+    event: {
+      name: 'Krakow TypeScript User Group',
+      url: 'https://www.meetup.com/pl-PL/typescript-krakow/events/266226393/',
+      startDate: new Date('2022-02-11'),
+    },
+    place: {
+      city: 'Kraków',
+      country: 'PL',
+    },
+  },
+]
