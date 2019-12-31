@@ -7,7 +7,7 @@ export const podcasts = [
     url: 'http://teams.products.culture.buzzsprout.com/606583/1886259-let-s-talk-about-learning-it-s-hard',
     thumbnailUrl: require('../assets/images/thumbnails/spartez-podcast-0.png'),
     description: 'Episode #0 of our own Spartez podcast. We discussed with Bartosz about learning process.',
-    date: new Date('2019-05'),
+    date: new Date('2019-10'),
   },
   {
     language: 'PL',
@@ -116,6 +116,16 @@ export const series = [
   {
     name: 'Śniadanie z Programowaniem @ Just Join IT',
     episodes: [
+      {
+        language: 'PL',
+        title: 'Śniadanie z programowaniem #18, 19.12.2019',
+        type: 'video',
+        url:
+          'https://www.facebook.com/JustJoinIT/videos/2563109703802847/',
+        thumbnailUrl: require('../assets/images/thumbnails/sniadanie-18_2019.png'),
+        description: 'We drank some coffee with Bartosz and Tomek. Also - we checked hot and trending topics in IT :)',
+        date: new Date('2019-12'),
+      },
       {
         language: 'PL',
         title: 'Śniadanie z programowaniem #14, 21.11.2019',
