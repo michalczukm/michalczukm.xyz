@@ -40,7 +40,7 @@ export const presentationsRecordings = [
     url: 'https://youtu.be/HQ-7ldlWXmY',
     thumbnailUrl: require('../assets/images/thumbnails/sphere-it_2019.png'),
     description: "Our data can be crazy, our data models can be crazy. I'm talking about proper data modeling in TypeScript",
-    date: new Date('2019-05'),
+    date: new Date('2019-11'),
   },
   {
     language: 'PL',
