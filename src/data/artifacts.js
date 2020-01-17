@@ -118,6 +118,16 @@ export const series = [
     episodes: [
       {
         language: 'PL',
+        title: 'Śniadanie z programowaniem #19, 09.01.2020',
+        type: 'video',
+        url:
+          'https://www.facebook.com/JustJoinIT/videos/2830224380333190/',
+        thumbnailUrl: require('../assets/images/thumbnails/sniadanie-19_2020.png'),
+        description: 'We drank some coffee with Bartosz and Tomek. Also - we checked hot and trending topics in IT :)',
+        date: new Date('2020-01'),
+      },
+      {
+        language: 'PL',
         title: 'Śniadanie z programowaniem #18, 19.12.2019',
         type: 'video',
         url:
