@@ -118,6 +118,36 @@ export const series = [
     episodes: [
       {
         language: 'PL',
+        title: 'Śniadanie z programowaniem 25, 21.02.2020',
+        type: 'video',
+        url:
+          'https://www.facebook.com/JustJoinIT/videos/314067912882423/',
+        thumbnailUrl: require('../assets/images/thumbnails/sniadanie-25_2020.png'),
+        description: 'We drank some coffee with Bartek, Michał and Marcin. Also - we checked hot and trending topics in IT :)',
+        date: new Date('2020-02'),
+      },
+      {
+        language: 'PL',
+        title: 'Śniadanie z programowaniem 23, 07.02.2020',
+        type: 'video',
+        url:
+          'https://www.facebook.com/JustJoinIT/videos/495384067829348/',
+        thumbnailUrl: require('../assets/images/thumbnails/sniadanie-23_2020.png'),
+        description: 'We drank some coffee with Bartek, Michał and Tomek. Also - we checked hot and trending topics in IT :)',
+        date: new Date('2020-21'),
+      },
+      {
+        language: 'PL',
+        title: 'Śniadanie z programowaniem 21, 23.01.2020',
+        type: 'video',
+        url:
+          'https://www.facebook.com/JustJoinIT/videos/2247700648867613/',
+        thumbnailUrl: require('../assets/images/thumbnails/sniadanie-21_2020.png'),
+        description: 'We drank some coffee with Michał and Tomek. Also - we checked hot and trending topics in IT :)',
+        date: new Date('2020-01'),
+      },
+      {
+        language: 'PL',
         title: 'Śniadanie z programowaniem #19, 09.01.2020',
         type: 'video',
         url:

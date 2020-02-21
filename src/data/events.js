@@ -788,4 +788,20 @@ export const past = [
   },
 ]
 
-export const upcoming = []
+export const upcoming = [
+  {
+    type: 'presentation',
+    title:
+      'How to model your crazy data in TypeScript ',
+    url: 'https://www.meetup.com/pl-PL/TG-NET/events/268784112/',
+    event: {
+      name: 'TG-NET',
+      url: 'https://www.meetup.com/TG-NET/',
+      startDate: new Date('2020-03-12'),
+    },
+    place: {
+      city: 'Gdańsk',
+      country: 'PL',
+    }
+  },
+]
