@@ -790,6 +790,20 @@ export const past = [
 
 export const upcoming = [
   {
+    type: 'webinar',
+    title: '[Host] Flavours of testing in C#',
+    url: 'https://www.facebook.com/AspireSystemsPL/posts/10157348228138740',
+    event: {
+      name: 'Aspire Tech Universe',
+      url: 'https://www.facebook.com/AspireSystemsPL/posts/10157348228138740',
+      startDate: new Date('2020-02-27'),
+    },
+    place: {
+      city: 'Live webinar',
+      country: 'Your browser'
+    }
+  },
+  {
     type: 'presentation',
     title:
       'How to model your crazy data in TypeScript ',

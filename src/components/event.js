@@ -17,6 +17,8 @@ const getTypeIcon = type => {
       return 'fa-podcast'
     case 'discussion':
       return 'fa-comments-o'
+    case 'webinar':
+      return 'fa-camera'
     default:
       break
   }
