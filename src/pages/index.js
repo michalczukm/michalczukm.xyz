@@ -47,7 +47,8 @@ class HomeIndex extends React.Component {
 
         {series.map((seriesItem, index) => (
           <Fragment key={index}>
-            <h3>Series: {seriesItem.name}</h3>
+            <h3>{seriesItem.name}</h3>
+            { seriesItem.description && (<h4>{seriesItem.description}</h4>) }
             {seriesItem.episodes.map((item, seriesIndex) => (
               <Video key={`${index}-${seriesIndex}`} artifact={item} />
             ))}
