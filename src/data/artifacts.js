@@ -119,12 +119,32 @@ export const series = [
     episodes: [
       {
         language: 'PL',
+        title: 'Śniadanie z programowaniem 29, 20.03.2020',
+        type: 'video',
+        url:
+          'https://www.facebook.com/JustJoinIT/videos/159472355167163/',
+        thumbnailUrl: require('../assets/images/thumbnails/sniadanie-29_2020.png'),
+        description: 'http://sniadaniezprogramowaniem.pl/',
+        date: new Date('2020-03'),
+      },
+      {
+        language: 'PL',
+        title: 'Śniadanie z programowaniem 27, 06.03.2020',
+        type: 'video',
+        url:
+          'https://www.facebook.com/JustJoinIT/videos/485260805691878/',
+        thumbnailUrl: require('../assets/images/thumbnails/sniadanie-27_2020.png'),
+        description: 'http://sniadaniezprogramowaniem.pl/',
+        date: new Date('2020-03'),
+      },
+      {
+        language: 'PL',
         title: 'Śniadanie z programowaniem 25, 21.02.2020',
         type: 'video',
         url:
           'https://www.facebook.com/JustJoinIT/videos/314067912882423/',
         thumbnailUrl: require('../assets/images/thumbnails/sniadanie-25_2020.png'),
-        description: 'https://sniadaniezprogramowaniem.pl/',
+        description: 'http://sniadaniezprogramowaniem.pl/',
         date: new Date('2020-02'),
       },
       {
@@ -134,7 +154,7 @@ export const series = [
         url:
           'https://www.facebook.com/JustJoinIT/videos/495384067829348/',
         thumbnailUrl: require('../assets/images/thumbnails/sniadanie-23_2020.png'),
-        description: 'https://sniadaniezprogramowaniem.pl/',
+        description: 'http://sniadaniezprogramowaniem.pl/',
         date: new Date('2020-02'),
       },
       {
@@ -144,7 +164,7 @@ export const series = [
         url:
           'https://www.facebook.com/JustJoinIT/videos/2247700648867613/',
         thumbnailUrl: require('../assets/images/thumbnails/sniadanie-21_2020.png'),
-        description: 'https://sniadaniezprogramowaniem.pl/',
+        description: 'http://sniadaniezprogramowaniem.pl/',
         date: new Date('2020-01'),
       },
       {
@@ -154,7 +174,7 @@ export const series = [
         url:
           'https://www.facebook.com/JustJoinIT/videos/2830224380333190/',
         thumbnailUrl: require('../assets/images/thumbnails/sniadanie-19_2020.png'),
-        description: 'https://sniadaniezprogramowaniem.pl/',
+        description: 'http://sniadaniezprogramowaniem.pl/',
         date: new Date('2020-01'),
       },
       {
@@ -164,7 +184,7 @@ export const series = [
         url:
           'https://www.facebook.com/JustJoinIT/videos/2563109703802847/',
         thumbnailUrl: require('../assets/images/thumbnails/sniadanie-18_2019.png'),
-        description: 'https://sniadaniezprogramowaniem.pl/',
+        description: 'http://sniadaniezprogramowaniem.pl/',
         date: new Date('2019-12'),
       },
       {
@@ -174,7 +194,7 @@ export const series = [
         url:
           'https://www.facebook.com/JustJoinIT/videos/3038417473050223/',
         thumbnailUrl: require('../assets/images/thumbnails/sniadanie-14_2019.png'),
-        description: 'https://sniadaniezprogramowaniem.pl/',
+        description: 'http://sniadaniezprogramowaniem.pl/',
         date: new Date('2019-11'),
       },
       {
@@ -184,7 +204,7 @@ export const series = [
         url:
           'https://www.facebook.com/JustJoinIT/videos/2373559082958998/',
         thumbnailUrl: require('../assets/images/thumbnails/sniadanie-12_2019.png'),
-        description: 'https://sniadaniezprogramowaniem.pl/',
+        description: 'http://sniadaniezprogramowaniem.pl/',
         date: new Date('2019-11'),
       },
       {
@@ -194,7 +214,7 @@ export const series = [
         url:
           'https://www.facebook.com/JustJoinIT/videos/532375157596408/UzpfSTExNDE2MTY4MjU6MTAyMTQ3NDk4MjYyMzYyMTc/',
         thumbnailUrl: require('../assets/images/thumbnails/sniadanie-10_2019.png'),
-        description: 'https://sniadaniezprogramowaniem.pl/',
+        description: 'http://sniadaniezprogramowaniem.pl/',
         date: new Date('2019-10'),
       },
       {
@@ -204,7 +224,7 @@ export const series = [
         url:
           'https://www.facebook.com/JustJoinIT/videos/768043120332553/',
         thumbnailUrl: require('../assets/images/thumbnails/sniadanie-8_2019.png'),
-        description: 'https://sniadaniezprogramowaniem.pl/',
+        description: 'http://sniadaniezprogramowaniem.pl/',
         date: new Date('2019-10'),
       },
       {
@@ -214,7 +234,7 @@ export const series = [
         url:
           'https://www.facebook.com/JustJoinIT/videos/502242623667809/UzpfSTExNDE2MTY4MjU6MTAyMTQ1MzM1NjExODk3MjY',
         thumbnailUrl: require('../assets/images/thumbnails/sniadanie-6_2019.png'),
-        description: 'https://sniadaniezprogramowaniem.pl/',
+        description: 'http://sniadaniezprogramowaniem.pl/',
         date: new Date('2019-09'),
       },
       {
@@ -224,7 +244,7 @@ export const series = [
         url:
           'https://www.facebook.com/JustJoinIT/videos/533774114035995',
         thumbnailUrl: require('../assets/images/thumbnails/sniadanie-4_2019.png'),
-        description: 'https://sniadaniezprogramowaniem.pl/',
+        description: 'http://sniadaniezprogramowaniem.pl/',
         date: new Date('2019-09'),
       },
       {
@@ -234,7 +254,7 @@ export const series = [
         url:
           'https://www.facebook.com/JustJoinIT/videos/401231300579302/',
         thumbnailUrl: require('../assets/images/thumbnails/sniadanie-3_2019.png'),
-        description: 'https://sniadaniezprogramowaniem.pl/',
+        description: 'http://sniadaniezprogramowaniem.pl/',
         date: new Date('2019-08'),
       },
       {
@@ -244,7 +264,7 @@ export const series = [
         url:
           'https://www.facebook.com/JustJoinIT/videos/917794605237828/',
         thumbnailUrl: require('../assets/images/thumbnails/sniadanie-2_2019.png'),
-        description: 'https://sniadaniezprogramowaniem.pl/',
+        description: 'http://sniadaniezprogramowaniem.pl/',
         date: new Date('2019-08'),
       },
       {
@@ -254,7 +274,7 @@ export const series = [
         url:
           'https://www.facebook.com/JustJoinIT/videos/728129414260638/',
         thumbnailUrl: require('../assets/images/thumbnails/sniadanie-1_2019.png'),
-        description: 'https://sniadaniezprogramowaniem.pl/',
+        description: 'http://sniadaniezprogramowaniem.pl/',
         date: new Date('2019-08'),
       },
     ],
@@ -307,6 +327,15 @@ export const series = [
 ]
 
 export const webinars = [
+  {
+    language: 'PL',
+    title: 'Flavours of testing in C#',
+    type: 'webinar',
+    url: 'https://www.facebook.com/AspireSystemsPL/posts/10157348228138740',
+    thumbnailUrl: require('../assets/images/thumbnails/flavours-of-csharp-testing_2020.png'),
+    description: 'I was host of webinar about different flavours of testing in C#',
+    date: new Date('2020-02'),
+  },
   {
     language: 'PL',
     title: 'infoShare Academy webinar: Początki programowania we Front-endzie',

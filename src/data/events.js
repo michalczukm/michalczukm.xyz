@@ -1,5 +1,19 @@
 export const past = [
   {
+    type: 'webinar',
+    title: '[Host] Flavours of testing in C#',
+    url: 'https://www.facebook.com/AspireSystemsPL/posts/10157348228138740',
+    event: {
+      name: 'Aspire Tech Universe',
+      url: 'https://www.facebook.com/AspireSystemsPL/posts/10157348228138740',
+      startDate: new Date('2020-02-27'),
+    },
+    place: {
+      city: 'Live webinar',
+      country: 'Your browser'
+    }
+  },
+  {
     type: 'presentation',
     title: 'Czym jest Blazor - czyli Front.NET',
     url: 'https://www.facebook.com/events/523543075093991',
@@ -790,31 +804,17 @@ export const past = [
 
 export const upcoming = [
   {
-    type: 'webinar',
-    title: '[Host] Flavours of testing in C#',
-    url: 'https://www.facebook.com/AspireSystemsPL/posts/10157348228138740',
-    event: {
-      name: 'Aspire Tech Universe',
-      url: 'https://www.facebook.com/AspireSystemsPL/posts/10157348228138740',
-      startDate: new Date('2020-02-27'),
-    },
-    place: {
-      city: 'Live webinar',
-      country: 'Your browser'
-    }
-  },
-  {
     type: 'presentation',
     title:
       'How to model your crazy data in TypeScript ',
-    url: 'https://www.meetup.com/pl-PL/TG-NET/events/268784112/',
+    url: 'https://pickjs.com/speaker/michal-michalczuk/',
     event: {
-      name: 'TG-NET',
-      url: 'https://www.meetup.com/TG-NET/',
-      startDate: new Date('2020-03-12'),
+      name: 'PickJS // moved to full online conference',
+      url: 'https://pickjs.com/',
+      startDate: new Date('2020-05-08'),
     },
     place: {
-      city: 'Gdańsk',
+      city: 'Katowice / online',
       country: 'PL',
     }
   },
