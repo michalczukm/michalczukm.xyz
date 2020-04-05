@@ -119,6 +119,16 @@ export const series = [
     episodes: [
       {
         language: 'PL',
+        title: 'Śniadanie z programowaniem 31, 03.04.2020',
+        type: 'video',
+        url:
+          'https://www.facebook.com/JustJoinIT/videos/270483627280329/',
+        thumbnailUrl: require('../assets/images/thumbnails/sniadanie-31_2020.png'),
+        description: 'http://sniadaniezprogramowaniem.pl/',
+        date: new Date('2020-04'),
+      },
+      {
+        language: 'PL',
         title: 'Śniadanie z programowaniem 29, 20.03.2020',
         type: 'video',
         url:
