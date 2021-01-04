@@ -1,3 +1,5 @@
+import { postBreakfastForDevsVideo } from './helpers'
+
 export const podcasts = [
   {
     language: 'PL',
@@ -25,19 +27,16 @@ export const podcasts = [
 export const presentationsRecordings = [
   {
     language: 'EN',
-    title:
-      'Atlassian DevDay 2020: Adding UI to your Forge app',
+    title: 'Atlassian DevDay 2020: Adding UI to your Forge app',
     type: 'presentation',
     url: 'https://youtu.be/7u57rbDV4rc',
     thumbnailUrl: require('../assets/images/thumbnails/atlassian-dd-2020.png'),
-    description:
-      'Showcase of using Forge UI kit with Forge, by Atlassian',
+    description: 'Showcase of using Forge UI kit with Forge, by Atlassian',
     date: new Date('2020-11'),
   },
   {
     language: 'PL',
-    title:
-      'A gdyby tak dodać TypeScript do projektu?',
+    title: 'A gdyby tak dodać TypeScript do projektu?',
     type: 'webinar',
     url: 'https://www.facebook.com/infoshareacademy/videos/286807402299432',
     thumbnailUrl: require('../assets/images/thumbnails/isa-typescript-webinar-2020.png'),
@@ -63,8 +62,7 @@ export const presentationsRecordings = [
     type: 'presentation',
     url: 'https://www.youtube.com/watch?v=P-QMHJiVrlk',
     thumbnailUrl: require('../assets/images/thumbnails/4dev-2020-net.png'),
-    description:
-      'Say hello to Blazor in 2020!',
+    description: 'Say hello to Blazor in 2020!',
     date: new Date('2020-09'),
   },
   {
@@ -169,9 +167,99 @@ export const series = [
     name: 'Śniadanie z Programowaniem @JustJoinIT',
     description: 'Breakfast show with fresh dev news',
     episodes: [
+      postBreakfastForDevsVideo({
+        episodeNo: 65,
+        date: new Date('2020-12-18'),
+        youTubeUrl: 'https://youtu.be/ZlQu4gcXmtA'
+      }),
+      postBreakfastForDevsVideo({
+        episodeNo: 63,
+        date: new Date('2020-12-04'),
+        youTubeUrl: 'https://youtu.be/ycfmC5qZLpo'
+      }),
+      postBreakfastForDevsVideo({
+        episodeNo: 61,
+        date: new Date('2020-11-20'),
+        youTubeUrl: 'https://youtu.be/4vmUyOXLXnQ'
+      }),
+      postBreakfastForDevsVideo({
+        episodeNo: 60,
+        date: new Date('2020-11-06'),
+        youTubeUrl: 'https://youtu.be/OObeNDDaWFs'
+      }),
+      postBreakfastForDevsVideo({
+        episodeNo: 58,
+        date: new Date('2020-10-23'),
+        youTubeUrl: 'https://youtu.be/UygEuT2zEfY'
+      }),
+      postBreakfastForDevsVideo({
+        episodeNo: 56,
+        date: new Date('2020-10-09'),
+        youTubeUrl: 'https://youtu.be/nDywkYhOQio'
+      }),
+      postBreakfastForDevsVideo({
+        episodeNo: 54,
+        date: new Date('2020-09-25'),
+        youTubeUrl: 'https://youtu.be/KwaLLm6WLUw'
+      }),
+      postBreakfastForDevsVideo({
+        episodeNo: 52,
+        date: new Date('2020-09-11'),
+        youTubeUrl: 'https://youtu.be/LGDtjWZ8hbA'
+      }),
+      postBreakfastForDevsVideo({
+        episodeNo: 50,
+        date: new Date('2020-08-28'),
+        youTubeUrl: 'https://youtu.be/9ElVdZP3dok'
+      }),
+      postBreakfastForDevsVideo({
+        episodeNo: 49,
+        date: new Date('2020-08-14'),
+        youTubeUrl: 'https://youtu.be/QdB7dZIxq8I'
+      }),
+      postBreakfastForDevsVideo({
+        episodeNo: 47,
+        date: new Date('2020-07-31'),
+        youTubeUrl: 'https://youtu.be/NsMeVpZpzSY'
+      }),
+      postBreakfastForDevsVideo({
+        episodeNo: 45,
+        date: new Date('2020-07-17'),
+        youTubeUrl: 'https://youtu.be/uup3N16ajRI'
+      }),
+      postBreakfastForDevsVideo({
+        episodeNo: 43,
+        date: new Date('2020-07-03'),
+        youTubeUrl: 'https://youtu.be/C38l2r7jjfw'
+      }),
+      postBreakfastForDevsVideo({
+        episodeNo: 41,
+        date: new Date('2020-06-19'),
+        youTubeUrl: 'https://youtu.be/yS5C-ebV6lA'
+      }),
+      postBreakfastForDevsVideo({
+        episodeNo: 39,
+        date: new Date('2020-05-29'),
+        youTubeUrl: 'https://youtu.be/OtpBxWWigX4'
+      }),
+      postBreakfastForDevsVideo({
+        episodeNo: 37,
+        date: new Date('2020-05-15'),
+        youTubeUrl: 'https://youtu.be/UR-Aku9Qxu8'
+      }),
+      postBreakfastForDevsVideo({
+        episodeNo: 35,
+        date: new Date('2020-04-30'),
+        youTubeUrl: 'https://youtu.be/Y_TA2g_sqMM'
+      }),
+      postBreakfastForDevsVideo({
+        episodeNo: 33,
+        date: new Date('2020-04-17'),
+        youTubeUrl: 'https://youtu.be/3hvMxzIdEMc'
+      }),
       {
         language: 'PL',
-        title: 'Śniadanie z programowaniem 31, 03.04.2020',
+        title: 'Śniadanie z programowaniem #31, 03.04.2020',
         type: 'video',
         url: 'https://www.facebook.com/JustJoinIT/videos/270483627280329/',
         thumbnailUrl: require('../assets/images/thumbnails/sniadanie-31_2020.png'),
@@ -180,7 +268,7 @@ export const series = [
       },
       {
         language: 'PL',
-        title: 'Śniadanie z programowaniem 29, 20.03.2020',
+        title: 'Śniadanie z programowaniem #29, 20.03.2020',
         type: 'video',
         url: 'https://www.facebook.com/JustJoinIT/videos/159472355167163/',
         thumbnailUrl: require('../assets/images/thumbnails/sniadanie-29_2020.png'),
@@ -189,7 +277,7 @@ export const series = [
       },
       {
         language: 'PL',
-        title: 'Śniadanie z programowaniem 27, 06.03.2020',
+        title: 'Śniadanie z programowaniem #27, 06.03.2020',
         type: 'video',
         url: 'https://www.facebook.com/JustJoinIT/videos/485260805691878/',
         thumbnailUrl: require('../assets/images/thumbnails/sniadanie-27_2020.png'),
@@ -198,7 +286,7 @@ export const series = [
       },
       {
         language: 'PL',
-        title: 'Śniadanie z programowaniem 25, 21.02.2020',
+        title: 'Śniadanie z programowaniem #25, 21.02.2020',
         type: 'video',
         url: 'https://www.facebook.com/JustJoinIT/videos/314067912882423/',
         thumbnailUrl: require('../assets/images/thumbnails/sniadanie-25_2020.png'),
@@ -207,7 +295,7 @@ export const series = [
       },
       {
         language: 'PL',
-        title: 'Śniadanie z programowaniem 23, 07.02.2020',
+        title: 'Śniadanie z programowaniem #23, 07.02.2020',
         type: 'video',
         url: 'https://www.facebook.com/JustJoinIT/videos/495384067829348/',
         thumbnailUrl: require('../assets/images/thumbnails/sniadanie-23_2020.png'),
@@ -216,7 +304,7 @@ export const series = [
       },
       {
         language: 'PL',
-        title: 'Śniadanie z programowaniem 21, 23.01.2020',
+        title: 'Śniadanie z programowaniem #21, 23.01.2020',
         type: 'video',
         url: 'https://www.facebook.com/JustJoinIT/videos/2247700648867613/',
         thumbnailUrl: require('../assets/images/thumbnails/sniadanie-21_2020.png'),
