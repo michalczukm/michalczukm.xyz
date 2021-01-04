@@ -1,27 +1,72 @@
 export const podcasts = [
   {
     language: 'PL',
-    title:
-      'Teams, Products, Culture. #0',
+    title: 'Teams, Products, Culture. #0',
     type: 'podcast',
-    url: 'http://teams.products.culture.buzzsprout.com/606583/1886259-let-s-talk-about-learning-it-s-hard',
+    url:
+      'http://teams.products.culture.buzzsprout.com/606583/1886259-let-s-talk-about-learning-it-s-hard',
     thumbnailUrl: require('../assets/images/thumbnails/spartez-podcast-0.png'),
-    description: 'Episode #0 of our own Spartez podcast. We discussed with Bartosz about learning process.',
+    description:
+      'Episode #0 of our own Spartez podcast. We discussed with Bartosz about learning process.',
     date: new Date('2019-10'),
   },
   {
     language: 'PL',
-    title:
-      'Front-end 2019',
+    title: 'Front-end 2019',
     type: 'podcast',
     url: 'https://devsession.pl/frontend-2019-michal-michalczuk/',
     thumbnailUrl: require('../assets/images/thumbnails/Ja_Programista_Frontend_2019.png'),
-    description: 'I was guest in devsession podcast, created by Grzegorz Koftis. We were talking about current state and near future of Front-end development.',
+    description:
+      'I was guest in devsession podcast, created by Grzegorz Koftis. We were talking about current state and near future of Front-end development.',
     date: new Date('2019-05'),
-  }
+  },
 ]
 
 export const presentationsRecordings = [
+  {
+    language: 'EN',
+    title:
+      'Atlassian DevDay 2020: Adding UI to your Forge app',
+    type: 'presentation',
+    url: 'https://youtu.be/7u57rbDV4rc',
+    thumbnailUrl: require('../assets/images/thumbnails/atlassian-dd-2020.png'),
+    description:
+      'Showcase of using Forge UI kit with Forge, by Atlassian',
+    date: new Date('2020-11'),
+  },
+  {
+    language: 'PL',
+    title:
+      'A gdyby tak dodać TypeScript do projektu?',
+    type: 'webinar',
+    url: 'https://www.facebook.com/infoshareacademy/videos/286807402299432',
+    thumbnailUrl: require('../assets/images/thumbnails/isa-typescript-webinar-2020.png'),
+    description:
+      'Podczas webinaru zajmiemy się przykładową aplikacją z użyciem React napisaną w JavaScript i przepiszemy ją na TypeScript',
+    date: new Date('2020-10'),
+  },
+  {
+    language: 'EN',
+    title:
+      '4Developers 2020, Michał Michalczuk, JavaScript: What mobile browsers can do - 2020 revisited',
+    type: 'presentation',
+    url: 'https://www.youtube.com/watch?v=Oq7WLSQZx3As',
+    thumbnailUrl: require('../assets/images/thumbnails/4dev-2020-js.png'),
+    description:
+      'Lets revisit what has changed in native supported APIs in browsers',
+    date: new Date('2020-09'),
+  },
+  {
+    language: 'EN',
+    title:
+      "4Developers 2020, Michał Michalczuk, Mateusz Turzyński .NET: What's Blazor - Front .NET",
+    type: 'presentation',
+    url: 'https://www.youtube.com/watch?v=P-QMHJiVrlk',
+    thumbnailUrl: require('../assets/images/thumbnails/4dev-2020-net.png'),
+    description:
+      'Say hello to Blazor in 2020!',
+    date: new Date('2020-09'),
+  },
   {
     language: 'PL',
     title:
@@ -29,7 +74,8 @@ export const presentationsRecordings = [
     type: 'presentation',
     url: 'https://youtu.be/99ZtVKG5PzI',
     thumbnailUrl: require('../assets/images/thumbnails/infoshare_2019.png'),
-    description: 'We were talking about extending TypeScript usage for all layers in web apps. Talk in Polish',
+    description:
+      'We were talking about extending TypeScript usage for all layers in web apps. Talk in Polish',
     date: new Date('2019-05'),
   },
   {
@@ -39,7 +85,8 @@ export const presentationsRecordings = [
     type: 'presentation',
     url: 'https://youtu.be/HQ-7ldlWXmY',
     thumbnailUrl: require('../assets/images/thumbnails/sphere-it_2019.png'),
-    description: "Our data can be crazy, our data models can be crazy. I'm talking about proper data modeling in TypeScript",
+    description:
+      "Our data can be crazy, our data models can be crazy. I'm talking about proper data modeling in TypeScript",
     date: new Date('2019-11'),
   },
   {
@@ -47,9 +94,11 @@ export const presentationsRecordings = [
     title:
       'Czym jest Blazor - Front.NET. Michał Michalczuk & Mateusz Turzyński',
     type: 'presentation',
-    url: 'https://www.facebook.com/AspireSystemsPL/videos/2491760444412634/UzpfSTEwODkwMDQ5MTQ6Vks6NTQ2NTM2NDQyNzk0NjU0/',
+    url:
+      'https://www.facebook.com/AspireSystemsPL/videos/2491760444412634/UzpfSTEwODkwMDQ5MTQ6Vks6NTQ2NTM2NDQyNzk0NjU0/',
     thumbnailUrl: require('../assets/images/thumbnails/aspire-universe-1-_11-2019.png'),
-    description: 'With Mateusz we did an introduction talk about Blazor - how we see it from .NET developer and front-end developer perspective',
+    description:
+      'With Mateusz we did an introduction talk about Blazor - how we see it from .NET developer and front-end developer perspective',
     date: new Date('2019-11'),
   },
   {
@@ -59,7 +108,8 @@ export const presentationsRecordings = [
     type: 'presentation',
     url: 'https://youtu.be/xE_0qfKolXk',
     thumbnailUrl: require('../assets/images/thumbnails/warsawjs-_06-2019.png'),
-    description: 'My point of view about bootcamps - from my perspective as trainer who teach on bootcamps and developer who hire and work with bootcamps graduates',
+    description:
+      'My point of view about bootcamps - from my perspective as trainer who teach on bootcamps and developer who hire and work with bootcamps graduates',
     date: new Date('2019-06'),
   },
   {
@@ -69,7 +119,8 @@ export const presentationsRecordings = [
     type: 'presentation',
     url: 'https://youtu.be/iVg0B_vmb_Q',
     thumbnailUrl: require('../assets/images/thumbnails/voxxeddays-frontend_2019.png'),
-    description: 'Interactive presentation about web browsers new APIs in context of PWA and devices sensors I gave at Voxxed Days Frontend in Bucharest, Romania.',
+    description:
+      'Interactive presentation about web browsers new APIs in context of PWA and devices sensors I gave at Voxxed Days Frontend in Bucharest, Romania.',
     date: new Date('2019-05'),
   },
   {
@@ -79,7 +130,8 @@ export const presentationsRecordings = [
     type: 'presentation',
     url: 'https://vimeo.com/362339836',
     thumbnailUrl: require('../assets/images/thumbnails/3camp_09-2019.png'),
-    description: 'My point of view about bootcamps - from my perspective as trainer who teach on bootcamps and developer who hire and work with bootcamps graduates',
+    description:
+      'My point of view about bootcamps - from my perspective as trainer who teach on bootcamps and developer who hire and work with bootcamps graduates',
     date: new Date('2019-09'),
   },
   {
@@ -121,8 +173,7 @@ export const series = [
         language: 'PL',
         title: 'Śniadanie z programowaniem 31, 03.04.2020',
         type: 'video',
-        url:
-          'https://www.facebook.com/JustJoinIT/videos/270483627280329/',
+        url: 'https://www.facebook.com/JustJoinIT/videos/270483627280329/',
         thumbnailUrl: require('../assets/images/thumbnails/sniadanie-31_2020.png'),
         description: 'http://sniadaniezprogramowaniem.pl/',
         date: new Date('2020-04'),
@@ -131,8 +182,7 @@ export const series = [
         language: 'PL',
         title: 'Śniadanie z programowaniem 29, 20.03.2020',
         type: 'video',
-        url:
-          'https://www.facebook.com/JustJoinIT/videos/159472355167163/',
+        url: 'https://www.facebook.com/JustJoinIT/videos/159472355167163/',
         thumbnailUrl: require('../assets/images/thumbnails/sniadanie-29_2020.png'),
         description: 'http://sniadaniezprogramowaniem.pl/',
         date: new Date('2020-03'),
@@ -141,8 +191,7 @@ export const series = [
         language: 'PL',
         title: 'Śniadanie z programowaniem 27, 06.03.2020',
         type: 'video',
-        url:
-          'https://www.facebook.com/JustJoinIT/videos/485260805691878/',
+        url: 'https://www.facebook.com/JustJoinIT/videos/485260805691878/',
         thumbnailUrl: require('../assets/images/thumbnails/sniadanie-27_2020.png'),
         description: 'http://sniadaniezprogramowaniem.pl/',
         date: new Date('2020-03'),
@@ -151,8 +200,7 @@ export const series = [
         language: 'PL',
         title: 'Śniadanie z programowaniem 25, 21.02.2020',
         type: 'video',
-        url:
-          'https://www.facebook.com/JustJoinIT/videos/314067912882423/',
+        url: 'https://www.facebook.com/JustJoinIT/videos/314067912882423/',
         thumbnailUrl: require('../assets/images/thumbnails/sniadanie-25_2020.png'),
         description: 'http://sniadaniezprogramowaniem.pl/',
         date: new Date('2020-02'),
@@ -161,8 +209,7 @@ export const series = [
         language: 'PL',
         title: 'Śniadanie z programowaniem 23, 07.02.2020',
         type: 'video',
-        url:
-          'https://www.facebook.com/JustJoinIT/videos/495384067829348/',
+        url: 'https://www.facebook.com/JustJoinIT/videos/495384067829348/',
         thumbnailUrl: require('../assets/images/thumbnails/sniadanie-23_2020.png'),
         description: 'http://sniadaniezprogramowaniem.pl/',
         date: new Date('2020-02'),
@@ -171,8 +218,7 @@ export const series = [
         language: 'PL',
         title: 'Śniadanie z programowaniem 21, 23.01.2020',
         type: 'video',
-        url:
-          'https://www.facebook.com/JustJoinIT/videos/2247700648867613/',
+        url: 'https://www.facebook.com/JustJoinIT/videos/2247700648867613/',
         thumbnailUrl: require('../assets/images/thumbnails/sniadanie-21_2020.png'),
         description: 'http://sniadaniezprogramowaniem.pl/',
         date: new Date('2020-01'),
@@ -181,8 +227,7 @@ export const series = [
         language: 'PL',
         title: 'Śniadanie z programowaniem #19, 09.01.2020',
         type: 'video',
-        url:
-          'https://www.facebook.com/JustJoinIT/videos/2830224380333190/',
+        url: 'https://www.facebook.com/JustJoinIT/videos/2830224380333190/',
         thumbnailUrl: require('../assets/images/thumbnails/sniadanie-19_2020.png'),
         description: 'http://sniadaniezprogramowaniem.pl/',
         date: new Date('2020-01'),
@@ -191,8 +236,7 @@ export const series = [
         language: 'PL',
         title: 'Śniadanie z programowaniem #18, 19.12.2019',
         type: 'video',
-        url:
-          'https://www.facebook.com/JustJoinIT/videos/2563109703802847/',
+        url: 'https://www.facebook.com/JustJoinIT/videos/2563109703802847/',
         thumbnailUrl: require('../assets/images/thumbnails/sniadanie-18_2019.png'),
         description: 'http://sniadaniezprogramowaniem.pl/',
         date: new Date('2019-12'),
@@ -201,8 +245,7 @@ export const series = [
         language: 'PL',
         title: 'Śniadanie z programowaniem #14, 21.11.2019',
         type: 'video',
-        url:
-          'https://www.facebook.com/JustJoinIT/videos/3038417473050223/',
+        url: 'https://www.facebook.com/JustJoinIT/videos/3038417473050223/',
         thumbnailUrl: require('../assets/images/thumbnails/sniadanie-14_2019.png'),
         description: 'http://sniadaniezprogramowaniem.pl/',
         date: new Date('2019-11'),
@@ -211,8 +254,7 @@ export const series = [
         language: 'PL',
         title: 'Śniadanie z programowaniem #12, 07.11.2019',
         type: 'video',
-        url:
-          'https://www.facebook.com/JustJoinIT/videos/2373559082958998/',
+        url: 'https://www.facebook.com/JustJoinIT/videos/2373559082958998/',
         thumbnailUrl: require('../assets/images/thumbnails/sniadanie-12_2019.png'),
         description: 'http://sniadaniezprogramowaniem.pl/',
         date: new Date('2019-11'),
@@ -231,8 +273,7 @@ export const series = [
         language: 'PL',
         title: 'Śniadanie z programowaniem #8, 10.10.2019',
         type: 'video',
-        url:
-          'https://www.facebook.com/JustJoinIT/videos/768043120332553/',
+        url: 'https://www.facebook.com/JustJoinIT/videos/768043120332553/',
         thumbnailUrl: require('../assets/images/thumbnails/sniadanie-8_2019.png'),
         description: 'http://sniadaniezprogramowaniem.pl/',
         date: new Date('2019-10'),
@@ -251,8 +292,7 @@ export const series = [
         language: 'PL',
         title: 'Śniadanie z programowaniem #4, 10.09.2019',
         type: 'video',
-        url:
-          'https://www.facebook.com/JustJoinIT/videos/533774114035995',
+        url: 'https://www.facebook.com/JustJoinIT/videos/533774114035995',
         thumbnailUrl: require('../assets/images/thumbnails/sniadanie-4_2019.png'),
         description: 'http://sniadaniezprogramowaniem.pl/',
         date: new Date('2019-09'),
@@ -261,8 +301,7 @@ export const series = [
         language: 'PL',
         title: 'Śniadanie z programowaniem #3, 31.08.2019',
         type: 'video',
-        url:
-          'https://www.facebook.com/JustJoinIT/videos/401231300579302/',
+        url: 'https://www.facebook.com/JustJoinIT/videos/401231300579302/',
         thumbnailUrl: require('../assets/images/thumbnails/sniadanie-3_2019.png'),
         description: 'http://sniadaniezprogramowaniem.pl/',
         date: new Date('2019-08'),
@@ -271,8 +310,7 @@ export const series = [
         language: 'PL',
         title: 'Śniadanie z programowaniem #2, 24.08.2019',
         type: 'video',
-        url:
-          'https://www.facebook.com/JustJoinIT/videos/917794605237828/',
+        url: 'https://www.facebook.com/JustJoinIT/videos/917794605237828/',
         thumbnailUrl: require('../assets/images/thumbnails/sniadanie-2_2019.png'),
         description: 'http://sniadaniezprogramowaniem.pl/',
         date: new Date('2019-08'),
@@ -281,8 +319,7 @@ export const series = [
         language: 'PL',
         title: 'Śniadanie z programowaniem #1, 14.08.2019',
         type: 'video',
-        url:
-          'https://www.facebook.com/JustJoinIT/videos/728129414260638/',
+        url: 'https://www.facebook.com/JustJoinIT/videos/728129414260638/',
         thumbnailUrl: require('../assets/images/thumbnails/sniadanie-1_2019.png'),
         description: 'http://sniadaniezprogramowaniem.pl/',
         date: new Date('2019-08'),
@@ -296,8 +333,7 @@ export const series = [
         language: 'PL',
         title: 'Across Stack - #4 API w Hapi i TypeScript',
         type: 'video',
-        url:
-          'https://www.youtube.com/watch?v=k1-CIR-NJeE',
+        url: 'https://www.youtube.com/watch?v=k1-CIR-NJeE',
         thumbnailUrl: require('../assets/images/thumbnails/across-stack-4_2019.png'),
         description: 'I was host in webinar series by my idea - Across Stack.',
         date: new Date('2019-06'),
@@ -318,7 +354,7 @@ export const series = [
         type: 'webinar',
         url:
           'https://www.facebook.com/infoshareacademy/videos/254645481890710/UzpfSTQzMjI1MjcwMzYwNjEyODpWSzoxOTY4NDIzODA5OTE4Njk3/?acontext=%7B%22ref%22%3A70%2C%22source%22%3A1%2C%22action_history%22%3A%22[%7B%5C%22surface%5C%22%3A%5C%22permalink%5C%22%2C%5C%22mechanism%5C%22%3A%5C%22surface%5C%22%2C%5C%22extra_data%5C%22%3A[]%7D]%22%7D&active_tab=discussion',
-          thumbnailUrl: require('../assets/images/thumbnails/across-stack-2_2018.png'),
+        thumbnailUrl: require('../assets/images/thumbnails/across-stack-2_2018.png'),
         description: 'I was host in webinar series by my idea - Across Stack.',
         date: new Date('2018-11'),
       },
@@ -328,7 +364,7 @@ export const series = [
         type: 'webinar',
         url:
           'https://www.facebook.com/infoshareacademy/videos/294755691359453/UzpfSTQzMjI1MjcwMzYwNjEyODo1NjQwMTk5NzczNTE0NTM/?action_history=null&__xts__[0]=68.ARCnkCkg9qrbYAYkAo87MMRtBJsXnYL-K0uhMm49tQ5S6NVtta6mEt_cP2gJ5mlX9FOsSTbLwkqxkpjjhNECoH_IyGiyR7oqrVZP1DpQP-SzRnP59fRH5R6IAAhopcOI7zh1CrvQznqgRPXgyQY0G10Y06SidYK7vBY51Z8u_Pe21HnZC3p0&__tn__=-R',
-          thumbnailUrl: require('../assets/images/thumbnails/across-stack-1_2018.png'),
+        thumbnailUrl: require('../assets/images/thumbnails/across-stack-1_2018.png'),
         description: 'I was host in webinar series by my idea - Across Stack.',
         date: new Date('2018-09'),
       },
@@ -343,7 +379,8 @@ export const webinars = [
     type: 'webinar',
     url: 'https://www.facebook.com/AspireSystemsPL/posts/10157348228138740',
     thumbnailUrl: require('../assets/images/thumbnails/flavours-of-csharp-testing_2020.png'),
-    description: 'I was host of webinar about different flavours of testing in C#',
+    description:
+      'I was host of webinar about different flavours of testing in C#',
     date: new Date('2020-02'),
   },
   {
@@ -409,11 +446,12 @@ export const articles = [
   },
   {
     language: 'PL',
-    title: 'Z pierwszej ręki - nauka programowania z perspektywy trenera. Rozmowa z Michałem Michalczukiem',
-    url: 'https://geek.justjoin.it/z-pierwszej-reki-nauka-programowania-z-perspektywy-trenera-rozmowa-z-michalem-michalczukiem/',
+    title:
+      'Z pierwszej ręki - nauka programowania z perspektywy trenera. Rozmowa z Michałem Michalczukiem',
+    url:
+      'https://geek.justjoin.it/z-pierwszej-reki-nauka-programowania-z-perspektywy-trenera-rozmowa-z-michalem-michalczukiem/',
     thumbnailUrl: '',
-    description:
-      'I was interviewed about working as a trainer on bootcamps',
+    description: 'I was interviewed about working as a trainer on bootcamps',
     date: new Date('2018-01'),
   },
 ]

@@ -1,5 +1,133 @@
 export const past = [
   {
+    type: 'presentation',
+    title: 'Atlassian Developers Day 2020: Adding UI to your Forge app',
+    url: 'https://events.atlassian.com/teamtour20/',
+    event: {
+      name: 'Atlassian Developers Day 2020',
+      url: 'https://events.atlassian.com/teamtour20/',
+      startDate: new Date('2020-11-10'),
+    },
+    place: {
+      city: 'Live webinar',
+      country: 'Your browser',
+    },
+    resources: {
+      repository:
+        'https://bitbucket.org/atlassian/forge-signed-issue-app/src/master/',
+      video: 'https://youtu.be/7u57rbDV4rc',
+    },
+  },
+  {
+    type: 'webinar',
+    title: 'A gdyby tak dodać TypeScript do projektu?',
+    url: 'https://www.facebook.com/infoshareacademy/videos/286807402299432',
+    event: {
+      name: 'InfoShare Academy webinar',
+      url: 'https://www.facebook.com/infoshareacademy/videos/286807402299432',
+      startDate: new Date('2020-10-15'),
+    },
+    place: {
+      city: 'Live webinar',
+      country: 'Your browser',
+    },
+    resources: {
+      video: 'https://www.facebook.com/infoshareacademy/videos/286807402299432',
+    },
+  },
+  {
+    type: 'webinar',
+    title: 'Web Development - Python vs JavaScript',
+    url: 'https://youtu.be/vSEUvVEpZ9g',
+    event: {
+      name: 'Od Juniora do Seniora / webinar',
+      url: 'https://youtu.be/vSEUvVEpZ9g',
+      startDate: new Date('2020-10-13'),
+    },
+    place: {
+      city: 'Live webinar',
+      country: 'Your browser',
+    },
+    resources: {
+      video: 'https://youtu.be/vSEUvVEpZ9g',
+    },
+  },
+  {
+    type: 'webinar',
+    title: 'WEBINAR AMA: Jak zostać front-end developerem?',
+    url: 'https://www.facebook.com/infoshareacademy/videos/326346838791628',
+    event: {
+      name: 'InfoShare Academy webinar',
+      url: 'https://www.facebook.com/infoshareacademy/videos/326346838791628',
+      startDate: new Date('2020-09-24'),
+    },
+    place: {
+      city: 'Live webinar',
+      country: 'Your browser',
+    },
+    resources: {
+      video: 'https://www.facebook.com/infoshareacademy/videos/326346838791628',
+    },
+  },
+  {
+    type: 'presentation',
+    title:
+      '4Developers 2020, Michał Michalczuk, JavaScript: What mobile browsers can do - 2020 revisited',
+    url: 'https://4developers.org.pl/bio_warszawa_2020/#id=43500',
+    event: {
+      name: '4Developers 2020',
+      url: 'https://4developers.org.pl/festiwal-2020/',
+      startDate: new Date('2020-09-14'),
+    },
+    place: {
+      city: 'Live webinar',
+      country: 'Your browser',
+    },
+    resources: {
+      presentation:
+        'https://slides.com/michalczukm/what-mobile-browsers-can-do-2020-revisited',
+      repository: 'https://github.com/michalczukm/mobile-web-do',
+      video: 'https://www.youtube.com/watch?v=Oq7WLSQZx3As',
+    },
+  },
+  {
+    type: 'presentation',
+    title:
+      "4Developers 2020, Michał Michalczuk, Mateusz Turzyński .NET: What's Blazor - Front .NET",
+    url: 'https://4developers.org.pl/bio_warszawa_2020/#id=43500',
+    event: {
+      name: '4Developers 2020',
+      url: 'https://4developers.org.pl/festiwal-2020/',
+      startDate: new Date('2020-09-15'),
+    },
+    place: {
+      city: 'Live webinar',
+      country: 'Your browser',
+    },
+    resources: {
+      presentation: 'https://slides.com/mateuszturzynski/blazor4dev2020',
+      repository: 'https://github.com/michalczukm/front-net-presentation',
+      video: 'https://www.youtube.com/watch?v=P-QMHJiVrlk',
+    },
+  },
+  {
+    type: 'webinar',
+    title: 'Webinar AMA - Front-end dla początkujących',
+    url: 'https://www.facebook.com/infoshareacademy/videos/3244935668903581',
+    event: {
+      name: 'InfoShare Academy webinar',
+      url: 'https://www.facebook.com/infoshareacademy/videos/3244935668903581',
+      startDate: new Date('2020-07-08'),
+    },
+    place: {
+      city: 'Live webinar',
+      country: 'Your browser',
+    },
+    resources: {
+      video: 'https://www.facebook.com/infoshareacademy/videos/3244935668903581',
+    },
+  },
+  {
     type: 'webinar',
     title: '[Host] Flavours of testing in C#',
     url: 'https://www.facebook.com/AspireSystemsPL/posts/10157348228138740',
@@ -10,8 +138,8 @@ export const past = [
     },
     place: {
       city: 'Live webinar',
-      country: 'Your browser'
-    }
+      country: 'Your browser',
+    },
   },
   {
     type: 'presentation',
@@ -802,20 +930,4 @@ export const past = [
   },
 ]
 
-export const upcoming = [
-  {
-    type: 'presentation',
-    title:
-      'How to model your crazy data in TypeScript ',
-    url: 'https://pickjs.com/speaker/michal-michalczuk/',
-    event: {
-      name: 'PickJS // moved to full online conference',
-      url: 'https://pickjs.com/',
-      startDate: new Date('2020-05-08'),
-    },
-    place: {
-      city: 'Katowice / online',
-      country: 'PL',
-    }
-  },
-]
+export const upcoming = [];

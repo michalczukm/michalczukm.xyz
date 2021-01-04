@@ -128,7 +128,7 @@ class HomeIndex extends React.Component {
 
           <section id="upcoming-events">
             <h2>Upcoming events</h2>
-            {withDefaultEmpty(getEvents(events.upcoming), 'No plans for now. You want to invite me? Please write an email!')}
+            {withDefaultEmpty(getEvents(events.upcoming), 'No plans for now. Would you like to invite me? Please page me by email!')}
           </section>
 
           <div className="two-column">
