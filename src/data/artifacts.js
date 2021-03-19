@@ -1,4 +1,4 @@
-import { postBreakfastForDevsVideo } from './helpers'
+import { postBreakfastForDevsVideo, postYouTubeVideo } from './helpers'
 
 export const podcasts = [
   {
@@ -179,112 +179,112 @@ export const series = [
       postBreakfastForDevsVideo({
         episodeNo: 72,
         date: new Date('2021-02-26'),
-        youTubeUrl: 'https://www.youtube.com/watch?v=IlVu4VEJQ_8'
+        youTubeUrl: 'https://www.youtube.com/watch?v=IlVu4VEJQ_8',
       }),
       postBreakfastForDevsVideo({
         episodeNo: 70,
         date: new Date('2021-02-12'),
-        youTubeUrl: 'https://www.youtube.com/watch?v=ZlLwj3PadL4'
+        youTubeUrl: 'https://www.youtube.com/watch?v=ZlLwj3PadL4',
       }),
       postBreakfastForDevsVideo({
         episodeNo: 69,
         date: new Date('2021-01-29'),
-        youTubeUrl: 'https://www.youtube.com/watch?v=rFSIzB9eCZQ'
+        youTubeUrl: 'https://www.youtube.com/watch?v=rFSIzB9eCZQ',
       }),
       postBreakfastForDevsVideo({
         episodeNo: 67,
         date: new Date('2021-01-15'),
-        youTubeUrl: 'https://www.youtube.com/watch?v=-8nKIep4iFI'
+        youTubeUrl: 'https://www.youtube.com/watch?v=-8nKIep4iFI',
       }),
       postBreakfastForDevsVideo({
         episodeNo: 65,
         date: new Date('2020-12-18'),
-        youTubeUrl: 'https://youtu.be/ZlQu4gcXmtA'
+        youTubeUrl: 'https://youtu.be/ZlQu4gcXmtA',
       }),
       postBreakfastForDevsVideo({
         episodeNo: 63,
         date: new Date('2020-12-04'),
-        youTubeUrl: 'https://youtu.be/ycfmC5qZLpo'
+        youTubeUrl: 'https://youtu.be/ycfmC5qZLpo',
       }),
       postBreakfastForDevsVideo({
         episodeNo: 61,
         date: new Date('2020-11-20'),
-        youTubeUrl: 'https://youtu.be/4vmUyOXLXnQ'
+        youTubeUrl: 'https://youtu.be/4vmUyOXLXnQ',
       }),
       postBreakfastForDevsVideo({
         episodeNo: 60,
         date: new Date('2020-11-06'),
-        youTubeUrl: 'https://youtu.be/OObeNDDaWFs'
+        youTubeUrl: 'https://youtu.be/OObeNDDaWFs',
       }),
       postBreakfastForDevsVideo({
         episodeNo: 58,
         date: new Date('2020-10-23'),
-        youTubeUrl: 'https://youtu.be/UygEuT2zEfY'
+        youTubeUrl: 'https://youtu.be/UygEuT2zEfY',
       }),
       postBreakfastForDevsVideo({
         episodeNo: 56,
         date: new Date('2020-10-09'),
-        youTubeUrl: 'https://youtu.be/nDywkYhOQio'
+        youTubeUrl: 'https://youtu.be/nDywkYhOQio',
       }),
       postBreakfastForDevsVideo({
         episodeNo: 54,
         date: new Date('2020-09-25'),
-        youTubeUrl: 'https://youtu.be/KwaLLm6WLUw'
+        youTubeUrl: 'https://youtu.be/KwaLLm6WLUw',
       }),
       postBreakfastForDevsVideo({
         episodeNo: 52,
         date: new Date('2020-09-11'),
-        youTubeUrl: 'https://youtu.be/LGDtjWZ8hbA'
+        youTubeUrl: 'https://youtu.be/LGDtjWZ8hbA',
       }),
       postBreakfastForDevsVideo({
         episodeNo: 50,
         date: new Date('2020-08-28'),
-        youTubeUrl: 'https://youtu.be/9ElVdZP3dok'
+        youTubeUrl: 'https://youtu.be/9ElVdZP3dok',
       }),
       postBreakfastForDevsVideo({
         episodeNo: 49,
         date: new Date('2020-08-14'),
-        youTubeUrl: 'https://youtu.be/QdB7dZIxq8I'
+        youTubeUrl: 'https://youtu.be/QdB7dZIxq8I',
       }),
       postBreakfastForDevsVideo({
         episodeNo: 47,
         date: new Date('2020-07-31'),
-        youTubeUrl: 'https://youtu.be/NsMeVpZpzSY'
+        youTubeUrl: 'https://youtu.be/NsMeVpZpzSY',
       }),
       postBreakfastForDevsVideo({
         episodeNo: 45,
         date: new Date('2020-07-17'),
-        youTubeUrl: 'https://youtu.be/uup3N16ajRI'
+        youTubeUrl: 'https://youtu.be/uup3N16ajRI',
       }),
       postBreakfastForDevsVideo({
         episodeNo: 43,
         date: new Date('2020-07-03'),
-        youTubeUrl: 'https://youtu.be/C38l2r7jjfw'
+        youTubeUrl: 'https://youtu.be/C38l2r7jjfw',
       }),
       postBreakfastForDevsVideo({
         episodeNo: 41,
         date: new Date('2020-06-19'),
-        youTubeUrl: 'https://youtu.be/yS5C-ebV6lA'
+        youTubeUrl: 'https://youtu.be/yS5C-ebV6lA',
       }),
       postBreakfastForDevsVideo({
         episodeNo: 39,
         date: new Date('2020-05-29'),
-        youTubeUrl: 'https://youtu.be/OtpBxWWigX4'
+        youTubeUrl: 'https://youtu.be/OtpBxWWigX4',
       }),
       postBreakfastForDevsVideo({
         episodeNo: 37,
         date: new Date('2020-05-15'),
-        youTubeUrl: 'https://youtu.be/UR-Aku9Qxu8'
+        youTubeUrl: 'https://youtu.be/UR-Aku9Qxu8',
       }),
       postBreakfastForDevsVideo({
         episodeNo: 35,
         date: new Date('2020-04-30'),
-        youTubeUrl: 'https://youtu.be/Y_TA2g_sqMM'
+        youTubeUrl: 'https://youtu.be/Y_TA2g_sqMM',
       }),
       postBreakfastForDevsVideo({
         episodeNo: 33,
         date: new Date('2020-04-17'),
-        youTubeUrl: 'https://youtu.be/3hvMxzIdEMc'
+        youTubeUrl: 'https://youtu.be/3hvMxzIdEMc',
       }),
       {
         language: 'PL',
@@ -490,6 +490,26 @@ export const series = [
 ]
 
 export const webinars = [
+  postYouTubeVideo(
+    {
+      language: 'PL',
+      title: 'Web Development - Python vs JavaScript',
+      type: 'webinar',
+      description: 'Python kontra JavaScript 🥊 kto wygra...? 😈 ',
+      date: new Date('2020-10-13'),
+    },
+    'https://www.youtube.com/watch?v=vSEUvVEpZ9g'
+  ),
+  {
+    language: 'PL',
+    title: 'WEBINAR AMA: Jak zostać front-end developerem?',
+    type: 'webinar',
+    url: 'https://www.facebook.com/infoshareacademy/videos/326346838791628',
+    thumbnailUrl: require('../assets/images/thumbnails/frontend-ama-isa-2020.png'),
+    description:
+      'There was AMA with me and Bartosz Cytrowski',
+    date: new Date('2020-09-24'),
+  },
   {
     language: 'PL',
     title: 'Flavours of testing in C#',
