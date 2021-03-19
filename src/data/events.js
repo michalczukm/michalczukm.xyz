@@ -1,6 +1,25 @@
 export const past = [
   {
     type: 'presentation',
+    title: 'dev.js: Jak zamodelować twoje pokręcone dane w TypeScript w 2021',
+    url: 'https://app.evenea.pl/event/typescriptonline/',
+    event: {
+      name: 'Atlassian Developers Day 2020',
+      url: 'https://app.evenea.pl/event/typescriptonline/',
+      startDate: new Date('2021-02-17'),
+    },
+    place: {
+      city: 'Live webinar',
+      country: 'Your browser',
+    },
+    resources: {
+      presentation: 'https://bit.ly/ts-model',
+      repository: 'https://github.com/michalczukm/typescript-model-crazy-types',
+      video: 'https://youtu.be/1hqY1Fyl6-M?t=2326',
+    },
+  },
+  {
+    type: 'presentation',
     title: 'Atlassian Developers Day 2020: Adding UI to your Forge app',
     url: 'https://events.atlassian.com/teamtour20/',
     event: {
@@ -78,6 +97,7 @@ export const past = [
       name: '4Developers 2020',
       url: 'https://4developers.org.pl/festiwal-2020/',
       startDate: new Date('2020-09-14'),
+      endDate: new Date('2020-09-18'),
     },
     place: {
       city: 'Live webinar',
@@ -98,7 +118,8 @@ export const past = [
     event: {
       name: '4Developers 2020',
       url: 'https://4developers.org.pl/festiwal-2020/',
-      startDate: new Date('2020-09-15'),
+      startDate: new Date('2020-09-14'),
+      endDate: new Date('2020-09-18'),
     },
     place: {
       city: 'Live webinar',
@@ -124,7 +145,8 @@ export const past = [
       country: 'Your browser',
     },
     resources: {
-      video: 'https://www.facebook.com/infoshareacademy/videos/3244935668903581',
+      video:
+        'https://www.facebook.com/infoshareacademy/videos/3244935668903581',
     },
   },
   {
@@ -930,4 +952,36 @@ export const past = [
   },
 ]
 
-export const upcoming = [];
+export const upcoming = [
+  {
+    type: 'presentation',
+    title:
+      '4Developers 2021, JavaScript: FaaS od środka - isolated v8 i inne stwory',
+    url: 'https://4developers.org.pl/festiwal-2021/',
+    event: {
+      name: '4Developers 2021',
+      url: 'https://4developers.org.pl/festiwal-2021/',
+      startDate: new Date('2021-05-24'),
+      endDate: new Date('2021-05-27'),
+    },
+    place: {
+      city: 'Live webinar',
+      country: 'Your browser',
+    },
+  },
+  {
+    type: 'presentation',
+    title: 'Template literal types - po co to komu, na co to komu?',
+    url: 'https://softwaretalks.pl/wydarzenia/angular-week/',
+    event: {
+      name: 'Angular Week',
+      url: 'https://softwaretalks.pl/wydarzenia/angular-week/',
+      startDate: new Date('2021-03-22'),
+      endDate: new Date('2021-03-26'),
+    },
+    place: {
+      city: 'Live webinar',
+      country: 'Your browser',
+    },
+  },
+]

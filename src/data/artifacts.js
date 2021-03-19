@@ -26,6 +26,15 @@ export const podcasts = [
 
 export const presentationsRecordings = [
   {
+    language: 'PL',
+    title: 'dev.js: Jak zamodelować twoje pokręcone dane w TypeScript w 2021',
+    type: 'presentation',
+    url: 'https://youtu.be/1hqY1Fyl6-M?t=2326',
+    thumbnailUrl: require('../assets/images/thumbnails/typescript-devjs-2021-02.png'),
+    description: 'TypeScript online meetup #1',
+    date: new Date('2021-02'),
+  },
+  {
     language: 'EN',
     title: 'Atlassian DevDay 2020: Adding UI to your Forge app',
     type: 'presentation',
@@ -167,6 +176,26 @@ export const series = [
     name: 'Śniadanie z Programowaniem @JustJoinIT',
     description: 'Breakfast show with fresh dev news',
     episodes: [
+      postBreakfastForDevsVideo({
+        episodeNo: 72,
+        date: new Date('2021-02-26'),
+        youTubeUrl: 'https://www.youtube.com/watch?v=IlVu4VEJQ_8'
+      }),
+      postBreakfastForDevsVideo({
+        episodeNo: 70,
+        date: new Date('2021-02-12'),
+        youTubeUrl: 'https://www.youtube.com/watch?v=ZlLwj3PadL4'
+      }),
+      postBreakfastForDevsVideo({
+        episodeNo: 69,
+        date: new Date('2021-01-29'),
+        youTubeUrl: 'https://www.youtube.com/watch?v=rFSIzB9eCZQ'
+      }),
+      postBreakfastForDevsVideo({
+        episodeNo: 67,
+        date: new Date('2021-01-15'),
+        youTubeUrl: 'https://www.youtube.com/watch?v=-8nKIep4iFI'
+      }),
       postBreakfastForDevsVideo({
         episodeNo: 65,
         date: new Date('2020-12-18'),

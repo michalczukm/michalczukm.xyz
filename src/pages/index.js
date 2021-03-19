@@ -1,20 +1,21 @@
-import React, { Fragment } from 'react'
-import Helmet from 'react-helmet'
-
-import Layout from '../components/layout'
-import SafeLink from '../components/safeLink'
-import Event from '../components/event'
-import Video from '../components/video'
-
 import * as events from '../data/events'
+
+import React, { Fragment } from 'react'
 import {
-  presentationsRecordings,
-  webinars,
-  series,
   podcasts,
+  presentationsRecordings,
+  series,
+  webinars,
 } from '../data/artifacts'
 
-const withDefaultEmpty = (items, emptyMessage) => items && items.length ? items : <p>{emptyMessage}</p>
+import Event from '../components/event'
+import Helmet from 'react-helmet'
+import Layout from '../components/layout'
+import SafeLink from '../components/safeLink'
+import Video from '../components/video'
+
+const withDefaultEmpty = (items, emptyMessage) =>
+  items && items.length ? items : <p>{emptyMessage}</p>
 
 const getEvents = events =>
   events.map((event, index) => (
@@ -48,7 +49,7 @@ class HomeIndex extends React.Component {
         {series.map((seriesItem, index) => (
           <Fragment key={index}>
             <h3>{seriesItem.name}</h3>
-            { seriesItem.description && (<h4>{seriesItem.description}</h4>) }
+            {seriesItem.description && <h4>{seriesItem.description}</h4>}
             {seriesItem.episodes.map((item, seriesIndex) => (
               <Video key={`${index}-${seriesIndex}`} artifact={item} />
             ))}
@@ -87,31 +88,35 @@ class HomeIndex extends React.Component {
               <h2>Who I am</h2>
             </header>
 
-            <span>
+            <p>
               I am a strongly web-oriented{' '}
               <strong>full-stack software developer</strong> and{' '}
-              <SafeLink href="https://infoshareacademy.com/">
+              <SafeLink href="https://infoshareacademy.com/szkolenia-it-dla-firm/">
                 IT trainer
               </SafeLink>
               .
-            </span>
+            </p>
 
             <p>
+              Senior Software Engineer at{' '}
+              <SafeLink href="https://www.atlassian.com/">Atlassian</SafeLink>.
+              <br />
               One of hosts of{' '}
-              <SafeLink href="https://sniadaniezprogramowaniem.pl/">
+              <SafeLink href="https://justjoin.it/sniadanie-z-programowaniem">
                 Śniadanie z Programowaniem by JustJoin It
               </SafeLink>{' '}
               breakfast show.
+              <br />
+              <span>
+                TypeScript fan and promoter. I talk about web and stuff.
+              </span>
             </p>
 
             <p>
-              I believe that teaching others and sharing knowledge make us
-              better developers.
-            </p>
-
-            <p>
-              TypeScript fan and promoter. Sometimes scrum master, architect,
-              team leader, speaker.
+              <span>
+                I believe that teaching others and sharing knowledge make us
+                better developers.
+              </span>
             </p>
 
             <ul className="actions">
@@ -128,7 +133,10 @@ class HomeIndex extends React.Component {
 
           <section id="upcoming-events">
             <h2>Upcoming events</h2>
-            {withDefaultEmpty(getEvents(events.upcoming), 'No plans for now. Would you like to invite me? Please page me by email!')}
+            {withDefaultEmpty(
+              getEvents(events.upcoming),
+              'No plans for now. Would you like to invite me? Please page me by email!'
+            )}
           </section>
 
           <div className="two-column">
