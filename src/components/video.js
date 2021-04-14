@@ -18,7 +18,7 @@ export default ({ artifact }) => (
     <div className={styles.container__content}>
       <ul className={styles.data}>
         <li>
-          <SafeLink href={artifact.url}>
+          <SafeLink href={artifact.url} title={artifact.title}>
             [{artifact.language}] {artifact.title}
           </SafeLink>
         </li>

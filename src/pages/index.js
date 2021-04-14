@@ -91,7 +91,7 @@ class HomeIndex extends React.Component {
             <p>
               I am a strongly web-oriented{' '}
               <strong>full-stack software developer</strong> and{' '}
-              <SafeLink href="https://infoshareacademy.com/szkolenia-it-dla-firm/">
+              <SafeLink href="https://infoshareacademy.com/szkolenia-it-dla-firm/" title="Infoshar Aacademy trainings">
                 IT trainer
               </SafeLink>
               .
@@ -99,10 +99,10 @@ class HomeIndex extends React.Component {
 
             <p>
               Senior Software Engineer at{' '}
-              <SafeLink href="https://www.atlassian.com/">Atlassian</SafeLink>.
+              <SafeLink href="https://www.atlassian.com/" title="Atlassian">Atlassian</SafeLink>.
               <br />
               One of hosts of{' '}
-              <SafeLink href="https://justjoin.it/sniadanie-z-programowaniem">
+              <SafeLink href="https://justjoin.it/sniadanie-z-programowaniem" title="Śniadanie z Programowaniem by JustJoin It">
                 Śniadanie z Programowaniem by JustJoin It
               </SafeLink>{' '}
               breakfast show.
@@ -123,6 +123,7 @@ class HomeIndex extends React.Component {
               <li>
                 <SafeLink
                   href="https://gist.github.com/michalczukm/c018a256837b05e47581e5063f78c8ab"
+                  title="Call For Papers info"
                   className="button"
                 >
                   Call For Papers info
