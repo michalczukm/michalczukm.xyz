@@ -177,6 +177,16 @@ export const series = [
     description: 'Breakfast show with fresh dev news',
     episodes: [
       postBreakfastForDevsVideo({
+        episodeNo: 77,
+        date: new Date('2021-0409'),
+        youTubeUrl: 'https://youtu.be/gtBB1Aa3xnw',
+      }),
+      postBreakfastForDevsVideo({
+        episodeNo: 76,
+        date: new Date('2021-03-26'),
+        youTubeUrl: 'https://www.youtube.com/watch?v=l5GwQ3PJg_4',
+      }),
+      postBreakfastForDevsVideo({
         episodeNo: 72,
         date: new Date('2021-02-26'),
         youTubeUrl: 'https://www.youtube.com/watch?v=IlVu4VEJQ_8',

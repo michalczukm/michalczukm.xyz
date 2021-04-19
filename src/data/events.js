@@ -1,6 +1,25 @@
 export const past = [
   {
     type: 'presentation',
+    title: 'Template literal types - po co to komu, na co to komu?',
+    url: 'https://softwaretalks.pl/wydarzenia/angular-week/',
+    event: {
+      name: 'Angular Week',
+      url: 'https://softwaretalks.pl/wydarzenia/angular-week/',
+      startDate: new Date('2021-03-22'),
+      endDate: new Date('2021-03-26'),
+    },
+    place: {
+      city: 'Live webinar',
+      country: 'Your browser',
+    },
+    resources: {
+      presentation: 'https://michalczukm.github.io/typescript-who-even-need-template-literal-types-presentation/',
+      repository: 'https://github.com/michalczukm/typescript-who-even-need-template-literal-types-presentation',
+    },
+  },
+  {
+    type: 'presentation',
     title: 'dev.js: Jak zamodelować twoje pokręcone dane w TypeScript w 2021',
     url: 'https://app.evenea.pl/event/typescriptonline/',
     event: {
@@ -969,19 +988,5 @@ export const upcoming = [
       country: 'Your browser',
     },
   },
-  {
-    type: 'presentation',
-    title: 'Template literal types - po co to komu, na co to komu?',
-    url: 'https://softwaretalks.pl/wydarzenia/angular-week/',
-    event: {
-      name: 'Angular Week',
-      url: 'https://softwaretalks.pl/wydarzenia/angular-week/',
-      startDate: new Date('2021-03-22'),
-      endDate: new Date('2021-03-26'),
-    },
-    place: {
-      city: 'Live webinar',
-      country: 'Your browser',
-    },
-  },
+  
 ]
