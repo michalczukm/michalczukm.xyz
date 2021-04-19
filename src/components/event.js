@@ -42,12 +42,12 @@ const getResources = resources =>
 export default ({ title, url, event, place, type, resources }) => (
   <div className={styles.container}>
     <div className={styles.container__type}>
-      <SafeLink href={url} className={`icon fa-2x ${getTypeIcon(type)}`} />
+      <SafeLink href={url} className={`icon fa-2x ${getTypeIcon(type)}`} title={type}/>
     </div>
     <div className={styles.container__content}>
       <ul className={styles.eventData}>
         <li>
-          <SafeLink href={url}>{title}</SafeLink>
+          <SafeLink href={url} title={title}>{title}</SafeLink>
         </li>
         <li className={styles.eventName}>
           <SafeLink href={event.url}>{event.name}</SafeLink>
