@@ -99,7 +99,7 @@ class HomeIndex extends React.Component {
 
             <p>
               Senior Software Engineer at{' '}
-              <SafeLink href="https://www.atlassian.com/" title="Atlassian">Atlassian</SafeLink>.
+              <SafeLink href="https://www.tektitconsulting.com/" title="TekTit">TekTit</SafeLink>.
               <br />
               One of hosts of{' '}
               <SafeLink href="https://justjoin.it/sniadanie-z-programowaniem" title="Śniadanie z Programowaniem by JustJoin It">
