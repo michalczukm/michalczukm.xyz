@@ -1,0 +1,63 @@
+---
+import PageLayout from "@/layouts/Base";
+import SocialList from "@/components/SocialList";
+import michalczukmPhoto from "../assets/michalczukm.png";
+import { Image } from "@astrojs/image/components";
+---
+
+<PageLayout meta={{ title: "Home" }}>
+  <section>
+    <div>
+      <Image
+        class="float-left mb-4 mr-4 h-[30%] w-[30%] rounded-md md:mr-8"
+        src={michalczukmPhoto}
+        alt="Michał Michalczuk"
+      />
+      <p class="mb-12 mt-6 md:mb-6">
+        I am a strongly web-oriented{" "}
+        <strong>full-stack software developer</strong> and IT trainer.
+      </p>
+
+      <p class="my-4">
+        Senior Software Engineer at{" "}
+        <a
+          href="https://www.tektitconsulting.com/"
+          title="TekTit"
+          target="_blank"
+          class="cactus-link">TekTit</a
+        >.
+      </p>
+
+      <p class="my-4">
+        Talking about Software Development archives on
+        <a
+          href="https://podcasters.spotify.com/pod/show/zarchiwumit"
+          target="_blank"
+          title="Z Archiwum IT"
+          class="cactus-link"
+        >
+          Z&nbsp;Archiwum&nbsp;IT</a
+        >{" "}
+        podcast.
+      </p>
+
+      <p class="my-4">
+        One of hosts of{" "}
+        <a
+          href="https://justjoin.it/sniadanie-z-programowaniem"
+          target="_blank"
+          class="cactus-link"
+          title="Śniadanie z Programowaniem by JustJoin It"
+        >
+          Śniadanie z Programowaniem by JustJoin It
+        </a>{" "}
+        breakfast show.
+      </p>
+
+      <p class="my-4">TypeScript fan and promoter.<br />I talk about web and stuff.</p>
+    </div>
+  </section>
+  <section class="float-none">
+    <SocialList />
+  </section>
+</PageLayout>
