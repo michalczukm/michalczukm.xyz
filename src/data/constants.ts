@@ -14,5 +14,5 @@ export const SOCIAL_LINKS = {
 	github: "https://github.com/michalczukm",
 	twitter: "https://twitter.com/michalczukm",
 	instagram: "https://www.instagram.com/michalczuk_michal",
-	email: "michalczukm@gmail.com",
+	email: "michal@michalczukm.xyz",
 };
