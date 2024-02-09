@@ -54,5 +54,6 @@
 				"rollup"
 			]
 		}
-	}
+	},
+	"packageManager": "pnpm@8.14.3"
 }
