@@ -1,14 +1,11 @@
 import { defineConfig } from "astro/config";
-import mdx from "@astrojs/mdx";
 import tailwind from "@astrojs/tailwind";
-import image from "@astrojs/image";
 import sitemap from "@astrojs/sitemap";
-import prefetch from "@astrojs/prefetch";
 
 // https://astro.build/config
 export default defineConfig({
 	// ! Please remember to replace the following site property with your own domain
-	site: "https://astro-theme-cactus.netlify.app/",
+	site: "https://michalczukm.xyz/",
 	markdown: {
 		shikiConfig: {
 			theme: "dracula",
@@ -16,18 +13,12 @@ export default defineConfig({
 		},
 	},
 	integrations: [
-		mdx({}),
 		tailwind({
-			config: {
-				applyBaseStyles: false,
-			},
-		}),
-		image({
-			serviceEntryPoint: "@astrojs/image/sharp",
+			applyBaseStyles: false,
 		}),
 		sitemap(),
-		prefetch(),
 	],
+	prefetch: true,
 	compressHTML: true,
 	vite: {
 		optimizeDeps: {
