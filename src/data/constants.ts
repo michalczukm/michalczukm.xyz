@@ -12,7 +12,7 @@ export const MENU_LINKS: MenuItem[] = [
 
 export const SOCIAL_LINKS = {
 	github: "https://github.com/michalczukm",
-	twitter: "https://twitter.com/michalczukm",
+	linkedin: "https://www.linkedin.com/in/michalczukm",
 	instagram: "https://www.instagram.com/michalczuk_michal",
 	email: "michal@michalczukm.xyz",
 };
