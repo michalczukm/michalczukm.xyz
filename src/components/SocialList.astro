@@ -1,15 +1,21 @@
 ---
 import { SOCIAL_LINKS } from "@/data/constants";
 
+
 // *** SVG icons from https://tablericons.com/ ***
 ---
+<style>
+  .hidden-address-content {
+    display: none;
+  }
+</style>
 
 <div class='flex flex-wrap items-center gap-x-4 sm:items-center'>
 	<p>Find me on</p>
 	<ul class='flex flex-1 items-center gap-x-4 sm:flex-initial'>
 		<li>
 			<a
-				class='inline-block p-2 sm:hover:text-link'
+				class='flex items-center p-2 sm:hover:text-link'
 				href={SOCIAL_LINKS.github}
 				target='_blank'
 				rel='noopener noreferrer'
@@ -37,7 +43,7 @@ import { SOCIAL_LINKS } from "@/data/constants";
 		</li>
 		<li>
 			<a
-				class='inline-block p-2 sm:hover:text-link'
+				class='flex items-center p-2 sm:hover:text-link'
 				href={SOCIAL_LINKS.linkedin}
 				target='_blank'
 				rel='noopener noreferrer'
@@ -65,7 +71,7 @@ import { SOCIAL_LINKS } from "@/data/constants";
 		</li>
 		<li>
 			<a
-				class='inline-block p-2 sm:hover:text-link'
+				class='flex items-center p-2 sm:hover:text-link'
 				href={SOCIAL_LINKS.blueSky}
 				target='_blank'
 				rel='noopener noreferrer'
@@ -77,7 +83,7 @@ import { SOCIAL_LINKS } from "@/data/constants";
 			</a>
 		</li>
 		<li>
-			<a class='inline-block p-2 sm:hover:text-link' href={`mailto:${SOCIAL_LINKS.email}`}>
+			<button id="email-button" class='flex items-center gap-x-2 p-2 sm:hover:text-link'>
 				<svg
 					class='h-6 w-6'
 					aria-hidden='true'
@@ -95,7 +101,19 @@ import { SOCIAL_LINKS } from "@/data/constants";
 					<polyline points='3 7 12 13 21 7'></polyline>
 				</svg>
 				<span class='sr-only'>Email</span>
-			</a>
+			</button>
 		</li>
 	</ul>
+	<p class='hidden-address-content address-content  flex w-full items-center justify-center bg-zinc-200 dark:bg-zinc-700 rounded-md px-2 py-1'></p>
 </div>
+
+<script>
+	const emailButton = document.getElementById('email-button');
+  emailButton?.addEventListener('click', () => {
+    const addressContent = document.querySelectorAll('.address-content');
+    addressContent.forEach(content => {
+      content.textContent = atob('bWljaGFsQG1pY2hhbGN6dWttLnh5eg' + '==');
+      content.classList.remove('hidden-address-content');
+    });
+  });
+</script>
