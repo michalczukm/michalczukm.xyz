@@ -4,10 +4,10 @@ type MenuItem = {
 };
 
 export const MENU_LINKS: MenuItem[] = [
-	// {
-	// 	title: "Home",
-	// 	path: "/",
-	// },
+	{
+		title: "Talks",
+		path: "/talks",
+	},
 ];
 
 export const SOCIAL_LINKS = {

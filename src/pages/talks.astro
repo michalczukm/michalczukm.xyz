@@ -1,0 +1,308 @@
+---
+import PageLayout from "@/layouts/Base";
+import { VIDEOS } from "@/data/talks";
+
+// Group videos by year for better organization
+const videosByYear: Record<number, typeof VIDEOS> = {};
+VIDEOS.forEach((video) => {
+  if (!videosByYear[video.year]) {
+    videosByYear[video.year] = [];
+  }
+  videosByYear[video.year].push(video);
+});
+
+// Sort years in descending order
+const sortedYears = Object.keys(videosByYear)
+  .map(Number)
+  .sort((a, b) => b - a);
+
+// Helper function to extract video ID from different platforms
+function getVideoThumbnail(url: string): string {
+  // YouTube thumbnail
+  if (url.includes('youtube.com') || url.includes('youtu.be')) {
+    const videoId = url.includes('youtu.be')
+      ? url.split('youtu.be/')[1]?.split('?')[0] || ''
+      : url.split('v=')[1]?.split('&')[0] || '';
+
+    if (videoId) {
+      return `https://img.youtube.com/vi/${videoId}/mqdefault.jpg`;
+    }
+  }
+
+  // Default placeholder for other platforms
+  return `data:image/svg+xml;base64,${btoa(`
+    <svg width="320" height="180" viewBox="0 0 320 180" xmlns="http://www.w3.org/2000/svg">
+      <rect width="320" height="180" fill="#1d1f21"/>
+      <rect x="120" y="65" width="80" height="50" rx="8" fill="#646ECB"/>
+      <polygon points="145,85 145,105 165,95" fill="white"/>
+      <text x="160" y="130" font-family="monospace" font-size="12" fill="#c9cacc" text-anchor="middle">Video</text>
+    </svg>
+  `)}`;
+}
+
+function getVideoIcon(url: string): string {
+  if (url.includes('youtube.com') || url.includes('youtu.be')) {
+    return '▶️';
+  } else if (url.includes('infoshare.pl')) {
+    return '🎯';
+  } else if (url.includes('gitnation.org')) {
+    return '🚀';
+  }
+  return '🎥';
+}
+
+function getPlatformName(url: string): string {
+  if (url.includes('youtube.com') || url.includes('youtu.be')) {
+    return 'YouTube';
+  } else if (url.includes('infoshare.pl')) {
+    return 'InfoShare';
+  } else if (url.includes('gitnation.org')) {
+    return 'GitNation';
+  }
+  return 'Video Platform';
+}
+
+// Helper function to get YouTube channel/playlist thumbnails
+function getYouTubeThumbnail(url: string): string {
+  if (url.includes('playlist?list=')) {
+    // For playlists, use a generic playlist thumbnail
+    return `data:image/svg+xml;base64,${btoa(`
+      <svg width="320" height="180" viewBox="0 0 320 180" xmlns="http://www.w3.org/2000/svg">
+        <rect width="320" height="180" fill="#1d1f21"/>
+        <rect x="60" y="40" width="200" height="100" rx="8" fill="#646ECB"/>
+        <rect x="70" y="50" width="180" height="4" fill="white" opacity="0.8"/>
+        <rect x="70" y="60" width="160" height="4" fill="white" opacity="0.6"/>
+        <rect x="70" y="70" width="140" height="4" fill="white" opacity="0.4"/>
+        <rect x="70" y="80" width="120" height="4" fill="white" opacity="0.4"/>
+        <rect x="70" y="90" width="100" height="4" fill="white" opacity="0.4"/>
+        <polygon points="280,70 280,110 310,90" fill="#ff0000"/>
+        <text x="160" y="160" font-family="monospace" font-size="12" fill="#c9cacc" text-anchor="middle">Playlist</text>
+      </svg>
+    `)}`;
+  } else if (url.includes('youtube.com/c/') || url.includes('youtube.com/@')) {
+    // For channels, use a generic channel thumbnail
+    return `data:image/svg+xml;base64,${btoa(`
+      <svg width="320" height="180" viewBox="0 0 320 180" xmlns="http://www.w3.org/2000/svg">
+        <rect width="320" height="180" fill="#1d1f21"/>
+        <circle cx="160" cy="90" r="40" fill="#646ECB"/>
+        <polygon points="145,75 145,105 175,90" fill="white"/>
+        <text x="160" y="140" font-family="monospace" font-size="12" fill="#c9cacc" text-anchor="middle">Channel</text>
+      </svg>
+    `)}`;
+  }
+  return getVideoThumbnail(url);
+}
+
+// Other projects data
+const otherProjects = [
+  {
+    id: 'sniadanie-z-programowaniem',
+    title: 'Śniadanie z Programowaniem',
+    description: 'YouTube channel with breakfast programming talks',
+    url: 'https://www.youtube.com/c/%C5%9AniadaniezProgramowaniem',
+    type: 'channel',
+    language: 'PL'
+  },
+  {
+    id: 'z-archiwum-it-playlist',
+    title: 'Z Archiwum IT - Podcast',
+    description: 'Podcast about the old technologies and their history',
+    url: 'https://www.youtube.com/playlist?list=PL36Z5rytrT-UguZLZOQfivFsoKnW__u_A',
+    type: 'playlist',
+    language: 'PL'
+  }
+];
+---
+
+<PageLayout meta={{ title: "Talks", description: "Selected talks, presentations and other projects by Michał Michalczuk" }}>
+  <section>
+    <h1 class="title mb-8">Selected Talks & Presentations</h1>
+    <p class="mb-8 text-textColor/80">
+      A collection of my talks from conferences, meetups, and other events where I've shared insights about software development, management, and technology.
+    </p>
+
+    {sortedYears.map((year) => (
+      <div class="mb-12">
+        <h2 class="mb-6 text-xl font-semibold text-accent-2 border-b border-textColor/20 pb-2">
+          {year}
+        </h2>
+
+        <div class="grid gap-6 sm:grid-cols-1 lg:grid-cols-2">
+          {videosByYear[year]?.map((video) => (
+            <article
+              class="group rounded-lg border border-textColor/10 bg-bgColor/50 p-4 transition-all duration-200 hover:border-accent/30 hover:shadow-lg backdrop-blur-sm"
+            >
+              <a
+                href={video.url}
+                target="_blank"
+                rel="noopener noreferrer"
+                class="block"
+                aria-label={`Watch: ${video.title}`}
+              >
+                <div class="relative mb-4 overflow-hidden rounded-md bg-textColor/5">
+                  <img
+                    src={getVideoThumbnail(video.url)}
+                    alt={`Thumbnail for: ${video.title}`}
+                    class="aspect-video w-full object-cover transition-transform duration-200 group-hover:scale-105"
+                    loading="lazy"
+
+                  />
+
+                  <!-- Play icon overlay -->
+                  <div class="absolute inset-0 flex items-center justify-center bg-black/20 opacity-0 transition-opacity duration-200 group-hover:opacity-100">
+                    <div class="flex h-16 w-16 items-center justify-center rounded-full bg-white/90 backdrop-blur-sm">
+                      <svg class="ml-1 h-6 w-6 text-black" fill="currentColor" viewBox="0 0 24 24">
+                        <path d="M8 5v14l11-7z"/>
+                      </svg>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="space-y-2">
+                  <div class="flex items-start justify-between gap-2">
+                    <h3 class="font-semibold text-textColor leading-tight group-hover:text-accent transition-colors duration-200">
+                      {video.title}
+                    </h3>
+                    <span class="text-xl flex-shrink-0" aria-hidden="true">
+                      {getVideoIcon(video.url)}
+                    </span>
+                  </div>
+
+                  <div class="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-textColor/70">
+                    <span class="font-medium">{video.event}</span>
+
+                    <span class="flex items-center gap-1">
+                      <span class={`inline-block w-2 h-2 rounded-full ${
+                        video.language === 'EN' ? 'bg-blue-400' : 'bg-red-400'
+                      }`} aria-hidden="true"></span>
+                      {video.language}
+                    </span>
+
+                    <span class="text-accent/80">
+                      {getPlatformName(video.url)}
+                    </span>
+                  </div>
+
+                  <div class="pt-1">
+                    <span class="inline-flex items-center gap-1 text-xs font-medium text-accent/60 group-hover:text-accent transition-colors duration-200">
+                      Watch talk
+                      <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+                      </svg>
+                    </span>
+                  </div>
+                </div>
+              </a>
+            </article>
+          ))}
+        </div>
+      </div>
+    ))}
+
+    <!-- Other Projects Section -->
+    <div class="mb-16">
+      <h2 class="mb-6 text-xl font-semibold text-accent-2 border-b border-textColor/20 pb-2">
+        Other Projects
+      </h2>
+      <p class="mb-6 text-sm text-textColor/70">
+        YouTube channels and playlists where I share knowledge and discuss technology topics.
+      </p>
+
+      <div class="grid gap-6 sm:grid-cols-1 lg:grid-cols-2">
+        {otherProjects.map((project) => (
+          <article class="group rounded-lg border border-textColor/10 bg-bgColor/50 p-4 transition-all duration-200 hover:border-accent/30 hover:shadow-lg backdrop-blur-sm">
+            <a
+              href={project.url}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="block"
+              aria-label={`Visit: ${project.title}`}
+            >
+              <div class="relative mb-4 overflow-hidden rounded-md bg-textColor/5">
+                <img
+                  src={getYouTubeThumbnail(project.url)}
+                  alt={`Thumbnail for: ${project.title}`}
+                  class="aspect-video w-full object-cover transition-transform duration-200 group-hover:scale-105"
+                  loading="lazy"
+                />
+
+                <!-- Play icon overlay -->
+                <div class="absolute inset-0 flex items-center justify-center bg-black/20 opacity-0 transition-opacity duration-200 group-hover:opacity-100">
+                  <div class="flex h-16 w-16 items-center justify-center rounded-full bg-white/90 backdrop-blur-sm">
+                    <svg class="ml-1 h-6 w-6 text-black" fill="currentColor" viewBox="0 0 24 24">
+                      <path d="M8 5v14l11-7z"/>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+
+              <div class="space-y-2">
+                <div class="flex items-start justify-between gap-2">
+                  <h3 class="font-semibold text-textColor leading-tight group-hover:text-accent transition-colors duration-200">
+                    {project.title}
+                  </h3>
+                  <span class="text-xl flex-shrink-0" aria-hidden="true">
+                    {project.type === 'channel' ? '📺' : '📋'}
+                  </span>
+                </div>
+
+                <p class="text-sm text-textColor/70 leading-relaxed">
+                  {project.description}
+                </p>
+
+                <div class="flex flex-wrap items-center gap-x-4 gap-y-1 text-sm text-textColor/70">
+                  <span class="font-medium capitalize">{project.type}</span>
+
+                  <span class="flex items-center gap-1">
+                    <span class="inline-block w-2 h-2 rounded-full bg-red-400" aria-hidden="true"></span>
+                    {project.language}
+                  </span>
+
+                  <span class="text-accent/80">YouTube</span>
+                </div>
+
+                <div class="pt-1">
+                  <span class="inline-flex items-center gap-1 text-xs font-medium text-accent/60 group-hover:text-accent transition-colors duration-200">
+                    Visit {project.type}
+                    <svg class="h-3 w-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                      <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14"/>
+                    </svg>
+                  </span>
+                </div>
+              </div>
+            </a>
+          </article>
+        ))}
+      </div>
+    </div>
+
+    <div class="mt-12 rounded-lg border border-accent/20 bg-accent/5 p-6">
+      <h3 class="mb-2 font-semibold text-accent-2">Speaking Opportunities</h3>
+      <p class="text-sm text-textColor/80">
+        Interested in having me speak at your event? I love sharing knowledge about software development,
+        teams, TypeScript, and modern web technologies.
+        <a href="mailto:michal@michalczukm.xyz" class="cactus-link font-medium">Get in touch!</a>
+      </p>
+    </div>
+  </section>
+</PageLayout>
+
+<style>
+  /* Custom scrollbar for better mobile experience */
+  .overflow-x-auto::-webkit-scrollbar {
+    height: 6px;
+  }
+
+  .overflow-x-auto::-webkit-scrollbar-track {
+    background: var(--theme-bg);
+  }
+
+  .overflow-x-auto::-webkit-scrollbar-thumb {
+    background: var(--theme-accent);
+    border-radius: 3px;
+  }
+
+  .overflow-x-auto::-webkit-scrollbar-thumb:hover {
+    background: var(--theme-link);
+  }
+</style>
