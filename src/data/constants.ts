@@ -8,6 +8,10 @@ export const MENU_LINKS: MenuItem[] = [
 		title: "Talks",
 		path: "/talks",
 	},
+	{
+		title: "Past Projects",
+		path: "/projects",
+	},
 ];
 
 export const SOCIAL_LINKS = {
