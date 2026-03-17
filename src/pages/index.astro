@@ -9,71 +9,76 @@ import { Image } from "astro:assets";
 	<section>
 		<div>
 			<Image
-				class='float-left mb-4 mr-4 h-[30%] w-[30%] rounded-md md:mr-8'
+				class="float-left mb-4 mr-4 h-[30%] w-[30%] rounded-md md:mr-8"
 				src={michalczukmPhoto}
-				alt='Michał Michalczuk'
+				alt="Michał Michalczuk"
 			/>
-			<p class='mb-12 mt-6 md:mb-6'>
+			<p class='my-6'>
 				I am a strongly web-oriented{" "}
 				<strong>full-stack software developer</strong> and IT trainer.
 			</p>
 
-			<p class='my-4'>
-				Senior Software Engineer at{" "}
+			<p class="mb-6 md:mb-4 mt-4">
+				Senior Software Engineer
 				<a
-					href='https://www.tektitconsulting.com/'
-					title='TekTit'
-					target='_blank'
-					class='cactus-link'>TekTit</a
-				>.
-			</p>
-
-			<p class='my-4'>
-				Talking about Software Development archives on
-				<a
-					href='https://podcasters.spotify.com/pod/show/zarchiwumit'
-					target='_blank'
-					title='Z Archiwum IT'
-					class='cactus-link'
+					href="https://www.tektitconsulting.com/"
+					title="Tektit"
+					target="_blank"
+					class="cactus-link">@Tektit</a
 				>
-					Z&nbsp;Archiwum&nbsp;IT</a
-				>{" "}
-				podcast.
 			</p>
 
-			<p class='my-4'>
-				One of hosts of{" "}
+			<div class="my-4">
+				Co-host of{" "}
 				<a
-					href='https://www.youtube.com/@drama-dev'
-					target='_blank'
-					class='cactus-link'
-					title='DRAMA-dev / Śniadanie z Programowaniem by JustJoin It'
+					href="https://www.youtube.com/@drama-dev"
+					target="_blank"
+					class="cactus-link"
+					title="DRAMA-devs by JustJoin It"
 				>
-					Śniadanie z Programowaniem by JustJoin It
-				</a>{" "}
-				breakfast show.
-			</p>
-
-			<p class='my-4'>
-				Part of the
-				<a
-					href='https://gabinet-wieczorynka.pl'
-					target='_blank'
-					class='cactus-link'
-					title='Gabinet Lekarski Wieczorynka'
+					DRAMA-devs
+				</a>{" "}YouTube channel
+				<small>(with <a
+						href="https://justjoin.it/"
+						target="_blank"
+						class="cactus-link"
+						title="JustJoin It">JustJoin It</a
+					>)</small
 				>
-					Gabinet Lekarski Wieczorynka
-				</a>{" "}
-				team. We create small medical doctor's practice.
-			</p>
+			</div>
 
-			<p class='my-4'>TypeScript fan and promoter.<br />I talk about web and stuff.</p>
-      <p class='my-4'>
-        Check <a href='/talks' class='cactus-link'>my selected talks</a>.
-      </p>
+			<p class="my-4">I talk about web, node.js, AI and stuff. <a href="/talks" class="cactus-link">Selected talks</a>.</p>
+
+			<hr class="my-6" />
+
+			<p class="my-4">
+				Other projects:
+				<ul class="list-inside list-disc">
+					<li>
+						<a
+							href="https://podcasters.spotify.com/pod/show/zarchiwumit"
+							target="_blank"
+							class="cactus-link"
+							title="Z Archiwum IT"
+						>
+							Z&nbsp;Archiwum&nbsp;IT
+						</a>{" "}podcast
+					</li>
+					<li>
+						<a
+							href="https://gabinet-wieczorynka.pl"
+							target="_blank"
+							class="cactus-link"
+							title="Gabinet Lekarski Wieczorynka"
+						>
+							Gabinet Lekarski Wieczorynka
+						</a>
+					</li>
+				</ul>
+			</p>
 		</div>
 	</section>
-	<section class='float-none'>
+	<section class="float-none mt-6">
 		<SocialList />
 	</section>
 </PageLayout>
