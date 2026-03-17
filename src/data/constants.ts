@@ -11,8 +11,9 @@ export const MENU_LINKS: MenuItem[] = [
 ];
 
 export const SOCIAL_LINKS = {
+	youtube: "https://www.youtube.com/@DRAMA-dev",
+	instagram: "https://www.instagram.com/michalczuk_michal/",
 	github: "https://github.com/michalczukm",
 	linkedin: "https://www.linkedin.com/in/michalczukm",
-	blueSky: "https://bsky.app/profile/michalczukm.bsky.social",
 	email: "michal@michalczukm.xyz",
 };

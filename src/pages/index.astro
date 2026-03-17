@@ -3,6 +3,7 @@ import PageLayout from "@/layouts/Base";
 import SocialList from "@/components/SocialList";
 import michalczukmPhoto from "../assets/michalczukm.png";
 import { Image } from "astro:assets";
+import { SOCIAL_LINKS } from "@/data/constants";
 ---
 
 <PageLayout meta={{ title: "Home" }}>
@@ -31,7 +32,7 @@ import { Image } from "astro:assets";
 			<div class="my-4">
 				Co-host of{" "}
 				<a
-					href="https://www.youtube.com/@drama-dev"
+					href={SOCIAL_LINKS.youtube}
 					target="_blank"
 					class="cactus-link"
 					title="DRAMA-devs by JustJoin It"
