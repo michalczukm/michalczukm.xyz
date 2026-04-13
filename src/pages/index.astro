@@ -4,8 +4,15 @@ import SocialList from "@/components/SocialList";
 import michalczukmPhoto from "../assets/michalczukm-promo.png";
 import { Image } from "astro:assets";
 import { SOCIAL_LINKS } from "@/data/constants";
+import { UPCOMING_EVENTS } from "@/data/talks";
 
 const DRAMA_CHANNEL_ID = "UCfpnY5NnBl-8L7SvICQPtKA";
+
+const oneMonthAgo = new Date();
+oneMonthAgo.setMonth(oneMonthAgo.getMonth() - 1);
+const upcomingEvents = UPCOMING_EVENTS
+	.filter((e) => e.dateFrom >= oneMonthAgo)
+	.slice(0, 3);
 
 interface YtVideo {
 	id: string;
@@ -202,6 +209,49 @@ try {
 				</p>
 			</a>
 		</section>
+
+		<!-- Upcoming events -->
+		{upcomingEvents.length > 0 && (
+			<>
+				<hr class="border-dashed border-textColor opacity-20" />
+				<section aria-labelledby="upcoming-heading">
+					<div class="mb-2 flex items-center gap-2">
+						<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 shrink-0 opacity-60" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+							<path d="M4 5m0 2a2 2 0 0 1 2 -2h12a2 2 0 0 1 2 2v12a2 2 0 0 1 -2 2h-12a2 2 0 0 1 -2 -2z"/>
+							<path d="M16 3l0 4"/>
+							<path d="M8 3l0 4"/>
+							<path d="M4 11l16 0"/>
+							<path d="M8 15h2v2h-2z"/>
+						</svg>
+						<h2 id="upcoming-heading" class="text-[10px] font-semibold uppercase tracking-wider text-accent opacity-70 sm:text-xs">Upcoming talks</h2>
+					</div>
+					<ul class="flex flex-col gap-2">
+						{upcomingEvents.map((event) => (
+							<li>
+								<a
+									href={event.url}
+									target="_blank"
+									rel="noopener noreferrer"
+									class="group flex items-start gap-3 rounded-lg border border-textColor/10 bg-bgColor p-3 transition-colors duration-200 motion-reduce:transition-none hover:border-link/40 hover:bg-link/5 focus-visible:ring-2 focus-visible:ring-link focus-visible:outline-none"
+								>
+									<div class="flex min-w-0 flex-1 flex-col gap-1">
+										<div class="flex items-baseline gap-2">
+											<span class="shrink-0 text-[11px] font-medium tabular-nums text-textColor opacity-50 sm:text-xs">{event.dateDisplay}</span>
+											<span class="truncate text-sm font-semibold text-accent-2 transition-colors duration-200 motion-reduce:transition-none group-hover:text-link">{event.name}</span>
+										</div>
+										<span class="line-clamp-2 text-xs text-textColor opacity-60">{event.talkTitle}</span>
+									</div>
+									<svg aria-hidden="true" xmlns="http://www.w3.org/2000/svg" class="mt-0.5 h-3.5 w-3.5 shrink-0 opacity-30 transition-opacity group-hover:opacity-60" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+										<path d="M17 7l-10 10"/>
+										<path d="M8 7l9 0l0 9"/>
+									</svg>
+								</a>
+							</li>
+						))}
+					</ul>
+				</section>
+			</>
+		)}
 
 		<!-- Divider -->
 		<hr class="border-dashed border-textColor opacity-20" />

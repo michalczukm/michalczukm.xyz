@@ -1,3 +1,35 @@
+export interface UpcomingEvent {
+	name: string;
+	dateDisplay: string;
+	dateFrom: Date;
+	url: string;
+	talkTitle: string;
+}
+
+export const UPCOMING_EVENTS: UpcomingEvent[] = [
+	{
+		name: "4Developers",
+		dateDisplay: "22.04.2026",
+		dateFrom: new Date("2026-04-22"),
+		url: "https://4developers.org.pl/",
+		talkTitle: "Your AI Agent is just a while loop with an API call. Let me prove it.",
+	},
+	{
+		name: "Meet.js Gdańsk",
+		dateDisplay: "23.04.2026",
+		dateFrom: new Date("2026-04-23"),
+		url: "https://www.meetup.com/gdansk-typescript/events/314214663",
+		talkTitle: "Your AI Agent is just a while loop with an API call. Let me prove it.",
+	},
+	{
+		name: "infoShare",
+		dateDisplay: "20–21.05.2026",
+		dateFrom: new Date("2026-05-20"),
+		url: "https://infoshare.pl/conference/speakers/#speaker1994",
+		talkTitle: "Your AI Agent is just a while loop with an API call. Let me prove it.",
+	},
+];
+
 export interface Video {
 	id: string;
 	title: string;
