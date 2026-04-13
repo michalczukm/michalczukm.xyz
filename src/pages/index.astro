@@ -6,7 +6,6 @@ import { Image } from "astro:assets";
 import { SOCIAL_LINKS } from "@/data/constants";
 import { UPCOMING_EVENTS } from "@/data/talks";
 
-const DRAMA_CHANNEL_ID = "UCfpnY5NnBl-8L7SvICQPtKA";
 
 const oneMonthAgo = new Date();
 oneMonthAgo.setMonth(oneMonthAgo.getMonth() - 1);
@@ -14,32 +13,6 @@ const upcomingEvents = UPCOMING_EVENTS
 	.filter((e) => e.dateFrom >= oneMonthAgo)
 	.slice(0, 3);
 
-interface YtVideo {
-	id: string;
-	title: string;
-	thumbnail: string;
-}
-
-let recentVideos: YtVideo[] = [];
-try {
-	const rss = await fetch(
-		`https://www.youtube.com/feeds/videos.xml?channel_id=${DRAMA_CHANNEL_ID}`
-	).then((r) => r.text());
-
-	const entries = [...rss.matchAll(/<entry>([\s\S]*?)<\/entry>/g)].slice(0, 3);
-	recentVideos = entries.map((m) => {
-		const block = m[1] ?? "";
-		const id = (block.match(/<yt:videoId>([^<]+)<\/yt:videoId>/) ?? [])[1] ?? "";
-		const title = (block.match(/<title>([^<]+)<\/title>/) ?? [])[1] ?? "";
-		return {
-			id,
-			title,
-			thumbnail: `https://img.youtube.com/vi/${id}/mqdefault.jpg`,
-		};
-	});
-} catch {
-	// silently skip thumbnails if fetch fails
-}
 ---
 
 <PageLayout meta={{ title: "Home" }}>
@@ -107,30 +80,7 @@ try {
 					</p>
 				</div>
 
-				<!-- thumbnail stack -->
-				{recentVideos.length > 0 && (
-					<div class="pointer-events-none absolute inset-y-0 right-0 w-[55%]" aria-hidden="true">
-						{recentVideos.slice(0, 3).map((video, i) => (
-							<img
-								src={video.thumbnail}
-								alt=""
-								width="320"
-								height="180"
-								loading="lazy"
-								decoding="async"
-								class="absolute w-[80%] rounded-md object-cover shadow-md"
-								style={{
-									top: `${6 + i * 14}%`,
-									right: `${-2 + i * -8}%`,
-									transform: `rotate(${4 - i * 5}deg)`,
-									zIndex: 3 - i,
-									opacity: 1 - i * 0.15,
-								}}
-							/>
-						))}
-					</div>
-				)}
-			</a>
+				</a>
 
 			<!-- Talks -->
 			<a
