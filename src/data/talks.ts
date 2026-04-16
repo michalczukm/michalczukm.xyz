@@ -50,7 +50,7 @@ export const VIDEOS: Video[] = [
 		event: "InfoShare 2025",
 		year: 2025,
 		language: "PL",
-		url: "https://infoshare.pl/speeches/senior-manager-senior-jak-odejsc-i-wrocic-do-programowania-o2608gc208-one.html",
+		url: "https://youtu.be/EJHZVdvz72c?is=qXp5EG47P_krGN4s",
 		type: "conference",
 	},
 	{
