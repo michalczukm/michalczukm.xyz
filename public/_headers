@@ -1,0 +1,10 @@
+/*
+  X-Content-Type-Options: nosniff
+  X-Frame-Options: DENY
+  Referrer-Policy: strict-origin-when-cross-origin
+
+/
+  Link: </sitemap-index.xml>; rel="sitemap"
+  Link: <https://github.com/michalczukm>; rel="me"
+  Link: <https://www.linkedin.com/in/michalczukm>; rel="me"
+  Link: <https://michalczukm.xyz/>; rel="author"
