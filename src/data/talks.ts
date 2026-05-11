@@ -59,7 +59,7 @@ export const VIDEOS: Video[] = [
 		event: "infoShare Dev 2024",
 		year: 2024,
 		language: "PL",
-		url: "https://dev.infoshare.pl/nagrania/mniej-znaczy-wiecej-o-4-dniowym-tygodniu-pracy-o151gc30-one.html",
+		url: "https://youtu.be/DAVLNpsGKLI?is=3OSRQpLJXKtOk1ML",
 		type: "conference",
 	},
 	{
