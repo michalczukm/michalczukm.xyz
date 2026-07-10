@@ -45,6 +45,15 @@ export interface Video {
 
 export const VIDEOS: Video[] = [
 	{
+		id: "wearedevelopers-2026-online",
+		title: "Your AI Agent is just a while loop with an API call. Let me prove it.",
+		event: "WeAreDevelopers Online 2026",
+		year: 2026,
+		language: "EN",
+		url: "https://www.wearedevelopers.com/en/videos/1988/your-ai-agent-is-just-a-while-loop-with-an-api-call-let-me-prove-it",
+		type: "conference",
+	},
+	{
 		id: "infoshare-2025-senior-manager",
 		title: "Senior → Manager → Senior, jak odejść i wrócić do programowania",
 		event: "InfoShare 2025",
