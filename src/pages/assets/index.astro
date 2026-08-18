@@ -1,0 +1,48 @@
+---
+import PageLayout from "@/layouts/Base";
+import { listPublicAssets, formatBytes } from "@/data/publicAssets";
+
+const assets = await listPublicAssets();
+---
+
+<PageLayout
+	meta={{ title: "Assets", description: "Publicly available image assets.", noindex: true }}
+>
+	<div class="flex flex-col gap-8">
+		<section>
+			<h1 class="mb-2 text-2xl font-bold text-accent-2">Assets</h1>
+			<p class="text-sm text-textColor opacity-80">
+				Original, unoptimized files served from <code class="text-accent">/assets/</code>.
+			</p>
+		</section>
+
+		<section aria-label="Asset list">
+			<ul class="flex flex-col gap-3">
+				{
+					assets.map((asset) => (
+						<li>
+							<a
+								href={`/assets/${asset.name}`}
+								class="border-textColor/10 hover:border-link/40 hover:bg-link/5 group flex items-center gap-4 rounded-lg border bg-bgColor p-4 transition-colors duration-200 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-link motion-reduce:transition-none"
+							>
+								<img
+									src={`/assets/${asset.name}`}
+									alt=""
+									loading="lazy"
+									decoding="async"
+									class="bg-textColor/5 h-12 w-12 shrink-0 rounded-md object-contain"
+								/>
+								<div class="flex min-w-0 flex-col gap-0.5">
+									<span class="cactus-link truncate font-medium">{asset.name}</span>
+									<span class="text-xs text-textColor opacity-60">
+										{asset.extension.slice(1).toUpperCase()} &middot; {formatBytes(asset.size)}
+									</span>
+								</div>
+							</a>
+						</li>
+					))
+				}
+			</ul>
+		</section>
+	</div>
+</PageLayout>

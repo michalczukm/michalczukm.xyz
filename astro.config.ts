@@ -16,7 +16,10 @@ export default defineConfig({
 		tailwind({
 			applyBaseStyles: false,
 		}),
-		sitemap(),
+		sitemap({
+			// /assets is a raw file listing, not content worth indexing
+			filter: (page) => !page.includes("/assets"),
+		}),
 	],
 	prefetch: true,
 	compressHTML: true,
